@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">%d қабылдаушы</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">%1$s және тағы %2$d</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">Бірден тек %1$d кісіге тарата аласыз.</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">%d контактқа тарату</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">Чатты мұрағаттау...</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">Чат мұрағатталды</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">Чатты жою</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">Таңдаған %1$d чатты жоясыз ба?</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">Топтан шығу</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">%1$d таңдалған топтан шығасыз ба?</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">Чатты бекіту</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">Чатты мұрағаттан шығару</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">Чат бекітуін жою</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">Сіз тек қана %1$d чат бекіте аласыз</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">Сіздің жаңа нөміріңіз туралы Сіздің топтарыңызға және &lt;a href=\"contacts-link\">%d contact&lt;/a> контактыңызға хабарлама жөнелтіледі.</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">%1$d құжатын %2$s жөнелтесіз бе?</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">%1$d файлын %2$s бөлісесіз бе?</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">%1$d көп контакт таңдауға болмайды.</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d адам қазіргі орнымен бөлісіп жатыр</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">Сіз және %d адам қазіргі орындарыңызбен бөлісудесіз</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s және тағы %2$d контакт</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d күн</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">%d хат жоясыз ба?</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"\"%1$s\" чатын жоясыз ба??
+Осы чатта %2$d жөнелтілмеген хат бар."</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">%d статус жаңартуын жоясыз ба? Оны қабылдағандар үшін де жойылады.</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">Сипаттама %d белгіден аспау қажет.</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">Бұл фото тым кішкентай. Биіктігі және ені кем дегенде %d пиксель болу қажет.</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"\"%1$s\" тобынан шығасыз ба?
+Осы чатта %2$d жөнелтілмеген хат бар."</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">%d жөнелтілмеді</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d файл қондырғыңыздан жойылды</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">Осы статус жаңартуы %d контакттан басқа контакттарыңызға жөнелтіледі.</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">Осы статус жаңартуы %d контактқа жөнелтіледі.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">%d хат қайтарылып алынды. Сіздің файлдарыңыз қайтарылып алынады.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">%d хат қайтарылып алынды</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">%1$d файлын \"%2$s\" тобына жөнелтесіз бе?</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">%1$d файлын \"%2$s\" бөлісесіз бе?</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%s енді администратор емес</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%s администратор болды</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">%1$d көп топ мүшесін таңдауға болмайды.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d сағат</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$dс</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">%d чатта бөлісіп жатыр</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d адам</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d адам тоқтатты</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">%d метрге дейін нақты</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d хат көшірілді</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d хат жойылды</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d минут</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d минут бұрын</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$dм</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d жауапсыз қоңырау</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d жауапсыз қоңырау</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d контакт</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d контакт</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">Кем дегенде %d контакт таңдалу керек</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d таңдалды</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">%d таңдалды</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">%2$d-ң ішінен %1$d таңдалды</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d таңдалды</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">%1$s және тағы %2$d контакт</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d хат</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d статус жаңартуы</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d қоңырау</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d жаңа хат</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d хат</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%2$d чаттан %1$s хат</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">%1$d көп контакт таңдауға болмайды.</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d бет</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d фото</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d бет</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d слайд</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d видео</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">%1$s және тағы %2$d контактыңыз WhatsApp-та бар.</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s, %3$s және тағы %4$d контактыңыз WhatsApp-та бар.</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s және тағы %3$d контактыңыз WhatsApp-та бар.</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">Сіздің %1$d контактыңыз WhatsApp-та бар.</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">%d қалды</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d мүше</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">Чат бекітілді</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">%d хатты қайтарасыз ба?</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">%d қабылдаушы</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">%,d хат қалпына келтірілді. Жалғастыра беріңіз.</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">%1$d хатты қайтадан жөнелту (%2$s)</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">Кешегі %1$d хатты қайтадан жөнелту</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d секунд</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">Контакт жөнелту</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">%d өзге контакттарыма жөнелту</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">%d контактқа жөнелту</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">%1$d аудио %2$s жөнелтілуде</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">%d аудио жөнелтілуде</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">%1$d файл %2$s жөнелтілуде</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">%d файл жөнелтілуде</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">%1$d GIF %2$s жөнелтілуде</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">%d GIF жөнелтілуде</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">%d жөнелтілуде</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">%1$d видеоны %2$s жөнелту</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">%d видео жөнелтілуде</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">WhatsApp-тың осы нұсқасы %d күннен кейін жаңартылу қажет. Жаңартасыз ба?</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">%d контакт алынды</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">%d контакт таңдалды</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">%d статус жаңартуы жойылды</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">Хаттарды тазарту (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">%1$s босатасыз ба? (%2$s хат)?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">Хаттарды тазарту</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">Менің Статусыма жөнелтілген текст бірінші %d белгіге дейін қысқартылады.</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">%s қалды</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">Чат бекітуі жойылды</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d оқылмаған хат</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">Таңдалғандар ішінде %1$d жөнелтілмеген хат бар.</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">Чат тазартылуы кезінде хаттың белгісі алынбайды. Кейінірек қайталаңыз.</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d жауапсыз видео қоңырау</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">Менің Статусыма жөнелтілген видеолар бірінші %d секундқа дейін қысқартылады.</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">Контактты көрсету</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">%d көрген</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">Сіз %2$d қабылдаушы бар \"%1$s\" тарату тізімін құрдыңыз</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">Сіз %d қабылдаушы бар тарату тізімін құрдыңыз</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="compose_common_text_dr">#ffa4a4a4</item>
+    <item type="drawable" name="compose_green_delimiter_dr">#ff46aba0</item>
+    <item type="drawable" name="white_bg">@android:color/white</item>
+    <item type="drawable" name="light_gray">#ffc8c8c8</item>
+</resources>

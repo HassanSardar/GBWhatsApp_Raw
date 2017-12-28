@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.statusplayback.content.StatusTextView android:textSize="@dimen/status_text_size" android:textColor="@android:color/white" android:gravity="center" android:id="@id/message_text" android:paddingLeft="@dimen/status_text_h_padding" android:paddingTop="@dimen/status_text_v_padding" android:paddingRight="@dimen/status_text_h_padding" android:paddingBottom="@dimen/status_text_v_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

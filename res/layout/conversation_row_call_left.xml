@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/conversation_row_margin" android:layout_marginRight="40.0dip" android:minHeight="30.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/incoming_call" />
+        <com.gb.atnfas.font_text android:layout_gravity="bottom|center|left" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" style="@style/ConversationDate" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/map_share_back_group">
+        <item android:icon="@null" android:id="@id/map_share_back" android:title="@string/live_location_share_back" app:showAsAction="never" />
+    </group>
+    <group android:id="@id/map_setting">
+        <item android:icon="@null" android:id="@id/map_type_normal" android:title="@string/map_type_normal" />
+        <item android:icon="@null" android:id="@id/map_type_satellite" android:title="@string/map_type_satellite" />
+        <item android:icon="@null" android:id="@id/map_type_terrain" android:title="@string/map_type_terrain" />
+        <item android:icon="@null" android:id="@id/map_traffic" android:title="@string/map_traffic" android:checkable="true" />
+    </group>
+</menu>

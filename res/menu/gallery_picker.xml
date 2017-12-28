@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:enabled="true" android:id="@id/default_item" android:visible="true" android:title="" android:titleCondensed="" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_more_teal" android:enabled="true" android:id="@id/more" android:visible="true" android:title="@string/more" android:titleCondensed="@string/more" app:showAsAction="always">
+        <menu>
+            <item android:title="Placeholder" />
+        </menu>
+    </item>
+</menu>

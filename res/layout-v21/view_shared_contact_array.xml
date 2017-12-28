@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/rvContacts" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageButton android:layout_gravity="bottom|center|right" android:id="@id/send_btn" android:background="@drawable/input_circle_green" android:layout_width="@dimen/submit_button_size" android:layout_height="@dimen/submit_button_size" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/input_send" android:scaleType="center" android:contentDescription="@string/send" android:elevation="4.0dip" />
+</FrameLayout>

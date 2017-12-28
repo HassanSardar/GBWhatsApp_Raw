@@ -1,0 +1,670 @@
+<html>
+  <head>
+    <style type='text/css'>
+		a            { color:#a0a0e0 }
+		div.title    { 
+			color:#0099CC; 
+			font-size:1.2em; 
+			font-weight:bold; 
+			margin-top:1em; 
+			margin-bottom:0.3em; 
+			text-align:center }
+		div.subtitle { 
+			color:#33B5E5; 
+			font-size:0.7em;
+			font-weight:bold;
+			margin-bottom:1em; 
+			text-align:center }
+		div.freetext { color:#444444 }
+		div.list     { color:#444444 }
+    </style>
+  </head>
+<body>
+$ 6.00
+  % Version 6.00
+  _ 05-Nov-2017 By Hassan!
+$ 6.00
+* Plus Emojis in Flag Section
+* New Base Updated to 2.17.351 (PlayStore) 
+* Exclusive Ability to Send Text Broadcast to Groups (Only Text Messages) 
+* Exclusive Ability to Filter Message when Clear Chat
+* Added Anti-Revoke (Options - Privacy) 
+* Exclusively Fixed Maps when send Location
+* Enabled Live Location Sharing
+* Enabled Image/Video Filters (Effects when Send Images) 
+* Added Option for Centre Names in Conversation Header (Mod 1.1.15)
+* Enabled Advance Storage Management (Settings - Data & Storage) 
+* Enabled Quick Reply (Press and Hold any message and click on the Text Entry) 
+* Added Custom Anti Revoke
+* Added Ability to Revoke Multiple Message at Once
+* Added Ability to Copy Text Status (Open Options & Click on Copy) 
+* Added Ability to Remove "Read More" option for Long Messages (Mod 1.2.63)
+* Added Ability to Send 100 Documents instead of 30
+* Added Themed Emoji & GIF Search
+* Updated Ability to Select Multiple Contacts in Scheduler for a Single Message (Press and Hold the contact you want to select) 
+* Fixed Emoji Scroll
+* Other Fixes...
+$ 5.90
+  % Version 5.90
+  _ 18-09-2017
+$ 5.90
+* New Base Updated to 2.17.296 (PlayStore) 
+* ِEnable Recall feature(Now you can delete sent messages) (Select any message - open options and click recall)
+* Exclusive Added Dialer FAB on Calls Tab using which You can send Msg and Call to unsaved Nos. (Go to Calls Tab and Press the FAB for Keypad) 
+* Super Exclusive Custom Media Auto-Download ( Now you can choose for which particular contact or group you want auto download) 
+* Exclusive Custom Privacy for Hide View Status. 
+* Exclusively Back Now You can Play Videos in your Favourite external app (MX or any other) (Mod 6.19)
+* Added Option to send Original Images(5.5)
+* Unlocked Album Feature when send more than 3 Images. 
+* Now you can upload Text Status
+* Added option for GIF Tenor/Giphy (Mod 6.18)
+* Updated Message Scheduler - Now you can Edit Scheduled Messages. 
+* Added Emoji Search. 
+* Added Option to Disable Message Counter (Mod 6.17)
+* Fixed Auto-Backup chats at 2am
+* Now you can Share apk directly through file manager and select WhatsApp
+* Turkish Language Support
+* Updated Spainish & Italian Translation
+* Fixed Message Scheduler on KitKat Phones. 
+* Fixed Emoji Icon Color. 
+* Fixed WhatsApp.Log
+* Other Fixes
+$ 5.80
+  % Version 5.80
+  _ 01-08-2017
+$ 5.80
+* New Updated Base to 2.17.223 (Playstore) 
+* Super Exclusive Message Scheduler (Open Options on Main Screen & Select Message Scheduler) 
+* Added in Exclusive Way Ability to Change Fonts (App Size Remains the Same as We have made it Online for Selecting Fonts) (Mod 11) (For first time, it will take bit time) 
+* Exclusive Toast When Anyone Views your Status/Story (Mod 2.5.8)
+* Ability to send multiple videos at the same time
+* Added Doodle (Now add edit pics with emojis & text) when choose pic from Gallery
+* Updated Now Status/Story will directly download when click on download
+* Added View all Status as a list (go to Status Tab and click Options) 
+* Added Option to Change Mention Color in Chat Screen (Mod 1.2.58)
+* Added Option to Change Mention Color on Main Screen (Mod 2.2.36)
+* Added Option to Change Color of Broadcast List when Forward Msg (Mod 2.4.15)
+* Added Option to Change Color of Broadcast Icon (Mod 1.2.59)
+* Added Option to Change Color of Unread Message in Chat Screen (Mod 1.2.59 to Mod 1.2.61)
+* Fixed WAMOD Entry Style
+* Other Fixes
+$ 5.70
+  % Version 5.70
+  _ 20-06-2017
+$ 5.70
+* Increased video sending limit to 50MB
+* (Exclusive) Option To Go To First Message of the Chat (Open Any Chat - Click Option and Go To First Message) 
+* Added Option To Download Status Directly and View Status (Now You can Download Status Directly) 
+* Now You can Click on Links in Caption of Status
+* Added Color To Broadcast List on Main Screen (Mod 2.2.5A)
+* Other Fixes
+$ 5.60
+  % Version 5.60
+  _ 30-05-2017
+$ 5.60
+* New Base Updated to 2.17.146 (Playstore) 
+* Added Ability to Send All Files (Eg. Apk, etc) 
+* Unlocked Pin Chats
+* (Exclusive) Ability to Pin More Than 3 Chats (Default is 3)
+* (Exclusive) Show Contacts Tab in Different Style (Mod 6.8)
+* (Exclusively) Added Attach Icon in Header (in New UI, it was removed by default) 
+* Added Option to Change Pattern to Hide Chats (Go to Hide Chat List & Click on Gear icon on Top right)
+* Added Option to Hide Attach Icon from Header (Mod 1.1.14)
+* Added Option to Hide Attach Icon from Stock Entry Style (Mod 1.2.44)
+* Added Color to the Document Text (will be same as Hyperlink) 
+* Fixed Show Contact Status (Mod 2.2.2)
+* Fixed Heads-up Notifications for Nougat (Mod 6.11)
+* Fixed Pattern Not Showing for Some Phones When Hide Chats
+* Fixed Voice Note Time Color 
+* Fixed Button Delete Background
+* Fixed WhatsApp Lock
+* Other Fixes
+$ 5.50
+  % Version 5.50
+  _ 21-04-2017
+$ 5.50
+* New Base Updated to 2.17.107
+* (Exclusive) Ability To Hide Chats (Select any chat and Click on 3 Dots at right Corner and click Hide Chat)
+* (Exclusive) Added Back Mod 6.8 Old ui but in different Style
+* Added Option to Save Status/Story (Open any Status and Click on 3 Dots at right Corner and click download) 
+* (Exclusive) Fixed Msg Count on Icon
+* Option to Theme Recent Status Bar & Text (Mod 2.2.34 & 2.2.35) 
+* Fixed Toast Background and Text Color for Nougat
+* Other Fixes
+$ 5.40
+  % Version 5.40
+  _ 04-03-2017
+$ 5.40
+* New Base Updated to 2.17.79 (PlayStore) 
+* Added Hide View Status Privacy (Don't tell contact that you have viewed their Story/Status) (Options - Privacy - Hide View Status) 
+* Added New Emojis
+* (Exclusive) Added Ability to Upload Videos & Image with High Quality in Status/Stories (Mod 5.4)
+* Fixed Backup/Restore Option (Mod 6.7)
+* Other Fixes
+$ 5.30
+  % Version 5.30
+  _ 20-02-2017
+$ 5.30
+* Base Updated to 2.17.24
+* (Exclusive) Ability to View All Messages from a Specific Person of a Group (Go to Group Profile - Click on the Member Name - View Msg sent by that person) (To Theme this page - go to options after Clicking on View Msg by that Person) 
+* (Exclusive) Now send any Video upto 30mb as a GIF (Select video to send and on right corner click GIF) 
+* (Exclusive) Toast whenever any contact changes a Profile Pic (Mod 2.5.7)
+* Added New Chat Option in Fab
+* Fixed Widget (Now works like Charm) 
+* Fixed Status Privacy in Settings
+* Fixed Email Chat
+* Fixed Navigation Bar Theme on Main Screen
+* Fixed Mod 2.4.11
+* Other Fixes
+$ 5.20
+  % Version 5.20
+  _ 12-01-2017
+$ 5.20
+* Base Updated to 2.16.392
+* (Exclusive) Custom Chats (No Need to remember for whom you enabled Custom Privacy & Notifications)
+* (Exclusive) Added High Resolution image (Mod 5.2)
+* Enabled Most Awaited New UI (Server Sided)
+* Added Old Status Option along with New UI
+* Added Option to go back to Old UI (Mod 6.8)
+* Added GIF Search (Now search and send GIF)
+* Added Option to Theme Online Toast (Mod 2.5.5 & 2.5.6)
+* Other Fixes
+$ 5.10
+  % Version 5.10
+  _ 04-12-2016
+$ 5.10
+* New Base Updated to 2.16.352 (PlayStore) 
+* Enabled Most Awaited Video Calls 
+* Enabled 2 Factor Authentication
+* Added 13 New Launcher Icons
+* Added Button to Forward Media and color it (Mod 1.2.56 - 1.2.57)
+* Added Ability to call by clicking on Missed Call Bubble 
+* Added Option to Clean WhatsApp Cache & Files from In-App (Mod 8)
+* Now set Group name upto 35 characters instead on 25
+* Fixed Elapsed Time (Now works with both 12hrs & 24hrs) 
+* Fixed Big Emojis (Now support with themes) 
+* Other Fixes
+$ 5.00
+  % Version 5.00
+  _ 14-11-2016
+$ 5.00
+* New Base Updated to 2.16.310
+* (Exclusive) Elapsed Time instead of Last Seen on Main Screen (Mod 2.2.2c) (use 24hr time format) 
+* (Exclusive) Option to make normal call from inapp instead of WhatsApp call
+* Added New Emojis (send Big Emojis) 
+* Added Doodle (Now add edit pics with emojis & text)
+* Added Option to set duration for Online Toast (Mod 2.5.4)
+* Added option to Send Audio Clip upto 100mb instead of 16mb (Mod 5.3)
+* Added Option to change color of Group name while Forwarding a msg (Mod 2.4.14)
+* Added Option to change Background of Emoji in Pop-up Notification (Mod 3.14)
+* Added Farsi Language Translation
+* Fixed WhatsApp.Log
+* Fixed Return to Default wallpaper when use mod 1.2.0
+* Fixed GB Widget in some devices
+* Other Fixes
+$ 4.92
+  % Version 4.92
+  _ 14-10-2016
+$ 4.92
+* Base Updated to 2.16.259
+* (Exclusive) Ability to Send Audio Clip upto 100mb instead of 16mb
+* When sharing or forwarding messages, you can now send to multiple chats at once
+* Now you can edit picture before send
+* you can send GIF
+* Unlocked Mentions(mention anyone in the group)
+* While recording videos, slide your finger up or down to zoom in and out
+* A new front-facing flash helps you capture selfies in the dark
+* Added Option to Change Background Color of Invite Button in Contacts Screen (Mod 2.4.10A) 
+* Added Option to Change Color of attached contact icon on Main Screen (Mod 2.32.2)
+* Fixed Error Sending Videos in Few Devices
+* Fixed White Screen while Attaching Images in Few Devices
+* Other Fixes
+$ 4.81
+  % Version 4.81
+  _ 19-08-2016
+$ 4.81
+* New Base Updated to 2.16.193
+* Added Disable Calls Specific Contact
+* Added Ability to see Last Seen in Contacts Tab (Mod 2.2.4.0)
+* Unlocked All Hidden Features (Video Calls, Group Invite Links)
+* Added Now Contact Page is themed along with Contacts Tab
+* Added Custom Privacy with Global Privacy (eg. Hide for all and same time unhide for a Specific Contact) 
+* Added Option to Change Color of Missed Call Icon in Conversation Screen (Mod 1.2.53 to Mod 1.2.55)
+* Added Option to Change Color of Missed Call Icon in Chats Screen (Mod 2.2.31)
+* Added Option to Change Color of Last seen and Online in Contacts Screen (Mod 2.4.12 and 2.4.13)
+* Fixed Status Scrolling in Conversation Header
+* Fixed Hide Notifications (Mod 6.2)
+* Fixed Restore/Backup Data (Mod 6.7)
+* Fixed Custom Wallpaper showing Black
+* Other Fixes
+$ 4.70
+  % Version 4.70
+  _ 06-07-2016
+$ 4.70
+* New Base Updated to 2.16.133
+* Fixed Backup/Restore
+* Fixed Sending All Types of Documents
+* (Exclusive) Mod 6.10 - Create Shortcut with Your Name (Unlimited Shortcut Icons) 
+* Added Option to Change Quoted Message Color (Mod 1.2.49 to Mod 1.2.52)
+* Fixed Cropping/Sending Video 
+* Fixed Crash for Custom Wallpaper 
+* Fixed App Lock when Opening from Notifications
+* Fixed Turkish Translation
+* Other Fixes
+$ 4.65
+  % Version 4.65
+  _ 21-06-2016
+$ 4.65
+* Base Updated to 2.16.95
+* (Exclusive) Ability to send Broadcast Message to 600 Members instead of 250
+* Reply to specific messages in any chat. Just tap and hold on any message and tap the reply button at the top of the screen. You can even tap on the quoted part of the message to scroll up to the original message.
+* Add option 9 to change App Language
+* Fixed not appear quoted messages
+* Return icon info message
+* Fixed appear Initializing... dialog
+* Other Fixes
+$ 4.55
+  % Version 4.55
+  _ 02-06-2016
+$ 4.55
+* Base Updated to 2.16.57
+* (Exclusive) Added Lock password for every chat(Open chat-Options-Lock chat)
+* Added Privacy for every chat(Open chat info-Privacy)
+* Reply to new messages right from notifications  
+* Tapping the quick camera button in a chat lets you pick a photo or video from your camera roll  
+* Pick from a set of solid colors for your chat wallpaper  
+* Quickly archive, delete, or mute multiple chats at once. Just tap and hold a chat in the chats tab and tap on other chats to select them.  
+* Format text in your messages by surrounding your text with special characters: *bold*, _italics_, or ~strikethrough~
+* Other Fixes
+$ 4.40
+  % Version 4.40
+  _ 09-05-2016
+$ 4.40
+*Base Updated to 2.16.13
+*Fix hide blue ticks
+*Add icon to translate messages and fixes in translation
+*possibility of distinguishing between normal media and Broadcast media
+*Fix incompatibility WhatsApp Wallpaper with GBWhatsApp
+*You can copy the phone number from profile
+*Fix hide last seen when change your name
+*Other Fixes
+$ 4.30
+  % Version 4.30
+  _ 26-04-2016
+$ 4.30
+*In-App Translator to translate messages to 8 different languages ( supports multiple messages , too )
+*Fix Search Web image (Now directly send image)
+*Add option 1.2.0 for custom wallpaper for each contact
+*Added Zoom-in for profile picture
+*Improve GBWhatsApp Lock
+*Other Fixes
+$ 4.25
+  % Version 4.25
+  _ 16-04-2016
+$ 4.25
+*Base Updated to 4.12.556
+*Ability to Change Pics from Circular to Square (Mod 6.15 & 6.16)
+*Enabled all types of Documents send (txt, pdf, doc, ppt, xml) 
+*Enabled End-to-end Message Encryption
+*Fixed Message not showing in notification bar
+*Fixed send videos
+*Fixed delete video when download video
+*Fixed options 1.2.3 - 1.2.37 - 1.2.38 - 6.1 - 6.6
+* Fix crash Crash when make call
+*If you cant send messages or images : disable hide blue ticks - Restart - all messages will be sent - Re-Enable hide blue ticks
+*Other Fixes
+$ 4.16
+  % Version 4.16
+  _ 07-03-2016
+$ 4.16
+*Fix send Images and Messages
+*Fix option 1.2.22
+$ 4.15
+  % Version 4.15
+  _ 06-03-2016
+$ 4.15
+* Bring back MOD 1.4 to show profile pics in Conversation Screen rows
+* Fixed MOD 2.2.2 - 1.2.5 - 1.2.6
+* Fix crash Crash when opening conversation - select contact - activating the lock - click on emoji button - make call
+* Other Fixes
+$ 4.10
+  % Version 4.10
+  _ 05-03-2016
+$ 4.10
+* Updated the base to 2.12.453 ( Play Store )
+* Ability to send documents
+* Added over 100 new emoji
+* Fixed unable to paste texts in "WAMOD" Text-Entry Style
+* Fixed text overlapping icons in "Hangouts" Text-Entry Style
+* Other fixes
+$ 4.05
+  % Version 4.05
+  _ 12-02-2016
+$ 4.05
+* In-App Translator to translate messages to 8 different languages ( supports multiple messages , too )
+* Added iOS 9.1 new Emojis
+* Added MOD 1.2.0 with ability to change between 3 different Text-Entry Styles :-
+1- Default
+2- Hangouts
+3- WAMOD
+* Added MOD 1.2.48 to change color of Text-Entry icons
+* Other fixes ...
+* ( Special thanks to Brian Valente for Text-Entry Styles )
+$ 4.00
+  % Version 4.00
+  _ 24-01-2016
+$ 4.00
+* Show contacts name in whatsapp.logs instead of numbers
+* Added MOD 6.14 to stop receiving WhatsApp Voice Calls
+* Change color of emojis icons in Emoji bar in Conversation Screen when use MOD 1.2.26
+* Use MOD 6.8 to also delete cache ( Cache & Unnecessary files )
+* Other fixes
+$ 3.90
+  % Version 3.90
+  _ 07-01-2016
+$ 3.90
+* Added FAB in Main Screen
+* Added MOD 2.7 to { include many options to customize FAB }
+* Added MOD 6.12 Dark Theme for Settings
+* Added MOD 6.13 to change color of notification circle color ( In Lollipop )
+* Preview Ticks Styles to choose between them easily
+* Added MOD 1.2.46 to change color of voice message playing bar
+* Added MOD 1.2.47 to change color of voice message Play/Pause button
+* Fixed fail issue in first 100 themes in Themes Server
+* Fixed "data" word appear in media caption
+* Other fixes
+$ 3.80
+  % Version 3.80
+  _ 26-12-2015
+$ 3.80
+* Send more than 10 photos simultaneously from Gallery
+* Show "New" word next to the new themes when added in Themes Server
+* Increase caption size of photos/videos from 500 to 3,000 characters
+* Save previewed photos ( by pressing menu button , then "Download" ) to save it in your device with no need to Internet
+* Themes now updated daily ...
+* Fixes with Contacts profile pics in Conversation Screen
+* Fixed MOD 1.1.12 ( Hide Call Icon )
+* Other fixes
+$ 3.70
+  % Version 3.70
+  _ 10-12-2015
+$ 3.70
+* Bring back MOD 1.4 to show profile pics in Conversation Screen rows
+* Added new 9 material icons
+* Ability to write up to 500 letters facilitated with media instead of 160 letters
+* Added MOD 2.5.3 to change the position of Contact Online Toast
+* Added MOD 1.2.45 to change color of Star icon in Conversation Screen Header
+* Fixed Crash when opening conversations in some devices
+* Say goodbye to LAG. Fixed lag issue radically .. No more lags - Super fast !
+$ 3.60
+  % Version 3.60
+  _ 27-11-2015
+$ 3.60
+* Update the base to the latest version ( 2.12.361 ) on Play Store
+* Ability to star important messages to read it later
+* Ability to backup your conversations to Google Drive ( may not work )
+* Ability to delete messages according to specific period of time ( older than a month/6 months )
+* Ability to preview links in Conversation Screen
+* Ability to chat with received attached contact without need to save number in your device
+* Unblock Telegram links in Conversation .You know WhatsApp Inc. had blocked telegram links in Conversation ( Non-clickable ) .. Now , Its clickable
+* Updated translations ( Spanish , Portuguese & Italian )
+* Other fixes
+$ 3.20
+  % Version 3.20
+  _ 14-11-2015
+$ 3.20
+* Add WhatsApp+ widget ( to hide/show your Online status )
+* Add +50 new themes in Themes Server
+* Ability to preview Contact pic in Conversation Screen Header by pressing on it
+* Bug fixes
+$ 3.10
+  % Version 3.10
+  _ 27-10-2015
+$ 3.10
+* Add new MOD 1.4 to put & See profile pics. of contacts in Conversation Screen
+* Add MOD 6.11 to disable Heads-Up notification ( In Lollipop )
+* Add MOD 1.4.1 to enable/disable showing contacts pics. in Conversation Screen
+* Add MOD 1.4.2 to show contacts pics. in Groups
+* Add MOD 1.4.3 to show my profile pic in Conversation Screen
+* Add MOD 1.4.4 to show my profile pic in Groups
+* Add MOD 1.4.5 to resize profile pics. in Conversation Screen
+$ 3.07
+  % Version 3.07
+  _ 19-10-2015
+$ 3.07
+* Fix Theme Server
+* Move "Online Toast"  to the Top
+* Fix Gradient Color for Chats Header
+* Other fixes
+$ 3.05
+  % Version 3.05
+  _ 11-10-2015
+$ 3.05
+*Increase sending video limit to 1GB
+*Add Gradient Color MODS for ( Chats/Conversation/Calls/Contacts Screen )
+*Add MOD 2.1.9 to change color of Tabs Background on Main Screen
+*Add MOD 1.2.44 to change color of Delete Button on Emojis Header
+*Fix Bubbles Style MOD ( Untidy Bubbles )
+*Fix lag issue totally .. App works much faster and smoother than before
+*Support new languages ( Portuguese & Italian )
+$ 3.00
+  % Version 3.00
+  _ 27-09-2015
+$ 3.00
+*Add new widget to hide/show your (last seen) from launcher home screen
+*Add more than 7 new ticks & bubbles
+*Add MOD 2.2.31 to change color of "Online" status on Main/ChatsScreen
+*Fix Online Status disappearance issue in Conversation Screen
+*Fix Conversation not opening in ("8" gbwhatsapp.log)
+*Other fixes
+$ 2.90
+  % Version 2.90
+  _ 22-09-2015
+$ 2.90
+*Added Theme Server to choose/download/apply themes created by GBWA Themers
+*Separated Privacy Mods to be for (Contacts/Groups)
+*Added Mod 6.10 to create a shortcut icon for GBWA (Unread messages counter works on it)
+*Added Mod 1.2.43 to change size of emojis on Conversation Screen
+*Other fixes
+$ 2.80
+  % Version 2.80
+  _ 08-09-2015
+$ 2.80
+*New option to search images from web in chat (click on menu inside a chat to use it)
+*New option to delete recent emoji list (click on menu inside a chat to use it)
+*New MOD 2.2.22 to hide archived chats footer row in Main Screen
+*New MOD 2.2.3 - 2.3.13 -2.4.11 to change Chats/Calls/Contacts Rows Size
+*New MOD 6.9 Extended Notification to add message to contact on status bar notification
+*Mod option 6.1 Add new styles
+*Add icons without 'GB' in option 6.0
+*Fixed MOD 2.2.2
+*Numbering options
+*Support Indonesian & German languages
+*Some other bugs fixed
+$ 2.70
+  % Version 2.70
+  _ 28-08-2015
+$ 2.70
+*Base Updated to 2.12.246
+*Per chat custom notification settings and mute
+*Mark chats unread or read
+*Lower the date usage during WhatsApp calls.
+*Fix a crash when make call
+* Other fixes
+$ 2.60
+  % Version 2.60
+  _ 22-08-2015
+$ 2.60
+* Online Status in chat rows(main-screen)
+* Ability See contact status in conversation screen
+* Add read gbwhatsapp.log (See who changed his profile pic - Status - Online)
+* Add Options to change the color of General Status in conversation / Online Status in main-screen
+* Fix mic circle color option for Lollipop users
+* Support Portugal language
+* Other fixes
+$ 2.50
+  % Version 2.50
+  _ 15-08-2015
+$ 2.50
+*Add Option to change Bubbles Style in Conversation Screen
+*Add Option to change Ticks Style in Conversation Screen
+*Add Option to change Status-bar Color for Main & Conversation Screen
+*Add Option to change Navigation-bar Color for Main & Conversation Screen
+*Add Option to change Back Button in Conversation Screen Header
+*Add Option to change Menu Button in Main Screen Header
+*Add Option to change Incoming Calls Icon in Calls Screen
+*Add Option to change Missed Calls Icon in Calls Screen
+*Add Option to change color of Calls counter in Calls Screen
+*Add Option to change Outgoing Calls in Calls Screen
+*Add Option to change to Change color of "GBWhatsApp" word in Main Screen Header
+*Add Option to change color of Tap Indicator in Main Screen Header
+*Add Option to change color of "typing ..." in Main Screen
+*Add Option to change color of "recording ..." in Main Screen
+*Support Spanish & Italian languages
+*Fix transparent Bubbles option not working
+*Fix Option to change color of "Online" word in Conversation  Screen Header
+$ 2.40
+  % Version 2.40
+  _ 09-08-2015
+$ 2.40
+* Add an option to disable the keyboard open automatically when you open a new conversation
+* Add option to Delete Recent Emojis
+* Add option to restart the program
+* Add option to change the color of the group name
+* Add option to change the color of Blue Double Ticks in conversations
+* Add option to change the color of Status Icon in conversations
+* Add option to change the color of unread message in conversations
+* Add option to change the color of text messages counter in conversations color
+* Fix hide the notifications option (Hide all)
+* Fix option bubble color
+$ 2.30
+  % Version 2.30
+  _ 02-08-2015
+$ 2.30
+* Hide the possibility of notices separately (for groups / contacts / for mute / for all)
+* Add the possibility of work save / restore / share / delete your theme
+* Add option to delete the Logs of the program
+* Add WhatsApp official program Icon within the icons
+* Fixed not work option change the icon
+* Fixed a crash when you open the phone lock, when a message Receiving
+* Fixed not work the lock when entering of the notices
+$ 2.20
+  % Version 2.20
+  _ 26-07-2015
+$ 2.20
+* Add feature toast contact online (to know who has become connected - who visited your profile)
+* Add option to change the color of bubble Conversation
+* Add Options to edit the pop-up notices Theme
+* Add Options to edit Theme Widgets
+$ 2.10
+  % Version 2.10
+  _ 19-07-2015
+$ 2.10
+* The possibility GBWhatsApp lock password
+* Add option to change the color bar icons chat
+* Add options to change the size of the Msg,Date in the conversations screen
+* Other fixes
+$ 2.05
+  % Version 2.05
+  _ 12-07-2015
+$ 2.05
+* Fixed collapse when you open image
+* Fixed does not appear some Emoji WA+
+* Fixed work not to change the color names option
+$ 2.00
+  % Version 2.00
+  _ 11-07-2015
+$ 2.00
+* Update to the latest version Released by the company WhatsApp 2.12.170
+* Add more Emoji different colors
+* The possibility of pressing status in the Member's profile links
+* Fixed a problem screen appears white and the program stops working
+$ 1.90
+  % Version 1.90
+  _ 05-07-2015
+$ 1.90
+* Add more than 30 the option to edit Theme Conversation
+* The possibility of click on the links without storing number sender of the message or group owner
+* Fixed a crash problem when you open the program
+$ 1.80
+  % Version 1.80
+  _ 25-06-2015
+$ 1.80
+* The possibility of distinguishing between normal messages and Broadcast messages
+* Fixed a problem of data consumption
+* Add option to restore the default settings of the program
+* fix crash
+* In the event of a Update to upgrade message will not be annoying as before
+$ 1.70
+  % Version 1.70 Fix
+  _ 19-06-2015
+$ 1.70
+* The ability to see the last seen of other conversations Screen
+* The possibility of play voice clips without loading
+* Add more themes options to change the color icon (video / photo / microphone / audio clip / location) in the conversations screen
+* Add option to change the color of the last seen in the conversations screen
+* Fixed a problem of not only the possibility of sending video to a second one
+* Other fixes
+
+$ 1.60
+  % Version 1.60
+  _ 13-06-2015
+$ 1.60
+* The possibility of sending size video 30 MB instead of 16 MB 
+* The possibility of put the case of 250 characters instead of 139 characters 
+* change the view of privacy options (such WhatsApp+) 
+* Add option to hide the notifications icon
+* Add option to put your name instead of 'GBWhatsApp' in chats 
+* Fixed crash when restoring data 
+* fix some problems that lead to the collapse of the program
+$ 1.50
+  % Version 1.50
+  _ 31-05-2015
+*Fix Option Notifybar Icon
+$ 1.40
+  % Version 1.40
+  _ 30-05-2015
+* The possibility of sending more than 90 image boost unit instead of 10
+* Add Options for amendment to the Theme List calls (contacts-chats-calls)
+* Fixed GBWA.html file which led to increase the size of the program from 25 to 31
+* Fix the problems
+$ 1.30
+  % Version 1.30
+  _ 21-05-2015
+* Added Possibility copy / share photos or video links
+* Added option to hide the window share links and Use the preview as before without share menu
+* Add feature to alert you to last seen when you open a conversation
+* Add feature to copy GBWhatsApp data and the possibility restore them later
+* Added option to hide Emoji WhatsApp+
+* Fixed options do not work (always online / Hide Icon calls)
+* Fixed collapse When you copy a message 2 or more
+* Other fixes
+$ 1.20
+  % Version 1.20
+  _ 19-05-2015
+* Update to the latest version of the site WhatsApp 2.12.87
+* Add WhatsApp+ Emoji  in a new box
+* Added option to hide the voice recording icon
+* Fixed a problem with white window appearance
+* Other fixes
+$ 1.10
+  % Version 1.10
+  _ 10-05-2015
+* Made SMS verification working. Means no hassle to take backup and restore them. Simply install app and add number and verify through sms.
+* The possibility of zoom in / zoom out images personal view
+* Other fixes
+$ 1.5
+  % Version 1.5
+  _ 08-05-2015
+* Fixed option does not work Hide second tick
+* Fixed not copying case
+* The possibility of identifying part of the message
+* Add confirmation window before you call in the call list
+* Add option to change the program icon
+* Add option to disable the appearance of a pop-up notices in versions of Lollipop
+* Other fixes
+            <br/>
+	...................	
+$ END_OF_CHANGE_LOG
+  </body>
+</html>

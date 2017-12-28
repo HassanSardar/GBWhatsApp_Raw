@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">%d Empfänger</item>
+        <item quantity="one">%d Empfänger</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">%1$s und %2$d weitere</item>
+        <item quantity="one">%1$s und %2$d weitere</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">An maximal %1$d Personen gleichzeitig senden.</item>
+        <item quantity="one">An maximal %1$d Person gleichzeitig senden.</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">An %d Kontakte versenden</item>
+        <item quantity="one">An %d Kontakt versenden</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">Chats archivieren</item>
+        <item quantity="one">Chat archivieren</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">Chats archiviert</item>
+        <item quantity="one">Chat archiviert</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">Chats löschen</item>
+        <item quantity="one">Chat löschen</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">%1$d ausgewählte Chats löschen?</item>
+        <item quantity="one">%1$d ausgewählten Chat löschen?</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">Gruppen verlassen</item>
+        <item quantity="one">Gruppe verlassen</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">%1$d ausgewählte Gruppen verlassen?</item>
+        <item quantity="one">%1$d ausgewählte Gruppe verlassen?</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">Chats fixieren</item>
+        <item quantity="one">Chat fixieren</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">Chats archivieren rückgängig machen</item>
+        <item quantity="one">Chat archivieren rückgängig machen</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">Chats lösen</item>
+        <item quantity="one">Chat lösen</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">Du kannst nur bis zu %1$d Chats fixieren.</item>
+        <item quantity="one">Du kannst nur bis zu %1$d Chat fixieren.</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">Deine Gruppen und &lt;a href=\"contacts-link\">%d Kontakte&lt;/a> werden über deine neue Nummer benachrichtigt.</item>
+        <item quantity="one">Deine Gruppen und &lt;a href=\"contacts-link\">%d Kontakt&lt;/a> werden über deine neue Nummer benachrichtigt.</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">%1$d Dokumente an %2$s senden?</item>
+        <item quantity="one">%1$d Dokument an %2$s senden?</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">%1$d Objekte mit %2$s teilen?</item>
+        <item quantity="one">%1$d Objekt mit %2$s teilen?</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">Du kannst nicht mehr als %1$d Kontakte wählen.</item>
+        <item quantity="one">Du kannst nicht mehr als %1$d Kontakt wählen.</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d Personen teilen gerade den Live-Standort</item>
+        <item quantity="one">%d Person teilt gerade den Live-Standort</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">Du und %d Weitere teilen den Live-Standort.</item>
+        <item quantity="one">Du und %d weitere Person teilen den Live-Standort.</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s und %2$d weitere Kontakte</item>
+        <item quantity="one">%1$s und %2$d weiterer Kontakt</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d Tage</item>
+        <item quantity="one">%d Tag</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">%d Nachrichten löschen?</item>
+        <item quantity="one">%d Nachricht löschen?</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"Chat mit \"%1$s\" löschen?
+Du hast %2$d nicht gesendete Nachrichten in diesem Chat."</item>
+        <item quantity="one">"Chat mit \"%1$s\" löschen?
+Du hast %2$d nicht gesendete Nachricht in diesem Chat."</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">%d Statusmeldungen löschen? Sie werden dann auch für alle anderen, die sie erhalten haben, gelöscht.</item>
+        <item quantity="one">%d Statusmeldung löschen? Sie wird dann auch für alle anderen, die sie erhalten haben, gelöscht.</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">Beschreibung kann nicht mehr als %d Zeichen haben.</item>
+        <item quantity="one">Beschreibung kann nicht mehr als %d Zeichen haben.</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">Das Foto ist zu klein. Bitte wähle ein Foto mit einer Länge und Breite von mindestens %d Pixeln aus.</item>
+        <item quantity="one">Das Foto ist zu klein. Bitte wähle ein Foto mit einer Länge und Breite von mindestens %d Pixel aus.</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"Gruppe \"%1$s\" verlassen?
+Du hast %2$d nicht gesendete Nachrichten in diesem Chat."</item>
+        <item quantity="one">"Gruppe \"%1$s\" verlassen?
+Du hast %2$d nicht gesendete Nachricht in diesem Chat."</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">%d konnten nicht gesendet werden</item>
+        <item quantity="one">%d konnte nicht gesendet werden</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d Dateien von deinem Gerät gelöscht</item>
+        <item quantity="one">%d Datei von deinem Gerät gelöscht</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">Diese Statusmeldung wird an deine Kontakte gesendet außer %d.</item>
+        <item quantity="one">Diese Statusmeldung wird an deine Kontakte gesendet außer %d.</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">Diese Statusmeldung wird an %d Kontakte gesendet.</item>
+        <item quantity="one">Diese Statusmeldung wird an %d Kontakt gesendet.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">%d Nachrichten wiederhergestellt. Deine Medien werden im Hintergrund wiederhergestellt.</item>
+        <item quantity="one">%d Nachricht wiederhergestellt. Deine Medien werden im Hintergrund wiederhergestellt.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">%d Nachrichten wiederhergestellt</item>
+        <item quantity="one">%d Nachricht wiederhergestellt</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">%1$d Dokumente an \"%2$s\" senden?</item>
+        <item quantity="one">%1$d Dokument an \"%2$s\" senden?</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">%1$d Objekte mit \"%2$s\" teilen?</item>
+        <item quantity="one">%1$d Objekt mit \"%2$s\" teilen?</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%s sind keine Admins mehr</item>
+        <item quantity="one">%s ist kein Admin mehr</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%s sind jetzt Admins</item>
+        <item quantity="one">%s ist jetzt ein Admin</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">Du kannst nicht mehr als %1$d Teilnehmer wählen.</item>
+        <item quantity="one">Du kannst nicht mehr als %1$d Teilnehmer wählen.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d Stunden</item>
+        <item quantity="one">%d Stunde</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$d Std</item>
+        <item quantity="one">%1$d Std</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">Wird in %d Chats geteilt</item>
+        <item quantity="one">Wird in %d Chat geteilt</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d Personen</item>
+        <item quantity="one">%d Person</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d Personen teilen nicht mehr</item>
+        <item quantity="one">%d Person teilt nicht mehr</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">Auf %d Meter genau</item>
+        <item quantity="one">Auf %d Meter genau</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d Nachrichten kopiert</item>
+        <item quantity="one">%d Nachricht kopiert</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d Nachrichten gelöscht</item>
+        <item quantity="one">%d Nachricht gelöscht</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d Minuten</item>
+        <item quantity="one">%d Minute</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">vor %d Minuten</item>
+        <item quantity="one">vor %d Minute</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$d Min</item>
+        <item quantity="one">%1$d Min</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d Verpasste Anrufe</item>
+        <item quantity="one">%d Verpasster Anruf</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d verpasste Sprachanrufe</item>
+        <item quantity="one">%d verpasster Sprachanruf</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d Kontakte</item>
+        <item quantity="one">%d Kontakt</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d Kontakte</item>
+        <item quantity="one">%d Kontakt</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">Mindestens %d Kontakte müssen ausgewählt sein</item>
+        <item quantity="one">Mindestens %d Kontakt muss ausgewählt sein</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d ausgewählt</item>
+        <item quantity="one">%d ausgewählt</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">%d Objekte ausgewählt</item>
+        <item quantity="one">%d Objekt ausgewählt</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">%1$d von %2$d ausgewählt</item>
+        <item quantity="one">%1$d von %2$d ausgewählt</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d ausgewählt</item>
+        <item quantity="one">%d ausgewählt</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">%1$s und %2$d weitere</item>
+        <item quantity="one">%1$s und %2$d weiterer</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d Nachrichten</item>
+        <item quantity="one">%1$d Nachricht</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d Statusmeldungen</item>
+        <item quantity="one">%1$d Statusmeldung</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d Anrufe</item>
+        <item quantity="one">%1$d Anruf</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d neue Nachrichten</item>
+        <item quantity="one">%d neue Nachricht</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d Nachrichten</item>
+        <item quantity="one">%d Nachricht</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%1$s aus %2$d Chats</item>
+        <item quantity="one">%1$s aus %2$d Chat</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">Du kannst nicht mehr als %1$d Kontakte wählen.</item>
+        <item quantity="one">Du kannst nicht mehr als %1$d Kontakt wählen.</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d Seiten</item>
+        <item quantity="one">%d Seite</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d Fotos</item>
+        <item quantity="one">%d Foto</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d Tabellenblätter</item>
+        <item quantity="one">%d Tabellenblatt</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d Folien</item>
+        <item quantity="one">%d Folie</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d Videos</item>
+        <item quantity="one">%d Video</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">%1$s und %2$d weitere Kontakte von dir benutzen WhatsApp.</item>
+        <item quantity="one">%1$s und %2$d weiterer Kontakt von dir benutzen WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s, %3$s und %4$d weitere Kontakte von dir benutzen WhatsApp.</item>
+        <item quantity="one">%1$s, %2$s, %3$s und %4$d weiterer Kontakt von dir benutzen WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s und %3$d weitere Kontakte von dir benutzen WhatsApp.</item>
+        <item quantity="one">%1$s, %2$s und %3$d weiterer Kontakt von dir benutzen WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">%1$d Kontakte von dir benutzen WhatsApp.</item>
+        <item quantity="one">%1$d Kontakt von dir benutzt WhatsApp.</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">%d verbleibend</item>
+        <item quantity="one">%d verbleibend</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d Teilnehmer</item>
+        <item quantity="one">%d Teilnehmer</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">Chats fixiert</item>
+        <item quantity="one">Chat fixiert</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">%d Nachrichten zurückrufen?</item>
+        <item quantity="one">%d Nachricht zurückrufen?</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">%d Empfänger</item>
+        <item quantity="one">%d Empfänger</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">%,d Nachrichten wiederhergestellt. Du kannst loslegen.</item>
+        <item quantity="one">%,d Nachricht wiederhergestellt. Du kannst loslegen.</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">%1$d Nachrichten vom %2$s erneut senden</item>
+        <item quantity="one">%1$d Nachricht vom %2$s erneut senden</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">%1$d Nachrichten von gestern erneut senden</item>
+        <item quantity="one">%1$d Nachricht von gestern erneut senden</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d Sekunden</item>
+        <item quantity="one">%d Sekunde</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">Kontakte senden</item>
+        <item quantity="one">Kontakt senden</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">An meine Kontakte senden außer %d</item>
+        <item quantity="one">An meine Kontakte senden außer %d</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">An %d Kontakte senden</item>
+        <item quantity="one">An %d Kontakt senden</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">%1$d Audiodateien werden an %2$s gesendet</item>
+        <item quantity="one">%1$d Audiodatei wird an %2$s gesendet</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">%d Audiodateien werden gesendet</item>
+        <item quantity="one">%d Audiodatei wird gesendet</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">%1$d Dateien werden an %2$s gesendet</item>
+        <item quantity="one">%1$d Datei wird an %2$s gesendet</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">%d Dateien werden gesendet</item>
+        <item quantity="one">%d Datei wird gesendet</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">%1$d GIFs werden an %2$s gesendet</item>
+        <item quantity="one">%1$d GIF wird an %2$s gesendet</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">%d GIFs werden gesendet</item>
+        <item quantity="one">%d GIF wird gesendet</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">%d werden gesendet</item>
+        <item quantity="one">%d wird gesendet</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">%1$d Videos werden an %2$s gesendet</item>
+        <item quantity="one">%1$d Video wird an %2$s gesendet</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">%d Videos werden gesendet</item>
+        <item quantity="one">%d Video wird gesendet</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">Diese Version von WhatsApp muss in %d Tagen aktualisiert werden. Update auf die neueste Version?</item>
+        <item quantity="one">Diese Version von WhatsApp muss in %d Tag aktualisiert werden. Update auf die neueste Version?</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">%d Kontakte ausgenommen</item>
+        <item quantity="one">%d Kontakt ausgenommen</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">%d Kontakte ausgewählt</item>
+        <item quantity="one">%d Kontakt ausgewählt</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">%d Statusmeldungen gelöscht</item>
+        <item quantity="one">%d Statusmeldung gelöscht</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">Nachrichten leeren (%s)</item>
+        <item quantity="one">Nachricht leeren (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">%1$s leeren (%2$s Nachrichten)?</item>
+        <item quantity="one">%1$s leeren (%2$s Nachricht)?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">Nachrichten leeren</item>
+        <item quantity="one">Nachricht leeren</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">Texte, die an Mein Status gesendet werden, werden auf die ersten %d Zeichen gekürzt.</item>
+        <item quantity="one">Texte, die an Mein Status gesendet werden, werden auf das erste %d Zeichen gekürzt.</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">noch %s</item>
+        <item quantity="one">noch %s</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">Chats gelöst</item>
+        <item quantity="one">Chat gelöst</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d ungelesene Nachrichten</item>
+        <item quantity="one">%d ungelesene Nachricht</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">Du hast %1$d nicht gesendete Nachrichten in der Auswahl.</item>
+        <item quantity="one">Du hast %1$d nicht gesendete Nachricht in der Auswahl.</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">Stern kann nicht entfernt werden, während die Unterhaltung geleert wird. Versuche es später erneut.</item>
+        <item quantity="one">Stern kann nicht entfernt werden, während die Unterhaltung geleert wird. Versuche es später erneut.</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d verpasste Videoanrufe</item>
+        <item quantity="one">%d verpasster Videoanruf</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">Videos, die an Mein Status gesendet werden, werden auf die ersten %d Sekunden gekürzt.</item>
+        <item quantity="one">Videos, die an Mein Status gesendet werden, werden auf die erste %d Sekunde gekürzt.</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">Kontakte anzeigen</item>
+        <item quantity="one">Kontakt anzeigen</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">Gesehen von %d</item>
+        <item quantity="one">Gesehen von %d</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">Du hast die Broadcast-Liste \"%1$s\" mit %2$d Empfängern erstellt.</item>
+        <item quantity="one">Du hast die Broadcast-Liste \"%1$s\" mit %2$d Empfänger erstellt.</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">Du hast eine Broadcast-Liste mit %d Empfängern erstellt</item>
+        <item quantity="one">Du hast eine Broadcast-Liste mit %d Empfänger erstellt</item>
+    </plurals>
+</resources>

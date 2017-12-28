@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">%d gavėjų</item>
+        <item quantity="one">%d gavėjas</item>
+        <item quantity="few">%d gavėjai</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">%1$s, ir daugiau %2$d</item>
+        <item quantity="one">%1$s, ir daugiau %2$d</item>
+        <item quantity="few">%1$s, ir daugiau %2$d</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">Transliuoti maksimum %1$d asmenų vienu metu.</item>
+        <item quantity="one">Transliuoti maksimum %1$d asmeniui vienu metu.</item>
+        <item quantity="few">Transliuoti maksimum %1$d asmenims vienu metu.</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">Transliuoti %d kontaktų</item>
+        <item quantity="one">Transliuoti %d kontaktui</item>
+        <item quantity="few">Transliuoti %d kontaktams</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">Archyvuoti pokalbių</item>
+        <item quantity="one">Archyvuoti pokalbį</item>
+        <item quantity="few">Archyvuoti pokalbius</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">Pokalbių suarchyvuota</item>
+        <item quantity="one">Pokalbis suarchyvuotas</item>
+        <item quantity="few">Pokalbiai suarchyvuoti</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">Ištrinti pokalbių</item>
+        <item quantity="one">Ištrinti pokalbį</item>
+        <item quantity="few">Ištrinti pokalbius</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">Ištrinti %1$d pasirinktų pokalbių?</item>
+        <item quantity="one">Ištrinti %1$d pasirinktą pokalbį?</item>
+        <item quantity="few">Ištrinti %1$d pasirinktus pokalbius?</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">Išeiti iš grupių</item>
+        <item quantity="one">Išeiti iš grupės</item>
+        <item quantity="few">Išeiti iš grupių</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">Išeiti iš %1$d pasirinktų grupių?</item>
+        <item quantity="one">Išeiti iš %1$d pasirinktos grupės?</item>
+        <item quantity="few">Išeiti iš %1$d pasirinktų grupių?</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">Prisegti pokalbių</item>
+        <item quantity="one">Prisegti pokalbį</item>
+        <item quantity="few">Prisegti pokalbius</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">Išarchyvuoti pokalbių</item>
+        <item quantity="one">Išarchyvuoti pokalbį</item>
+        <item quantity="few">Išarchyvuoti pokalbius</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">Atsegti pokalbių</item>
+        <item quantity="one">Atsegti pokalbį</item>
+        <item quantity="few">Atsegti pokalbius</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">Jūs galite prisegti iki %1$d pokalbių</item>
+        <item quantity="one">Jūs galite prisegti iki %1$d pokalbio</item>
+        <item quantity="few">Jūs galite prisegti iki %1$d pokalbių</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">Jūsų grupės ir &lt;a href=\"contacts-link\">%d kontaktų&lt;/a> bus informuoti apie jūsų naują numerį.</item>
+        <item quantity="one">Jūsų grupės ir &lt;a href=\"contacts-link\">%d kontaktas&lt;/a> bus informuoti apie jūsų naują numerį.</item>
+        <item quantity="few">Jūsų grupės ir &lt;a href=\"contacts-link\">%d kontaktai&lt;/a> bus informuoti apie jūsų naują numerį.</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">Siųsti %1$d dokumentų %2$s?</item>
+        <item quantity="one">Siųsti %1$d dokumentą %2$s?</item>
+        <item quantity="few">Siųsti %1$d dokumentus %2$s?</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">Dalintis %1$d įrašų su %2$s?</item>
+        <item quantity="one">Dalintis %1$d įrašą su %2$s?</item>
+        <item quantity="few">Dalintis %1$d įrašus su %2$s?</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">Jūs negalite pasirinkti daugiau negu %1$d kontaktų.</item>
+        <item quantity="one">Jūs negalite pasirinkti daugiau negu %1$d kontaktą.</item>
+        <item quantity="few">Jūs negalite pasirinkti daugiau negu %1$d kontaktus.</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d asmenų bendrina tiesioginę vietą</item>
+        <item quantity="one">%d asmuo bendrina tiesioginę vietą</item>
+        <item quantity="few">%d asmenys bendrina tiesioginę vietą</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">Jūs ir %d kitų asmenų bendrinate tiesioginę vietą</item>
+        <item quantity="one">Jūs ir %d kitas asmuo bendrinate tiesioginę vietą</item>
+        <item quantity="few">Jūs ir %d kiti asmenys bendrinate tiesioginę vietą</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s ir dar %2$d kontaktų</item>
+        <item quantity="one">%1$s ir dar %2$d kontaktas</item>
+        <item quantity="few">%1$s ir dar %2$d kontaktai</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d dienų</item>
+        <item quantity="one">%d diena</item>
+        <item quantity="few">%d dienos</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">Ištrinti %d žinučių?</item>
+        <item quantity="one">Ištrinti %d žinutę?</item>
+        <item quantity="few">Ištrinti %d žinutes?</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"Ištrinti pokalbius su “%1$s”?
+Jūs turite %2$d neišsiųstų žinučių šiuose pokalbiuose."</item>
+        <item quantity="one">"Ištrinti pokalbį su “%1$s”?
+Jūs turite %2$d neišsiųstą žinutę šiame pokalbyje."</item>
+        <item quantity="few">"Ištrinti pokalbius su “%1$s”?
+Jūs turite %2$d neišsiųstas žinutes šiuose pokalbiuose."</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">Ištrinti %d būsenos atnaujinimų. Jie taip pat bus ištrinti viesiems, kas juos gavo.</item>
+        <item quantity="one">Ištrinti %d būsenos atnaujinimą. Jis taip pat bus ištrintas viesiems, kas jį gavo.</item>
+        <item quantity="few">Ištrinti %d būsenos atnaujinimus. Jie taip pat bus ištrinti viesiems, kas juos gavo.</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">Aprašymas negali tūrėti daugiau nei %d simbolių.</item>
+        <item quantity="one">Aprašymas negali tūrėti daugiau nei %d simbolį.</item>
+        <item quantity="few">Aprašymas negali tūrėti daugiau nei %d simboliai.</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">Šios nuotraukos yra per mažos. Prašome pasirinkti nuotraukas kur aukštis ir plotis bent jau %d taškų.</item>
+        <item quantity="one">Ši nuotrauka yra per maža. Prašome pasirinkti nuotrauką kur aukštis ir plotis bent jau %d taškų.</item>
+        <item quantity="few">Šios nuotraukos yra per mažos. Prašome pasirinkti nuotraukas kur aukštis ir plotis bent jau %d taškų.</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"Išeiti iš “%1$s” grupių?
+Jūs turite %2$d neišsiųstų žinučių šiuose pokalbiuose."</item>
+        <item quantity="one">"Išeiti iš “%1$s” grupės?
+Jūs turite %2$d neišsiųstą žinutę šiame pokalbyje."</item>
+        <item quantity="few">"Išeiti iš “%1$s” grupių?
+Jūs turite %2$d neišsiųstas žinutes šiuose pokalbiuose."</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">Nepavyko išsiųsti %d</item>
+        <item quantity="one">Nepavyko išsiųsti %d</item>
+        <item quantity="few">Nepavyko išsiųsti %d</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d failų ištrinta iš jūsų įrenginio</item>
+        <item quantity="one">%d failas ištrintas iš jūsų įrenginio</item>
+        <item quantity="few">%d failai ištrinti iš jūsų įrenginio</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">Šis būsenos atnaujinimas bus išsiųstas jūsų kontaktams išskyrus %d.</item>
+        <item quantity="one">Šis būsenos atnaujinimas bus išsiųstas jūsų kontaktams išskyrus %d.</item>
+        <item quantity="few">Šis būsenos atnaujinimas bus išsiųstas jūsų kontaktams išskyrus %d.</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">Šis būsenos atnaujinimas bus išsiųstas %d kontaktų.</item>
+        <item quantity="one">Šis būsenos atnaujinimas bus išsiųstas %d kontaktui.</item>
+        <item quantity="few">Šis būsenos atnaujinimas bus išsiųstas %d kontaktams.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">%d žinučių atkurta. Jūsų medija bus atkurta fone.</item>
+        <item quantity="one">%d žinutė atkurta. Jūsų medija bus atkurta fone.</item>
+        <item quantity="few">%d žinutės atkurtos. Jūsų medija bus atkurta fone.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">%d žinučių atkurta</item>
+        <item quantity="one">%d žinutė atkurta</item>
+        <item quantity="few">%d žinutės atkurtos</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">Siųsti %1$d dokumentų “%2$s”?</item>
+        <item quantity="one">Siųsti %1$d dokumentą “%2$s”?</item>
+        <item quantity="few">Siųsti %1$d dokumentus “%2$s”?</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">Bendrinti %1$d įrašų su \"%2$s\"?</item>
+        <item quantity="one">Bendrinti %1$d įrašą su \"%2$s\"?</item>
+        <item quantity="few">Bendrinti %1$d įrašus su \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%s nebėra administratoriai</item>
+        <item quantity="one">%s nebėra administratorius</item>
+        <item quantity="few">%s nebėra administratoriai</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%s dabar yra administratoriai</item>
+        <item quantity="one">%s dabar yra administratorius</item>
+        <item quantity="few">%s dabar yra administratoriai</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">Jūs negalite pasirinkti daugiau negu %1$d dalyvių.</item>
+        <item quantity="one">Jūs negalite pasirinkti daugiau negu %1$d dalyvio.</item>
+        <item quantity="few">Jūs negalite pasirinkti daugiau negu %1$d dalyvių.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d valandų</item>
+        <item quantity="one">%d valandos</item>
+        <item quantity="few">%d valandų</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$dh</item>
+        <item quantity="one">%1$dh</item>
+        <item quantity="few">%1$dh</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">Bendrinama %d pokalbių</item>
+        <item quantity="one">Bendrinama %d pokalbyje</item>
+        <item quantity="few">Bendrinama %d pokalbiuose</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d asmenų</item>
+        <item quantity="one">%d asmuo</item>
+        <item quantity="few">%d asmenys</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d asmenų nustojo bendrinti</item>
+        <item quantity="one">%d asmuo nustojo bendrinti</item>
+        <item quantity="few">%d asmenys nustojo bendrinti</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">Apytiksliai %d metrų</item>
+        <item quantity="one">Apytiksliai %d metras</item>
+        <item quantity="few">Apytiksliai %d metrai</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d žinučių nukopijuota</item>
+        <item quantity="one">%d žinutė nukopijuota</item>
+        <item quantity="few">%d žinutės nukopijuotos</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d žinučių ištrinta</item>
+        <item quantity="one">%d žinutė ištrinta</item>
+        <item quantity="few">%d žinutės ištrintos</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d minučių</item>
+        <item quantity="one">%d minutės</item>
+        <item quantity="few">%d minučių</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">prieš %d minučių</item>
+        <item quantity="one">prieš %d minutę</item>
+        <item quantity="few">prieš %d minutes</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$dm</item>
+        <item quantity="one">%1$dm</item>
+        <item quantity="few">%1$dm</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d praleistų skambučių</item>
+        <item quantity="one">%d praleistas skambutis</item>
+        <item quantity="few">%d praleisti skambučiai</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">praleista %d balso skambučių</item>
+        <item quantity="one">praleistas %d balso skambutis</item>
+        <item quantity="few">praleisti %d balso skambučiai</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d kontaktų</item>
+        <item quantity="one">%d kontaktas</item>
+        <item quantity="few">%d kontaktai</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d kontaktų</item>
+        <item quantity="one">%d kontaktas</item>
+        <item quantity="few">%d kontaktai</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">Turi būti pasirinkta mažiausiai %d kontaktų</item>
+        <item quantity="one">Turi būti pasirinktas mažiausiai %d kontaktas</item>
+        <item quantity="few">Turi būti pasirinkti mažiausiai %d kontaktai</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d pasirinktų</item>
+        <item quantity="one">%d pasirinktas</item>
+        <item quantity="few">%d pasirinkti</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">Pasirinkta %d failų</item>
+        <item quantity="one">Pasirinktas %d failas</item>
+        <item quantity="few">Pasirinkti %d failai</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">%1$d iš %2$d pasirinkta</item>
+        <item quantity="one">%1$d iš %2$d pasirinktas</item>
+        <item quantity="few">%1$d iš %2$d pasirinkti</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d pasirinktų</item>
+        <item quantity="one">%d pasirinkta</item>
+        <item quantity="few">%d pasirinkti</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">%1$s ir %2$d kitų</item>
+        <item quantity="one">%1$s ir %2$d kitas</item>
+        <item quantity="few">%1$s ir %2$d kiti</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d žinučių</item>
+        <item quantity="one">%1$d žinutė</item>
+        <item quantity="few">%1$d žinutės</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d būsenos atnaujinimų</item>
+        <item quantity="one">%1$d būsenos atnaujinimas</item>
+        <item quantity="few">%1$d būsenos atnaujinimai</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d skambučių</item>
+        <item quantity="one">%1$d skambutis</item>
+        <item quantity="few">%1$d skambučiai</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d naujų žinučių</item>
+        <item quantity="one">%d nauja žinutė</item>
+        <item quantity="few">%d naujos žinutės</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d žinučių</item>
+        <item quantity="one">%d žinutė</item>
+        <item quantity="few">%d žinutės</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%1$s iš %2$d pokalbių</item>
+        <item quantity="one">%1$s iš %2$d pokalbio</item>
+        <item quantity="few">%1$s iš %2$d pokalbių</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">Jūs negalite pasirinkti daugiau negu %1$d kontaktų.</item>
+        <item quantity="one">Jūs negalite pasirinkti daugiau negu %1$d kontakto.</item>
+        <item quantity="few">Jūs negalite pasirinkti daugiau negu %1$d kontaktų.</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d puslapių</item>
+        <item quantity="one">%d puslapis</item>
+        <item quantity="few">%d puslapiai</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d nuotraukų</item>
+        <item quantity="one">%d nuotrauka</item>
+        <item quantity="few">%d nuotraukos</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d lapų</item>
+        <item quantity="one">%d lapas</item>
+        <item quantity="few">%d lapai</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d skaidrių</item>
+        <item quantity="one">%d skaidrė</item>
+        <item quantity="few">%d skaidrės</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d video</item>
+        <item quantity="one">%d video</item>
+        <item quantity="few">%d video</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">%1$s ir dar %2$d jūsų kontaktų naudojasi WhatsApp.</item>
+        <item quantity="one">%1$s ir dar %2$d jūsų kontaktas naudojasi WhatsApp.</item>
+        <item quantity="few">%1$s ir dar %2$d jūsų kontaktai naudojasi WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s, %3$s ir dar %4$d jūsų kontaktų naudojasi WhatsApp.</item>
+        <item quantity="one">%1$s, %2$s, %3$s ir dar %4$d jūsų kontaktas naudojasi WhatsApp.</item>
+        <item quantity="few">%1$s, %2$s, %3$s ir dar %4$d jūsų kontaktai naudojasi WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s ir dar %3$d jūsų kontaktų naudojasi WhatsApp.</item>
+        <item quantity="one">%1$s, %2$s ir dar %3$d jūsų kontaktas naudojasi WhatsApp.</item>
+        <item quantity="few">%1$s, %2$s ir dar %3$d jūsų kontaktai naudojasi WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">%1$d jūsų kontaktų naudojasi WhatsApp.</item>
+        <item quantity="one">%1$d jūsų kontaktas naudojasi WhatsApp.</item>
+        <item quantity="few">%1$d jūsų kontaktai naudojasi WhatsApp.</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">%d liko</item>
+        <item quantity="one">%d liko</item>
+        <item quantity="few">%d liko</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d dalyvių</item>
+        <item quantity="one">%d dalyvis</item>
+        <item quantity="few">%d dalyviai</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">Pokalbių prisegta</item>
+        <item quantity="one">Pokalbis prisegtas</item>
+        <item quantity="few">Pokalbiai prisegti</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">Atšaukti %d žinučių?</item>
+        <item quantity="one">Atšaukti %d žinutę?</item>
+        <item quantity="few">Atšaukti %d žinutes?</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">%d gavėjų</item>
+        <item quantity="one">%d gavėjas</item>
+        <item quantity="few">%d gavėjai</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">%,d žinučių atkurta. Galite tęsti.</item>
+        <item quantity="one">%,d žinutė atkurta. Galite tęsti.</item>
+        <item quantity="few">%,d žinutės atkurtos. Galite tęsti.</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">Persiųsti %1$d žinučių nuo %2$s</item>
+        <item quantity="one">Persiųsti %1$d žinutę nuo %2$s</item>
+        <item quantity="few">Persiųsti %1$d žinutes nuo %2$s</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">Persiųsti %1$d vakarykščių žinučių</item>
+        <item quantity="one">Persiųsti %1$d vakarykštę žinutę</item>
+        <item quantity="few">Persiųsti %1$d vakarykštes žinutes</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d sekundžių</item>
+        <item quantity="one">%d sekundė</item>
+        <item quantity="few">%d sekundės</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">Siųsti kontaktų</item>
+        <item quantity="one">Siųsti kontaktą</item>
+        <item quantity="few">Siųsti kontaktus</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">Siųsti mano kontaktams išskyrus %d</item>
+        <item quantity="one">Siųsti mano kontaktams išskyrus %d</item>
+        <item quantity="few">Siųsti mano kontaktams išskyrus %d</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">Siųsti %d kontaktų</item>
+        <item quantity="one">Siųsti %d kontaktui</item>
+        <item quantity="few">Siųsti %d kontaktams</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">Siunčiama %1$d audio %2$s</item>
+        <item quantity="one">Siunčiamas %1$d audio %2$s</item>
+        <item quantity="few">Siunčiami %1$d audio %2$s</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">Siunčiama %d audio</item>
+        <item quantity="one">Siunčiamas %d audio</item>
+        <item quantity="few">Siunčiami %d audio</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">Siunčiama %1$d failų %2$s</item>
+        <item quantity="one">Siunčiamas %1$d failas %2$s</item>
+        <item quantity="few">Siunčiami %1$d failai %2$s</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">Siunčiama %d failų</item>
+        <item quantity="one">Siunčiamas %d failas</item>
+        <item quantity="few">Siunčiami %d failai</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">Siunčiama %1$d GIF %2$s</item>
+        <item quantity="one">Siunčiamas %1$d GIF %2$s</item>
+        <item quantity="few">Siunčiami %1$d GIF %2$s</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">Siunčiama %d GIF</item>
+        <item quantity="one">Siunčiamas %d GIF</item>
+        <item quantity="few">Siunčiami %d GIF</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">Siunčiama %d</item>
+        <item quantity="one">Siunčiamas %d</item>
+        <item quantity="few">Siunčiami %d</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">Siunčia %1$d video %2$s</item>
+        <item quantity="one">Siunčia %1$d video %2$s</item>
+        <item quantity="few">Siunčia %1$d video %2$s</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">Siunčia %d video</item>
+        <item quantity="one">Siunčia %d video</item>
+        <item quantity="few">Siunčia %d video</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">Ši WhatsApp versija turi būti atnaujinta po %d dienų. Atnaujinti į naujausią versiją.</item>
+        <item quantity="one">Ši WhatsApp versija turi būti atnaujinta po %d dienos. Atnaujinti į naujausią versiją.</item>
+        <item quantity="few">Ši WhatsApp versija turi būti atnaujinta po %d dienų. Atnaujinti į naujausią versiją.</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">neįtraukta %d kontaktų</item>
+        <item quantity="one">neįtrauktas %d kontaktas</item>
+        <item quantity="few">neįtraukti %d kontaktai</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">pasirinkta %d kontaktų</item>
+        <item quantity="one">pasirinktas %d kontaktas</item>
+        <item quantity="few">pasirinkti %d kontaktai</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">Ištrinta %d būsenos atnaujinimų</item>
+        <item quantity="one">Ištrintas %d būsenos atnaujinimas</item>
+        <item quantity="few">Ištrinti %d būsenos atnaujinimai</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">Išvalyti žinutes (%s)</item>
+        <item quantity="one">Išvalyti žinutę (%s)</item>
+        <item quantity="few">Išvalyti žinutes (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">Išvalyti %1$s (%2$s žinučių)?</item>
+        <item quantity="one">Išvalyti %1$s (%2$s žinutė)?</item>
+        <item quantity="few">Išvalyti %1$s (%2$s žinutės)?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">Išvalyti žinučių</item>
+        <item quantity="one">Išvalyti žinutę</item>
+        <item quantity="few">Išvalyti žinutes</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">Tekstas, siunčiamas į Mano Būseną bus apkirptas iki pirmų %d simbolių.</item>
+        <item quantity="one">Tekstas, siunčiamas į Mano Būseną bus apkirptas iki pirmo %d simbolio.</item>
+        <item quantity="few">Tekstas, siunčiamas į Mano Būseną bus apkirptas iki pirmų %d simbolių.</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">%s liko</item>
+        <item quantity="one">%s liko</item>
+        <item quantity="few">%s liko</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">Pokalbių atsegta</item>
+        <item quantity="one">Pokalbis atsegtas</item>
+        <item quantity="few">Pokalbiai atsegti</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d neperskaitytų žinučių</item>
+        <item quantity="one">%d neperskaityta žinutė</item>
+        <item quantity="few">%d neperskaitytos žinutės</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">Turite %1$d neišsiųtų žinučių parinktyse.</item>
+        <item quantity="one">Turite %1$d neišsiųstą žinutę parinktyse.</item>
+        <item quantity="few">Turite %1$d neišsiųstas žinutes parinktyse.</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">Negalima panaikinti žvaigždutės, kol valomi pokalbiai. Bandykite vėliau.</item>
+        <item quantity="one">Negalima panaikinti žvaigždutės, kol valomas pokalbis. Bandykite vėliau.</item>
+        <item quantity="few">Negalima panaikinti žvaigždutės, kol valomi pokalbiai. Bandykite vėliau.</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d praleistų video skambučių</item>
+        <item quantity="one">%d praleistas video skambutis</item>
+        <item quantity="few">%d praleisti video skambučiai</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">Vaizdo įrašai siunčiami į Mano Būseną bus apkirpti iki pirmų %d sekundžių.</item>
+        <item quantity="one">Vaizdo įrašai siunčiami į Mano Būseną bus apkirpti iki pirmos %d sekundės.</item>
+        <item quantity="few">Vaizdo įrašai siunčiami į Mano Būseną bus apkirpti iki pirmų %d sekundžių.</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">Žiūrėti kontaktų</item>
+        <item quantity="one">Žiūrėti kontaktą</item>
+        <item quantity="few">Žiūrėti kontaktus</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">Peržiūrėjo %d</item>
+        <item quantity="one">Peržiūrėjo %d</item>
+        <item quantity="few">Peržiūrėjo %d</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">Jūs sukūrėte transliacijos sąraša “%1$s” su %2$d gavėjų</item>
+        <item quantity="one">Jūs sukūrėte transliacijos sąraša “%1$s” su %2$d gavėju</item>
+        <item quantity="few">Jūs sukūrėte transliacijos sąraša “%1$s” su %2$d gavėjais</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">Jūsų sukūrėte transliacijos sąraša su %d gavėjų</item>
+        <item quantity="one">Jūsų sukūrėte transliacijos sąraša su %d gavėju</item>
+        <item quantity="few">Jūsų sukūrėte transliacijos sąraša su %d gavėjais</item>
+    </plurals>
+</resources>

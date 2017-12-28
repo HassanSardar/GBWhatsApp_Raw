@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/media_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.whatsapp.gallerypicker.OnZoomListenerPhotoView android:id="@id/photo" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/doodle_view" />
+    </FrameLayout>
+    <include layout="@layout/doodle_decoration" />
+    <include layout="@layout/filter_sheet" />
+    <View android:id="@id/filter_touch_redirector" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

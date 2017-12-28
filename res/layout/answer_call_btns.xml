@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.voipcalling.DeclineCallLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/decline_incoming_call_container" android:layout_width="0.0dip" android:layout_height="180.0dip" android:layout_weight="1.0">
+        <com.whatsapp.AnimatingArrowsLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/decline_call_swipe_up_hint_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="98.0dip">
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_call_caret_up" />
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_call_caret_up" />
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_call_caret_up" />
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_call_caret_up" />
+        </com.whatsapp.AnimatingArrowsLayout>
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/decline_incoming_call_view" android:layout_width="58.0dip" android:layout_height="58.0dip" android:src="@drawable/ic_call_decline" android:contentDescription="@string/swipe_up_to_decline" />
+    </com.whatsapp.voipcalling.DeclineCallLayout>
+    <com.whatsapp.voipcalling.AcceptCallLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/accept_incoming_call_container" android:layout_width="0.0dip" android:layout_height="180.0dip" android:layout_weight="1.0">
+        <com.whatsapp.AnimatingArrowsLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/accept_call_swipe_up_hint_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="98.0dip">
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_call_caret_up" />
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_call_caret_up" />
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_call_caret_up" />
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_call_caret_up" />
+        </com.whatsapp.AnimatingArrowsLayout>
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/accept_incoming_call_view" android:layout_width="58.0dip" android:layout_height="58.0dip" android:src="@drawable/ic_call_accept_voice" android:contentDescription="@string/swipe_up_to_accept" />
+    </com.whatsapp.voipcalling.AcceptCallLayout>
+    <com.whatsapp.voipcalling.ReplyCallLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/reply_incoming_call_container" android:layout_width="0.0dip" android:layout_height="180.0dip" android:layout_weight="1.0">
+        <com.whatsapp.AnimatingArrowsLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/reply_call_swipe_up_hint_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="98.0dip">
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_call_caret_up" />
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_call_caret_up" />
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_call_caret_up" />
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_call_caret_up" />
+        </com.whatsapp.AnimatingArrowsLayout>
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/reply_incoming_call_view" android:layout_width="58.0dip" android:layout_height="58.0dip" android:src="@drawable/ic_call_decline_message" android:contentDescription="@string/swipe_up_to_reply" />
+    </com.whatsapp.voipcalling.ReplyCallLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_data_usage" android:key="account_info_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.preference.WaPreference android:title="@string/settings_network_usage" android:key="network_usage" />
+    <com.whatsapp.preference.WaPreference android:title="@string/storage_usage" android:key="storage_usage" />
+    <Preference android:layout="@layout/divider_row" android:selectable="false" android:key="divider" />
+    <com.whatsapp.preference.WaPreferenceCategory android:title="@string/settings_autodownload" android:key="notification">
+        <com.whatsapp.preference.WaMultiSelectListPreference android:persistent="false" android:entries="@array/autodownload" android:title="@string/settings_autodownload_cellular" android:key="autodownload_cellular" android:defaultValue="@array/autodownload_cellular_defaults" android:entryValues="@array/autodownload_values" />
+        <com.whatsapp.preference.WaMultiSelectListPreference android:persistent="false" android:entries="@array/autodownload" android:title="@string/settings_autodownload_wifi" android:key="autodownload_wifi" android:defaultValue="@array/autodownload_wifi_defaults" android:entryValues="@array/autodownload_values" />
+        <com.whatsapp.preference.WaMultiSelectListPreference android:persistent="false" android:entries="@array/autodownload" android:title="@string/settings_autodownload_roaming" android:key="autodownload_roaming" android:defaultValue="@array/autodownload_roaming_defaults" android:entryValues="@array/autodownload_values" />
+        <Preference android:layout="@layout/settings_autodownload_message" android:selectable="false" android:key="autodownload_message" />
+    </com.whatsapp.preference.WaPreferenceCategory>
+    <com.whatsapp.preference.WaPreferenceCategory android:title="@string/settings_calls_data_usage" android:key="notification">
+        <com.whatsapp.preference.WaCheckBoxPreference android:title="@string/settings_voip_low_data_usage_title" android:key="voip_low_data_usage" android:summary="@string/settings_voip_low_data_usage_summary" android:defaultValue="false" />
+    </com.whatsapp.preference.WaPreferenceCategory>
+</PreferenceScreen>

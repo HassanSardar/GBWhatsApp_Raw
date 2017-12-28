@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="led_support_green_only">On your device, only the colour Green is supported</string>
+    <string name="settings_notification_light_summary">Choose a colour to blink the notification light when a new message is received.</string>
+    <string name="skin_tone_emoji_tip">You can tap and hold some emoji to choose a different colour</string>
+    <string name="wallpaper_preview_chat_content_swipe_left">Swipe left to preview more colours</string>
+    <string name="wallpaper_preview_chat_content_swipe_right">Swipe right to preview more colours</string>
+</resources>

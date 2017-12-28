@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/GB_Mods" xmlns:robobunny="http://robobunny.com"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/chats_show_contact_online_toast" android:key="chats_show_contact_online_toast_check" android:defaultValue="false" />
+    <RingtonePreference android:title="@string/chats_show_contact_online_tone" android:key="chats_play_contact_online_tone" android:defaultValue="" android:ringtoneType="notification" android:showDefault="true" android:showSilent="true" />
+    <ListPreference android:entries="@array/online_tone_mode" android:title="@string/contact_online_tone_do" android:key="contact_online_tone_do" android:defaultValue="0" android:entryValues="@array/online_tone_values" />
+    <ListPreference android:entries="@array/time_online_toast_array" android:title="@string/time_online_toast" android:key="time_online_toast_key" android:defaultValue="0" android:entryValues="@array/time_online_toast_values" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/online_toast_bg" android:key="online_toast_bg_picker" android:defaultValue="@color/primary" />
+    <com.gb.atnfas.ColorSelectorPreference android:title="@string/online_toast_text" android:key="online_toast_text_picker" android:defaultValue="@color/white" />
+    <CheckBoxPreference android:title="@string/photo_changed_toast_t" android:key="photo_changed_toast_check" android:summary="@string/photo_changed_toast_s" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/statuses_toast" android:key="statuses_toast_check" android:summary="@string/statuses_toast_sum" android:defaultValue="false" />
+</PreferenceScreen>

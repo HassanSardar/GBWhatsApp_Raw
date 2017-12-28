@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/stealth_tip_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/all_content" android:background="@drawable/popup_button_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/arrow_pointer" android:layout_width="wrap_content" android:layout_height="33.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ftue_up_arrow_left" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <com.gb.atnfas.font_text android:id="@id/tip_text" android:paddingTop="22.5dip" android:paddingBottom="22.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:text="@string/tap_to_reveal_chats" android:layout_toLeftOf="@id/close_divider" android:layout_toRightOf="@id/arrow_pointer" android:layout_centerInParent="true" style="@style/TipText" />
+        <View android:layout_gravity="center_vertical" android:id="@id/close_divider" android:background="@color/stealth_tip_divider" android:layout_width="1.0dip" android:layout_height="50.0dip" android:layout_toLeftOf="@id/close_tip" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/close_tip" android:background="@drawable/popup_button_bg_selector" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_tip_cross" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

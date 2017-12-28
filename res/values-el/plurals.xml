@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">%d αποδέκτες</item>
+        <item quantity="one">%d αποδέκτης</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">%1$s, και %2$d επιπλέον</item>
+        <item quantity="one">%1$s, και %2$d επιπλέον</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">Κοινοποίηση σε έως %1$d άτομα τη φορά.</item>
+        <item quantity="one">Κοινοποίηση σε έως %1$d άτομο τη φορά.</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">Αποστολή στις %d επαφές</item>
+        <item quantity="one">Αποστολή στην %d επαφή</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">Αρχειοθέτηση συνομιλιών</item>
+        <item quantity="one">Αρχειοθέτηση συνομιλίας</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">Οι συνομιλίες αρχειοθετήθηκαν</item>
+        <item quantity="one">Η συνομιλία αρχειοθετήθηκε</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">Διαγραφή συνομιλιών</item>
+        <item quantity="one">Διαγραφή συνομιλίας</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">Διαγραφή %1$d επιλεγμένων συνομιλιών;</item>
+        <item quantity="one">Διαγραφή %1$d επιλεγμένης συνομιλίας;</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">Έξοδος από ομάδες</item>
+        <item quantity="one">Έξοδος από ομάδα</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">Έξοδος %1$d από τις επιλεγμένες ομάδες;</item>
+        <item quantity="one">Έξοδος %1$d από την επιλεγμένη ομάδα;</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">Καρφίτσωμα συνομιλιών</item>
+        <item quantity="one">Καρφίτσωμα συνομιλίας</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">Συνομιλίες εκτός αρχείου</item>
+        <item quantity="one">Συνομιλία εκτός αρχείου</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">Ξεκαρφίτσωμα συνομιλιών</item>
+        <item quantity="one">Ξεκαρφίτσωμα συνομιλίας</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">Μπορείτε να καρφιτσώσετε μέχρι %1$d συνομιλίες</item>
+        <item quantity="one">Μπορείτε να καρφιτσώσετε μέχρι %1$d συνομιλία</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">Οι ομάδες σας και &lt;a href=\"contacts-link\">%d contacts&lt;/a> θα ειδοποιηθούν για τον νέο σας αριθμό.</item>
+        <item quantity="one">Οι ομάδες σας και &lt;a href=\"contacts-link\">%d contact&lt;/a> θα ειδοποιηθούν για τον νέο σας αριθμό.</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">Αποστολή εγγράφων %1$d σε %2$s;</item>
+        <item quantity="one">Αποστολή εγγράφου %1$d σε %2$s;</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">Θέλετε να μοιραστείτε τα %1$d με %2$s;</item>
+        <item quantity="one">Θέλετε να μοιραστείτε το %1$d με %2$s;</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">Δεν μπορείτε να επιλέξετε πάνω από %1$d επαφές.</item>
+        <item quantity="one">Δεν μπορείτε να επιλέξετε πάνω από %1$d επαφή.</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d άτομα κοινοποιούν την τωρινή τους τοποθεσία</item>
+        <item quantity="one">%d άτομο κοινοποιεί την τωρινή του τοποθεσία</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">Εσείς και %d ακόμη άτομα κοινοποιείτε την τωρινή σας τοποθεσία</item>
+        <item quantity="one">Εσείς και %d ακόμη άτομο κοινοποιείτε την τωρινή σας τοποθεσία</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s και %2$d ακόμα επαφές</item>
+        <item quantity="one">%1$s και %2$d ακόμα επαφή</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d ημέρες</item>
+        <item quantity="one">%d ημέρα</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">Διαγραφή %d μηνυμάτων;</item>
+        <item quantity="one">Διαγραφή %d μηνύματος;</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"Διαγραφή συνομιλίας με \"%1$s\";
+Έχετε ακόμα %2$d μη απεσταλμένα μηνύματα στη συνομιλία."</item>
+        <item quantity="one">"Διαγραφή συνομιλίας με \"%1$s\";
+Έχετε ακόμα %2$d μη απεσταλμένο μήνυμα στη συνομιλία."</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">Διαγραφή %d ενημερώσεων κατάστασης; Θα διαγραφούν και από όσους τις έχουν λάβει.</item>
+        <item quantity="one">Διαγραφή %d ενημέρωση κατάστασης; Θα διαγραφεί και από όσους την έχουν λάβει.</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">Η περιγραφή δεν μπορεί να έχει πάνω από %d χαρακτήρες.</item>
+        <item quantity="one">Η περιγραφή δεν μπορεί να έχει πάνω από %d χαρακτήρα.</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">Αυτές οι φωτογραφίες είναι πολύ μικρές. Παρακαλώ επιλέξτε φωτογραφίες με ύψος και πλάτος τουλάχιστον %d pixel.</item>
+        <item quantity="one">Αυτή η φωτογραφία είναι πολύ μικρή. Παρακαλώ επιλέξτε μια φωτογραφία με ύψος και πλάτος τουλάχιστον %d pixel.</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"Έξοδος από ομάδα \"%1$s\";
+Έχετε ακόμα %2$d μη απεσταλμένα μηνύματα στη συνομιλία."</item>
+        <item quantity="one">"Έξοδος από ομάδα \"%1$s\";
+Έχετε ακόμα %2$d μη απεσταλμένο μήνυμα στη συνομιλία."</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">Αδύνατη η αποστολή %d</item>
+        <item quantity="one">Αδύνατη η αποστολή %d</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d αρχεία διαγράφηκαν από τη συσκευή σας</item>
+        <item quantity="one">%d αρχείο διαγράφηκε από τη συσκευή σας</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">Αυτή η ενημέρωση κατάστασης θα σταλεί στις επαφές σας εκτός από %d.</item>
+        <item quantity="one">Αυτή η ενημέρωση κατάστασης θα σταλεί στις επαφές σας εκτός από %d.</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">Αυτή η ενημέρωση κατάστασης θα σταλεί σε %d επαφές.</item>
+        <item quantity="one">Αυτή η ενημέρωση κατάστασης θα σταλεί σε %d επαφή.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">%d μηνύματα επαναφέρθηκαν. Τα αρχεία σας θα επαναφερθούν στο παρασκήνιο.</item>
+        <item quantity="one">%d μήνυμα επαναφέρθηκε. Τα αρχεία σας θα επαναφερθούν στο παρασκήνιο.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">%d μηνύματα επαναφέρθηκαν</item>
+        <item quantity="one">%d μήνυμα επαναφέρθηκε</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">Αποστολή εγγράφων %1$d σε \"%2$s\";</item>
+        <item quantity="one">Αποστολή εγγράφου %1$d σε \"%2$s\";</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">Θέλετε να μοιραστείτε τα %1$d με \"%2$s\";</item>
+        <item quantity="one">Θέλετε να μοιραστείτε το %1$d με \"%2$s\";</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%s δεν είναι πλέον διαχειριστές</item>
+        <item quantity="one">%s δεν είναι πλέον διαχειριστής</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%s είναι τώρα διαχειριστές</item>
+        <item quantity="one">%s είναι τώρα διαχειριστής</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">Δεν μπορείτε να επιλέξτε πάνω από %1$d μέλη.</item>
+        <item quantity="one">Δεν μπορείτε να επιλέξτε πάνω από %1$d μέλος.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">%d ώρα</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$d ώρες</item>
+        <item quantity="one">%1$d ώρα</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">Μοιράζεστε σε %d συνομιλίες</item>
+        <item quantity="one">Μοιράζεστε σε %d συνομιλία</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d άτομα</item>
+        <item quantity="one">%d άτομο</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d άτομα σταμάτησαν την κοινοποίηση</item>
+        <item quantity="one">%d άτομο σταμάτησε την κοινοποίηση</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">Ακρίβεια %d μέτρων</item>
+        <item quantity="one">Ακρίβεια %d μέτρου</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d μηνύματα αντιγράφηκαν</item>
+        <item quantity="one">%d μήνυμα αντιγράφηκε</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d μηνύματα διαγράφηκαν</item>
+        <item quantity="one">%d μήνυμα διαγράφηκε</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">%d λεπτό</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d λεπτά πριν</item>
+        <item quantity="one">%d λεπτό πριν</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$d λεπτά</item>
+        <item quantity="one">%1$d λεπτό</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d αναπάντητες κλήσεις</item>
+        <item quantity="one">%d αναπάντητη κλήση</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d αναπάντητες κλήσεις</item>
+        <item quantity="one">%d αναπάντητη κλήση</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d επαφές</item>
+        <item quantity="one">%d επαφή</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d επαφές</item>
+        <item quantity="one">%d επαφή</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">Πρέπει να επιλεγούν τουλάχιστον %d επαφές</item>
+        <item quantity="one">Πρέπει να επιλεγεί τουλάχιστον %d επαφή</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">επιλέχθηκαν %d</item>
+        <item quantity="one">επιλέχθηκε %d</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">%d αντικείμενα επιλέχθηκαν</item>
+        <item quantity="one">%d αντικείμενο επιλέχθηκε</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">%1$d από %2$d επιλέχθηκαν</item>
+        <item quantity="one">%1$d από %2$d επιλέχθηκε</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d επιλεγμένες</item>
+        <item quantity="one">%d επιλεγμένη</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">%1$s και %2$d άλλοι</item>
+        <item quantity="one">%1$s και %2$d άλλος</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d μηνύματα</item>
+        <item quantity="one">%1$d μήνυμα</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d ενημερώσεις κατάστασης</item>
+        <item quantity="one">%1$d ενημέρωση κατάστασης</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d κλήσεις</item>
+        <item quantity="one">%1$d κλήση</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d νέα μηνύματα</item>
+        <item quantity="one">%d νέο μήνυμα</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d μηνύματα</item>
+        <item quantity="one">%d μήνυμα</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%1$s από %2$d συνομιλίες</item>
+        <item quantity="one">%1$s από %2$d συνομιλία</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">Δεν μπορείτε να επιλέξετε πάνω από %1$d επαφές.</item>
+        <item quantity="one">Δεν μπορείτε να επιλέξετε πάνω από %1$d επαφή.</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d σελίδες</item>
+        <item quantity="one">%d σελίδα</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d φωτογραφίες</item>
+        <item quantity="one">%d φωτογραφία</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d φύλλα</item>
+        <item quantity="one">%d φύλλο</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d διαφάνιες</item>
+        <item quantity="one">%d διαφάνια</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d βίντεο</item>
+        <item quantity="one">%d βίντεο</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">%1$s, και %2$d ακόμη από τις επαφές σας βρίσκονται στο WhatsApp.</item>
+        <item quantity="one">%1$s, και %2$d ακόμη από τις επαφές σας βρίσκεται στο WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s, %3$s και %4$d ακόμη από τις επαφές σας βρίσκoνται στο WhatsApp.</item>
+        <item quantity="one">%1$s, %2$s, %3$s και %4$d ακόμη από τις επαφές σας βρίσκεται στο WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s, και %3$d ακόμη από τις επαφές σας βρίσκoνται στο WhatsApp.</item>
+        <item quantity="one">%1$s, %2$s, και %3$d ακόμη από τις επαφές σας βρίσκεται στο WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">%1$d επαφές σας είναι στο WhatsApp.</item>
+        <item quantity="one">%1$d επαφή σας είναι στο WhatsApp.</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">%d απομένουν</item>
+        <item quantity="one">%d απομένει</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d μέλη</item>
+        <item quantity="one">%d μέλος</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">Οι συνομιλίες καρφιτσώθηκαν</item>
+        <item quantity="one">Η συνομιλία καρφιτσώθηκε</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">Ανάκληση %d μηνυμάτων;</item>
+        <item quantity="one">Ανάκληση %d μηνύματος;</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">%d παραλήπτες</item>
+        <item quantity="one">%d παραλήπτης</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">%,d μηνύματα επαναφέρθηκαν. Μπορείτε να συνεχίσετε.</item>
+        <item quantity="one">%,d μήνυμα επαναφέρθηκε. Μπορείτε να συνεχίσετε.</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">Αποστολή %1$d μηνυμάτων από %2$s</item>
+        <item quantity="one">Αποστολή %1$d μηνύματος από %2$s</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">Αποστολή %1$d μηνυμάτων από χθες</item>
+        <item quantity="one">Αποστολή %1$d μηνύματος από χθες</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d δευτερόλεπτα</item>
+        <item quantity="one">%d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">Αποστολή επαφών</item>
+        <item quantity="one">Αποστολή επαφής</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">Αποστολή στις επαφές μου εκτός από %d</item>
+        <item quantity="one">Αποστολή στις επαφές μου εκτός από %d</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">Αποστολή σε %d επαφές</item>
+        <item quantity="one">Αποστολή σε %d επαφή</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">Αποστολή %1$d ήχων σε %2$s</item>
+        <item quantity="one">Αποστολή %1$d ήχου σε %2$s</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">Αποστολή %d ήχων</item>
+        <item quantity="one">Αποστολή %d ήχου</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">Αποστολή %1$d αρχείων σε %2$s</item>
+        <item quantity="one">Αποστολή %1$d αρχείου σε %2$s</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">Αποστολή %d αρχείων</item>
+        <item quantity="one">Αποστολή %d αρχείου</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">Αποστολή %1$d GIF σε %2$s</item>
+        <item quantity="one">Αποστολή %1$d GIF σε %2$s</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">Αποστολή %d GIF</item>
+        <item quantity="one">Αποστολή %d GIF</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">Αποστολή %d</item>
+        <item quantity="one">Αποστολή %d</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">Αποστολή %1$d βίντεο σε %2$s</item>
+        <item quantity="one">Αποστολή %1$d βίντεο σε %2$s</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">Αποστολή %d βίντεο</item>
+        <item quantity="one">Αποστολή %d βίντεο</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">Αυτή η έκδοση του WhatsApp πρέπει να ενημερωθεί σε %d μέρες. Ενημέρωση στην τελευταία έκδοση;</item>
+        <item quantity="one">Αυτή η έκδοση του WhatsApp πρέπει να ενημερωθεί σε %d μέρα. Ενημέρωση στην τελευταία έκδοση;</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">%d επαφές εξαιρέθηκαν</item>
+        <item quantity="one">%d επαφή εξαιρέθηκε</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">%d επαφές επιλέχθηκαν</item>
+        <item quantity="one">%d επαφή επιλέχθηκε</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">%d ενημερώσεις καταστάσεων διαγράφηκαν</item>
+        <item quantity="one">%d ενημέρωση κατάστασης διαγράφηκε</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">Εκκαθάριση μηνυμάτων (%s)</item>
+        <item quantity="one">Εκκαθάριση μηνύματος (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">Εκκαθάριση %1$s (%2$s μηνυμάτων);</item>
+        <item quantity="one">Εκκαθάριση %1$s (%2$s μηνύματος);</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">Εκκαθάριση μηνυμάτων</item>
+        <item quantity="one">Εκκαθάριση μηνύματος</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">Τα απεσταλμένα κείμενα στην Κατάστασή μου θα κοπούν στους πρώτους %d χαρακτήρες.</item>
+        <item quantity="one">Το απεσταλμένο κείμενο στην Κατάστασή μου θα κοπεί στους πρώτους %d χαρακτήρες.</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">%s απομένουν</item>
+        <item quantity="one">%s απομένει</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">Οι συνομιλίες ξεκαρφιτσώθηκαν</item>
+        <item quantity="one">Η συνομιλία ξεκαρφιτσώθηκε</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d μη αναγνωσμένα μηνύματα</item>
+        <item quantity="one">%d μη αναγνωσμένο μήνυμα</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">Έχετε επιλέξει %1$d μη απεσταλμένα μηνύματα.</item>
+        <item quantity="one">Έχετε επιλέξει %1$d μη απεσταλμένο μήνυμα.</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">Αδύνατη η σημείωση χωρίς αστέρι όσο η συνομιλία εκκαθαρίζεται. Δοκιμάστε ξανά αργότερα.</item>
+        <item quantity="one">Αδύνατη η σημείωση χωρίς αστέρι όσο η συνομιλία εκκαθαρίζεται. Δοκιμάστε ξανά αργότερα.</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d αναπάντητες βιντεοκλήσεις</item>
+        <item quantity="one">%d αναπάντητη βιντεοκλήση</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">Τα απεσταλμένα βίντεο στην Κατάστασή μου θα κοπούν στα πρώτα %d δευτερόλεπτα</item>
+        <item quantity="one">Το απεσταλμένο βίντεο στην Κατάστασή μου θα κοπεί στα πρώτα %d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">Προβολή επαφών</item>
+        <item quantity="one">Προβολή επαφής</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">Προβλήθηκε από %d</item>
+        <item quantity="one">Προβλήθηκε από %d</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">Δημιουργήσατε ομαδική λίστα \"%1$s\" με %2$d αποδέκτες</item>
+        <item quantity="one">Δημιουργήσατε ομαδική λίστα \"%1$s\" με %2$d αποδέκτη</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">Δημιουργήθηκε ομαδική λίστα με %d παραλήπτες</item>
+        <item quantity="one">Δημιουργήθηκε ομαδική λίστα με %d παραλήπτη</item>
+    </plurals>
+</resources>

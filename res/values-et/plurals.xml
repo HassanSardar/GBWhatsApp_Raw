@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">%d saajat</item>
+        <item quantity="one">%d saaja</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">%1$s, ja %2$d veel</item>
+        <item quantity="one">%1$s, ja %2$d veel</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">Edasta kuni %1$d inimesele korraga.</item>
+        <item quantity="one">Edasta kuni %1$d inimesele korraga.</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">Edasta %d kontaktile</item>
+        <item quantity="one">Edasta %d kontaktile</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">Arhiveeri vestlused</item>
+        <item quantity="one">Arhiveeri vestlus</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">vestlused arhiveeritud</item>
+        <item quantity="one">vestlus arhiveeritud</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">Kustuta vestlused</item>
+        <item quantity="one">Kustuta vestlus</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">Kustutada %1$d valitud vestlused?</item>
+        <item quantity="one">Kustutada %1$d valitud vestlus?</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">Lahku gruppidest</item>
+        <item quantity="one">Lahku grupist</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">Lahkuda %1$d valitud gruppidest?</item>
+        <item quantity="one">Lahkuda %1$d valitud grupist?</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">Kinnita vestlused</item>
+        <item quantity="one">Kinnita vestlus</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">Vestlused arhiivist välja</item>
+        <item quantity="one">Vestlus arhiivist välja</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">Eemalda vestlused</item>
+        <item quantity="one">Eemalda vestlus</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">Saad kinnitada ainult kuni %1$d vestlust</item>
+        <item quantity="one">Saad kinnitada ainult kuni %1$d vestlus</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">Sinu gruppe ja &lt;a href=\"contacts-link\">%d kontakte&lt;/a> teavitatakse sinu uuest numbrist.</item>
+        <item quantity="one">Sinu gruppe ja &lt;a href=\"contacts-link\">%d kontakti&lt;/a> teavitatakse sinu uuest numbrist.</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">Saada %1$d dokumendid kontaktile %2$s?</item>
+        <item quantity="one">Saada %1$d dokument kontaktile %2$s?</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">Kas jagada %1$d kirjet kontaktiga %2$s?</item>
+        <item quantity="one">Kas jagada %1$d kirje kontaktiga %2$s?</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">Sa ei saa valida rohkem kui %1$d kontakti.</item>
+        <item quantity="one">Sa ei saa valida rohkem kui %1$d kontakt.</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d inimest on jagamas oma hetke asukohta</item>
+        <item quantity="one">%d inimene on jagamas oma hetke asukohta</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">Sina ja %d inimest veel jagate hetke asukohta</item>
+        <item quantity="one">Sina ja %d inimene veel jagate hetke asukohta</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s ja %2$d kontakti veel</item>
+        <item quantity="one">%1$s ja %2$d kontakt veel</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d päeva</item>
+        <item quantity="one">%d päev</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">Kustutada %d sõnumit?</item>
+        <item quantity="one">Kustuta %d sõnum?</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"Kustutada vestlus kontaktiga \"%1$s\"?
+Sul on selles vestluses %2$d saatmata sõnumit."</item>
+        <item quantity="one">"Kustutada vestlus kontaktiga \"%1$s\"?
+Sul on selles vestluses %2$d saatmata sõnum."</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">Kustutada %d staatuse uuendused? Need kustutatakse ka kõigil, kes need on saanud.</item>
+        <item quantity="one">Kustutada %d staatuse uuendus? See kustutatakse ka kõigil, kes selle on saanud.</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">Kirjelduses ei saa olla rohkem kui %d tähemärki.</item>
+        <item quantity="one">Kirjelduses ei saa olla rohkem kui %d tähemärk.</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">Need fotod on liiga väiksed. Palun vali fotod, mille kõrgus ja laius on vähemalt %d pikslit.</item>
+        <item quantity="one">See foto on liiga väike. Palun vali foto, mille kõrgus ja laius on vähemalt %d pikslit.</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"Väljuda grupist \"%1$s\"?
+Sul on %2$d saatmata sõnumit selles vestluses."</item>
+        <item quantity="one">"Väljuda grupist \"%1$s\"?
+Sul on %2$d saatmata sõnum selles vestluses."</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">Ei saanud saata %d</item>
+        <item quantity="one">Ei saanud saata %d</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d faili on sinu seadmest kustutatud</item>
+        <item quantity="one">%d fail on sinu seadmest kustutatud</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">See staatuse uuendus saadetakse sinu kontaktidele välja arvatud kontaktid %d.</item>
+        <item quantity="one">See staatuse uuendus saadetakse sinu kontaktidele välja arvatud kontakt %d.</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">See staatuse uuendus saadetakse %d kontaktidele.</item>
+        <item quantity="one">See staatuse uuendus saadetakse %d kontaktile.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">Taastatud %d sõnumit. Sinu meediafailide taastamine jätkub taustal.</item>
+        <item quantity="one">Taastatud %d sõnum. Sinu meediafailide taastamine jätkub taustal.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">taastatud %d sõnumit</item>
+        <item quantity="one">taastatud %d sõnum</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">Saada %1$d dokumendid kontaktile \"%2$s\"?</item>
+        <item quantity="one">Saada %1$d dokument kontaktile \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">Kas jagada %1$d kirjet kontaktiga \"%2$s\"?</item>
+        <item quantity="one">Kas jagada %1$d kirje kontaktiga \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">"%s ei ole enam admin'id"</item>
+        <item quantity="one">%s ei ole enam admin</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">"%s on nüüd admin'id"</item>
+        <item quantity="one">%s on nüüd admin</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">Sa ei saa valida rohkem kui %1$d osalejat.</item>
+        <item quantity="one">Sa ei saa valida rohkem kui %1$d osaleja.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d tundi</item>
+        <item quantity="one">%d tund</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$dt</item>
+        <item quantity="one">%1$dt</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">Jagab %d vestluses</item>
+        <item quantity="one">Jagab %d vestluses</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d isikut</item>
+        <item quantity="one">%d isik</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d isikut lõpetas jagamise</item>
+        <item quantity="one">%d isik lõpetas jagamise</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">Täpsusega %d meetrit</item>
+        <item quantity="one">Täpsusega %d meeter</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d sõnumit kopeeritud</item>
+        <item quantity="one">%d sõnum kopeeritud</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d sõnumit kustutatud</item>
+        <item quantity="one">%d sõnum kustutatud</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d minuti</item>
+        <item quantity="one">%d minuti</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d minutit tagasi</item>
+        <item quantity="one">%d minut tagasi</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$dmin</item>
+        <item quantity="one">%1$dmin</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d vastamata kõnet</item>
+        <item quantity="one">%d vastamata kõne</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d vastamata häälkõned</item>
+        <item quantity="one">%d vastamata häälkõne</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d kontakti</item>
+        <item quantity="one">%d kontakt</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d kontakti</item>
+        <item quantity="one">%d kontakt</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">Vähemalt %d kontakti peavad olema selekteeritud</item>
+        <item quantity="one">Vähemalt %d kontakt peab olema selekteeritud</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d valitud</item>
+        <item quantity="one">%d valitud</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">%d asja valitud</item>
+        <item quantity="one">%d asi valitud</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">"%1$d %2$d'st valitud"</item>
+        <item quantity="one">"%1$d %2$d'st valitud"</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d valitud</item>
+        <item quantity="one">%d valitud</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">%1$s ja %2$d teist</item>
+        <item quantity="one">%1$s ja %2$d teist</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d teadet</item>
+        <item quantity="one">%1$d teade</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d staatuse uuendused</item>
+        <item quantity="one">%1$d staatuse uuendus</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d kõnet</item>
+        <item quantity="one">%1$d kõne</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d uut sõnumit</item>
+        <item quantity="one">%d uus sõnum</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d sõnumit</item>
+        <item quantity="one">%d sõnum</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%1$s %2$d vestluses</item>
+        <item quantity="one">%1$s %2$d vestluses</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">Sa ei saa valida rohkem kui %1$d kontakti.</item>
+        <item quantity="one">Sa ei saa valida rohkem kui %1$d kontakt.</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d lehekülge</item>
+        <item quantity="one">%d lehekülg</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d fotot</item>
+        <item quantity="one">%d foto</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d lehte</item>
+        <item quantity="one">%d leht</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d slaidi</item>
+        <item quantity="one">%d slaid</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d videot</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">"%1$s ja %2$d sinu kontakti veel kasutavad WhatsApp'i."</item>
+        <item quantity="one">"%1$s ja %2$d sinu kontakt veel kasutavad WhatsApp'i."</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">"%1$s, %2$s, %3$s ja %4$d sinu kontakti veel kasutavad WhatsApp'i."</item>
+        <item quantity="one">"%1$s, %2$s, %3$s ja %4$d sinu kontakt veel kasutavad WhatsApp'i."</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">"%1$s, %2$s ja %3$d sinu kontakti veel kasutavad WhatsApp'i."</item>
+        <item quantity="one">"%1$s, %2$s ja %3$d sinu kontakt veel kasutavad WhatsApp'i."</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">"%1$d sinu kontakti kasutab WhatsApp'i."</item>
+        <item quantity="one">"%1$d sinu kontakt kasutab WhatsApp'i."</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">%d jäänud</item>
+        <item quantity="one">%d jäänud</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d osalejat</item>
+        <item quantity="one">%d osaleja</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">Vestlused kinnitatud</item>
+        <item quantity="one">Vestlus kinnitatud</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">Võtad tagasi %d sõnumit?</item>
+        <item quantity="one">Võtad tagasi %d sõnumi?</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">%d vastuvõtjat</item>
+        <item quantity="one">%d vastuvõtja</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">%,d sõnumit taastatud. Oled valmis alustama.</item>
+        <item quantity="one">%,d sõnum taastatud. Oled valmis alustama.</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">Saada %1$d sõnumit alates %2$s</item>
+        <item quantity="one">Saada %1$d sõnum alates %2$s</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">Saada uuesti %1$d sõnumit eilsest</item>
+        <item quantity="one">Saada uuesti %1$d sõnum eilsest</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d sekundit</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">Saada kontaktid</item>
+        <item quantity="one">Saada kontakt</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">Saada minu kontaktidele välja arvatud %d</item>
+        <item quantity="one">Saada minu kontaktidele välja arvatud %d</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">Saada %d kontaktidele</item>
+        <item quantity="one">Saada %d kontaktile</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">"Saadab %1$d audiofaile %2$s'le"</item>
+        <item quantity="one">"Saadab %1$d audiofaili %2$s'le"</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">Saadab audiofaile kontaktidele %d</item>
+        <item quantity="one">Saadab audiot kontaktile %d</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">Saadab %1$d faile kontaktidele %2$s</item>
+        <item quantity="one">Saadab %1$d faili kontaktile %2$s</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">Saadab %d faile</item>
+        <item quantity="one">Saadab %d faili</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">Saadab %1$d GIFe kontaktile %2$s</item>
+        <item quantity="one">Saadab %1$d GIFi kontaktile %2$s</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">Saadab %d GIFe</item>
+        <item quantity="one">Saadab %d GIFi</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">Saadab %d</item>
+        <item quantity="one">Saadab %d</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">%1$d video saatmine kontaktile %2$s</item>
+        <item quantity="one">%1$d video saatmine kontaktile %2$s</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">Saadan %d videot</item>
+        <item quantity="one">Saadan %d videot</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">"Seda WhatsApp'i versiooni tuleb värskendada %d päeva pärast. Kas laadida uusim versioon?"</item>
+        <item quantity="one">"Seda WhatsApp'i versiooni tuleb värskendada %d päeva pärast. Kas laadida uusim versioon?"</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">%d kontaktid välja arvatud</item>
+        <item quantity="one">%d kontakt välja arvatud</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">%d kontaktid valitud</item>
+        <item quantity="one">%d kontakt valitud</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">%d staatuse uuendused kustutatud</item>
+        <item quantity="one">%d staatuse uuendus kustutatud</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">Kustuta sõnumid (%s)</item>
+        <item quantity="one">Kustuta sõnum (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">Kustuta %1$s (%2$s sõnumit)?</item>
+        <item quantity="one">Kustuta %1$s (%2$s sõnum)?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">Kustuta sõnumid</item>
+        <item quantity="one">Kustuta sõnum</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">Tekstid, mis on saadetud Minu Staatusesse lühendatakse esimesele %d märgile.</item>
+        <item quantity="one">Tekst, mis on saadetud Minu Staatusesse lühendatakse esimesele %d märgile.</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">%s jäänud</item>
+        <item quantity="one">%s jäänud</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">Vestlused eemaldatud</item>
+        <item quantity="one">Vestlus eemaldatud</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d lugemata sõnumit</item>
+        <item quantity="one">%d lugemata sõnum</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">Sul on valikus %1$d saatmata sõnumit.</item>
+        <item quantity="one">Sul on valikus %1$d saatmata sõnum.</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">Ei saa sõnumitelt vestluse kustutamise ajal tähistust ära võtta. Proovi hiljem uuesti.</item>
+        <item quantity="one">Ei saa sõnumilt vestluse kustutamise ajal tähistust ära võtta. Proovi hiljem uuesti.</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d vastamata videokõnet</item>
+        <item quantity="one">%d vastamata videokõne</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">Videod, mis on saadetud Minu Staatusesse lühendatakse %d sekunditele</item>
+        <item quantity="one">Video, mis on saadetud Minu Staatusesse lühendatakse %d sekunditele</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">Vaata kontakte</item>
+        <item quantity="one">Vaata kontakti</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">Vaadatud %d poolt</item>
+        <item quantity="one">Vaadatud %d poolt</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">Lõid edastusnimekirja\"%1$s\" %2$d osalejaga</item>
+        <item quantity="one">Lõid edastusnimekirja\"%1$s\" %2$d osalejaga</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">Sa lõid edastusnimekirja %d osalejaga</item>
+        <item quantity="one">Sa lõid edastusnimekirja %d osalejaga</item>
+    </plurals>
+</resources>

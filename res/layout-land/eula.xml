@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/registration_margins" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gb.atnfas.font_text android:textSize="20.0sp" android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/eula_title" style="@style/RegistrationTitle" />
+    <ImageView android:layout_gravity="center|top" android:layout_width="260.0dip" android:layout_height="0.0dip" android:src="@drawable/ill_eula" android:layout_weight="1.0" />
+    <com.gb.atnfas.font_text android:textSize="12.0sp" android:textColor="#ff90949c" android:textColorLink="#ff34b7f1" android:gravity="center" android:layout_gravity="bottom" android:id="@id/eula_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/eula_terms_of_service" android:lineSpacingMultiplier="1.25" />
+    <com.gb.atnfas.RestoreDatabtn android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="@string/msg_store_restore_db" android:layout_above="@id/eula_accept" android:layout_centerInParent="true" style="@style/RedButton" />
+    <Button android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/eula_accept" android:layout_width="280.0dip" android:layout_height="36.0dip" android:layout_marginTop="14.0dip" android:text="@string/eula_agree" style="@style/RegistrationButton" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/filler" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:orientation="vertical" android:id="@id/invite_container" android:background="@color/white" android:paddingTop="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gb.atnfas.font_text android:textColor="@color/body_light_gray" android:id="@id/progress_text" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/verifying_link_invite" />
+            <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/error" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.gb.atnfas.font_text android:textSize="16.0sp" android:textColor="@color/list_item_title" android:gravity="center" android:id="@id/error_text" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/register_try_again_later" android:layout_weight="1.0" />
+            <Button android:layout_gravity="right" android:id="@id/ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ok" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/group_info" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingLeft="22.0dip" android:paddingTop="4.0dip" android:paddingRight="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.whatsapp.ThumbnailButton android:enabled="false" android:layout_gravity="center|top" android:id="@id/group_photo" android:layout_width="@dimen/invite_link_group_image_size" android:layout_height="@dimen/invite_link_group_image_size" android:src="@drawable/avatar_group" android:scaleType="fitCenter" whatsapp:tbtnRadius="@dimen/small_avatar_radius" whatsapp:tbtnForegroundOnly="false" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="12.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.gb.atnfas.font_text android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/group_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+                    <com.gb.atnfas.font_text android:textSize="12.0sp" android:textColor="@color/edit_text_counter" android:id="@id/group_creator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+                    <com.whatsapp.EllipsizedTextEmojiLabel android:textSize="12.0sp" android:textColor="@color/edit_text_counter" android:id="@id/group_description_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.gb.atnfas.font_text android:textSize="12.0sp" android:textColor="@color/edit_text_counter" android:id="@id/participants_title" android:paddingLeft="22.0dip" android:paddingTop="8.0dip" android:paddingRight="22.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <android.support.v7.widget.RecyclerView android:layout_gravity="left" android:id="@id/group_participants" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingLeft="20.0dip" android:paddingTop="12.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/invite_ignore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+                <Button android:id="@id/invite_accept" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/join_group_by_link" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

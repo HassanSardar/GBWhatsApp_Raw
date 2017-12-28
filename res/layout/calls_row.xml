@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/call_row_container" android:layout_width="fill_parent" android:layout_height="@dimen/conversations_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/contact_selector" android:paddingLeft="@dimen/list_row_padding" android:layout_width="wrap_content" android:layout_height="@dimen/conversations_row_height" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.whatsapp.ThumbnailButton android:layout_gravity="center|left" android:id="@id/contact_photo" android:layout_width="@dimen/small_avatar_size" android:layout_height="@dimen/small_avatar_size" android:scaleType="fitCenter" whatsapp:tbtnRadius="@dimen/small_avatar_radius" whatsapp:tbtnForegroundOnly="true" />
+        <com.whatsapp.SelectionCheckView android:layout_gravity="bottom|center|right" android:id="@id/selection_check" android:visibility="gone" android:layout_width="@dimen/selection_check_image_size" android:layout_height="@dimen/selection_check_image_size" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" />
+    </FrameLayout>
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:paddingLeft="@dimen/list_row_padding" android:paddingRight="@dimen/list_row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/call" android:layout_toRightOf="@id/contact_selector" android:layout_centerVertical="true">
+        <com.whatsapp.TextEmojiLabel android:layout_gravity="left" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemTitle" />
+        <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/call_type_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.gb.atnfas.font_text android:layout_gravity="center_vertical" android:id="@id/count" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+            <com.gb.atnfas.font_text android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/date_time" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/ListItemSubtitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:gravity="center" android:id="@id/call" android:background="@drawable/selector_orange_gradient" android:layout_width="64.0dip" android:layout_height="@dimen/conversations_row_height" android:src="@drawable/ic_action_call" android:scaleType="center" android:tint="@color/accent" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/call" />
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/GB_Mods" xmlns:robobunny="http://robobunny.com"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:cmwmobile="http://schemas.android.com/apk/res/com.whatsapp">
+    <PreferenceCategory android:title="GBWhatsApp" android:key="cat_wa">
+        <com.gb.gbwhatsapp.ImageListPreference android:entries="@array/gb_iconss" android:title="@string/gb_icons" android:key="gb_icons" android:defaultValue="3" android:entryValues="@array/gb_iconsv" cmwmobile:entryImages="@array/gb_iconsi" />
+        <com.gb.gbwhatsapp.ImageListPreference android:entries="@array/tick_style_entries" android:title="@string/tick_style_title" android:key="tick_style" android:summary="@string/tick_style_sum" android:defaultValue="0" android:entryValues="@array/tick_style_values" cmwmobile:entryImages="@array/tick_style_images" />
+        <ListPreference android:entries="@array/hide_notify_array" android:title="@string/hide_notifications_title" android:key="gb_notify_key" android:defaultValue="0" android:entryValues="@array/hide_notify_values" />
+        <com.gb.gbwhatsapp.ImageListPreference android:entries="@array/gb_niconss" android:title="@string/gb_nicons" android:key="gb_nicons" android:defaultValue="0" android:entryValues="@array/gb_niconsv" cmwmobile:entryImages="@array/gb_niconsi" />
+        <CheckBoxPreference android:title="@string/GBHideInfo" android:key="hidenum" android:summary="@string/GBHideInfoSum" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/always_online" android:key="always_online_check" android:summary="@string/always_online_summary" android:defaultValue="false" />
+        <com.gb.atnfas.CopyDataPref android:title="@string/BackupTitle" android:summary="@string/BackupSum" />
+        <ListPreference android:entries="@array/old_ui_array" android:title="@string/back_to_old_ui" android:key="back_to_old_ui" android:defaultValue="0" android:entryValues="@array/old_ui_values" />
+        <CheckBoxPreference android:title="@string/status_bar_extended_notify" android:key="status_bar_extended_notify_check" android:summary="@string/status_bar_extended_notify_summary" android:defaultValue="false" />
+        <EditTextPreference android:title="@string/create_shortcut_title" android:key="CreateShortcut" android:summary="@string/create_shortcut_sum" />
+        <CheckBoxPreference android:title="@string/disable_headsup_notify" android:key="disable_headsup_notification_check" android:summary="@string/disable_headsup_notify_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/no_light_prefs_theme" android:key="dark_prefs_theme_check" android:summary="@string/no_light_prefs_theme_summary" android:defaultValue="false" />
+        <com.gb.atnfas.ColorSelectorPreference android:title="@string/circle_notify_color" android:key="circle_notify_color_picker" android:summary="@string/circle_notify_color_sum" android:defaultValue="@color/primary" />
+        <CheckBoxPreference android:title="@string/disable_voice_calls_title" android:key="disable_voice_calls_check" android:summary="@string/disable_voice_calls_sum" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/square_photo_ratio_title" android:key="square_photo_check" android:defaultValue="false" />
+        <com.gb.atnfas.SeekBarPreference android:max="100" android:title="@string/square_photo_ratio" android:key="square_photo_ratio_picker" android:summary="@string/square_photo_ratio_summary" android:dependency="square_photo_check" android:defaultValue="1" robobunny:min="1" robobunny:unitsLeft="" robobunny:unitsRight="" />
+        <CheckBoxPreference android:title="@string/disable_counter" android:key="disable_counter_check" android:defaultValue="false" />
+        <ListPreference android:entries="@array/gif_search_array" android:title="@string/gif_search_title" android:key="gif_search_type" android:summary="@string/gif_search_summary" android:defaultValue="0" android:entryValues="@array/gif_search_values" />
+        <ListPreference android:entries="@array/video_player_array" android:title="@string/video_player_title" android:key="video_player_key" android:defaultValue="0" android:entryValues="@array/video_player_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

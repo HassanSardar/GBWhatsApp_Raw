@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/gradient_bg" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/thumbnail" android:background="@drawable/no_image" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="100.0dip" android:layout_marginRight="2.0dip" android:layout_alignParentLeft="true">
+        <ImageView android:id="@id/image_wp" android:background="@drawable/item_selector" android:layout_width="70.0dip" android:layout_height="100.0dip" />
+        <ImageView android:id="@id/image_chats" android:background="@drawable/item_selector" android:layout_width="70.0dip" android:layout_height="100.0dip" />
+    </LinearLayout>
+    <com.gb.atnfas.font_text android:textSize="15.0dip" android:textStyle="bold" android:textColor="#ffaaaaaa" android:id="@id/name_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="GBWA_v1" android:layout_below="@id/thumbnail" />
+    <Button android:textColor="#ffaaaaaa" android:id="@id/apply_btn" android:background="@drawable/list_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="85.0dip" android:minHeight="40.0dip" android:text="@string/apply_theme" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <com.gb.atnfas.font_text android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ff777777" android:gravity="right" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="date" android:layout_above="@id/name_theme" android:layout_alignRight="@id/apply_btn" />
+    <com.gb.atnfas.font_text android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/newtheme" android:background="#fffb8c00" android:paddingLeft="5.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/newtheme" android:layout_alignRight="@id/apply_btn" android:layout_alignParentTop="true" />
+</RelativeLayout>

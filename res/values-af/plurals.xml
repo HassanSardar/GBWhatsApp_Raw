@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">%d ontvangers</item>
+        <item quantity="one">%d ontvanger</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">%1$s en %2$d meer</item>
+        <item quantity="one">%1$s en %2$d meer</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">"Saai uit na 'n maksimum van %1$d mense op 'n slag."</item>
+        <item quantity="one">"Saai uit na 'n maksimum van %1$d persoon op 'n slag."</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">Saai uit na %d kontakte</item>
+        <item quantity="one">Saai uit na %d kontak</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">Argiveer gesprekke</item>
+        <item quantity="one">Argiveer gesprek</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">Gesprekke geargiveer</item>
+        <item quantity="one">Gesprek geargiveer</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">Vee gesprekke uit</item>
+        <item quantity="one">Vee gesprek uit</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">Vee %1$d geselekteerde gesprekke uit?</item>
+        <item quantity="one">Vee %1$d geselekteerde gesprek uit?</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">Verlaat groepe</item>
+        <item quantity="one">Verlaat groep</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">Verlaat %1$d geselekteerde groepe?</item>
+        <item quantity="one">Verlaat %1$d geselekteerde groep?</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">Speld gesprekke vas</item>
+        <item quantity="one">Speld gesprek vas</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">Deargiveer gesprekke</item>
+        <item quantity="one">Deargiveer gesprek</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">Speld gesprekke los</item>
+        <item quantity="one">Speld gesprek los</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">Jy kan net tot op %1$d gesprekke vasspeld</item>
+        <item quantity="one">Jy kan net tot op %1$d gesprek vasspeld</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">Jou groepe en &lt;a href=\"contacts-link\">%d kontakte&lt;/a> sal in kennis gestel word van jou nuwe nommer.</item>
+        <item quantity="one">Jou groepe en &lt;a href=\"contacts-link\">%d kontak&lt;/a> sal in kennis gestel word van jou nuwe nommer.</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">Stuur %1$d dokumente na %2$s?</item>
+        <item quantity="one">Stuur %1$d dokument na %2$s?</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">Deel %1$d items met %2$s?</item>
+        <item quantity="one">Deel %1$d item met %2$s?</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">Jy kan nie meer as %1$d kontakte selekteer nie.</item>
+        <item quantity="one">Jy kan nie meer as %1$d kontak selekteer nie.</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d persone deel tans regstreekse ligging</item>
+        <item quantity="one">%d persoon deel tans regstreekse ligging</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">Jy en %d ander deel tans regstreekse ligging</item>
+        <item quantity="one">Jy en %d ander persoon deel tans regstreekse ligging</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s en %2$d meer kontakte</item>
+        <item quantity="one">%1$s en %2$d meer kontak</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d dae</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">Vee %d boodskappe uit?</item>
+        <item quantity="one">Vee %d boodskap uit?</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"Vee gesprek met \"%1$s\" uit?
+Jy het %2$d ongestuurde boodskappe in hierdie gesprek."</item>
+        <item quantity="one">"Vee gesprek met \"%1$s\" uit?
+Jy het %2$d ongestuurde boodskap in hierdie gesprek."</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">Vee %d status opdaterings uit? Dit sal ook uitgevee word van almal wat dit ontvang het.</item>
+        <item quantity="one">Vee %d status opdatering uit? Dit sal ook uitgevee word van almal wat dit ontvang het.</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">Beskrywing kan nie meer as %d karakters hê nie.</item>
+        <item quantity="one">Beskrywing kan nie meer as %d karakter hê nie.</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">"Hierdie foto is te klein. Kies asseblief 'n foto met hoogte en wydte van ten minste %d pixels."</item>
+        <item quantity="one">"Hierdie foto is te klein. Kies asseblief 'n foto met hoogte en wydte van ten minste %d pixel."</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"Verlaat \"%1$s\" groep?
+Jy het %2$d ongestuurde boodskappe in hierdie gesprek."</item>
+        <item quantity="one">"Verlaat \"%1$s\" groep?
+Jy het %2$d ongestuurde boodskap in hierdie gesprek."</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">Kon nie %d stuur nie</item>
+        <item quantity="one">Kon nie %d stuur nie</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d lêers is van jou toestel afgevee</item>
+        <item quantity="one">%d lêer is van jou toestel afgevee</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">Hierdie status opdaterings sal aan jou kontakte gestuur word met uitsondering van %d.</item>
+        <item quantity="one">Hierdie status opdatering sal aan jou kontak gestuur word met uitsondering van %d.</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">Hierdie status opdatering sal aan %d kontakte gestuur word.</item>
+        <item quantity="one">Hierdie status opdatering sal aan %d kontak gestuur word.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">%d boodskappe herstel. Jou media sal in die agtergrond herstel word.</item>
+        <item quantity="one">%d boodskap herstel. Jou media sal in die agtergrond herstel word.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">%d boodskappe herstel</item>
+        <item quantity="one">%d boodskap herstel</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">Stuur %1$d dokumente aan \"%2$s\"?</item>
+        <item quantity="one">Stuur %1$d dokument aan \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">Deel %1$d items met \"%2$s\"?</item>
+        <item quantity="one">Deel %1$d item met \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%s is nie meer admin nie</item>
+        <item quantity="one">%s is nie meer ŉ admin nie</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%s is nou admin</item>
+        <item quantity="one">"%s is nou 'n admin"</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">Jy kan nie meer as %1$d deelnemers selekteer nie.</item>
+        <item quantity="one">Jy kan nie meer as %1$d deelnemer selekteer nie.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d ure</item>
+        <item quantity="one">%d uur</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$du</item>
+        <item quantity="one">%1$du</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">Deel tans in %d gesprekke</item>
+        <item quantity="one">Deel tans in %d gesprek</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d persone</item>
+        <item quantity="one">%d persoon</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d persone het opgehou deel</item>
+        <item quantity="one">%d persoon het opgehou deel</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">Akkuraat tot %d meter</item>
+        <item quantity="one">Akkuraat tot %d meter</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d boodskappe gekopieër</item>
+        <item quantity="one">%d boodskap gekopieër</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d boodskappe uitgevee</item>
+        <item quantity="one">%d boodskap uitgevee</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minuut</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d minute gelede</item>
+        <item quantity="one">%d minuut gelede</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$dm</item>
+        <item quantity="one">%1$dm</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d oproepe gemis</item>
+        <item quantity="one">%d oproep gemis</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d stemoproepe gemis</item>
+        <item quantity="one">%d stemoproep gemis</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d kontakte</item>
+        <item quantity="one">%d kontak</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d kontakte</item>
+        <item quantity="one">%d kontak</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">Ten minste %d kontakte moet geselekteer wees</item>
+        <item quantity="one">Ten minste %d kontak moet geselekteer wees</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d geselekteer</item>
+        <item quantity="one">%d geselekteer</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">%d items geselekteer</item>
+        <item quantity="one">%d item geselekteer</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">%1$d van %2$d gekies</item>
+        <item quantity="one">%1$d van %2$d gekies</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d geselekteer</item>
+        <item quantity="one">%d geselekteer</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">%1$s en %2$d ander</item>
+        <item quantity="one">%1$s en %2$d ander</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d boodskappe</item>
+        <item quantity="one">%1$d boodskap</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d statusse opgedateer</item>
+        <item quantity="one">%1$d status opgedateer</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d oproepe</item>
+        <item quantity="one">%1$d oproep</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d nuwe boodskappe</item>
+        <item quantity="one">%d nuwe boodskap</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d boodskappe</item>
+        <item quantity="one">%d boodskap</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%1$s van %2$d gesprekke</item>
+        <item quantity="one">%1$s van %2$d gesprek</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">Jy kan nie meer as %1$d kontakte selekteer nie.</item>
+        <item quantity="one">Jy kan nie meer as %1$d kontak selekteer nie.</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d bladsye</item>
+        <item quantity="one">%d bladsy</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">"%d foto's"</item>
+        <item quantity="one">%d foto</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d sigblaaie</item>
+        <item quantity="one">%d sigblad</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d Veë</item>
+        <item quantity="one">%d Vee</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">"%d video's"</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">%1$s en %2$d ander van jou kontakte is op WhatsApp.</item>
+        <item quantity="one">%1$s en %2$d ander van jou kontak is op WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s, %3$s en %4$d ander van jou kontakte is op WhatsApp.</item>
+        <item quantity="one">%1$s, %2$s, %3$s en %4$d ander van jou kontak is op WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s en %3$d ander van jou kontakte is op WhatsApp.</item>
+        <item quantity="one">%1$s, %2$s en %3$d ander van jou kontak is op WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">%1$d van jou kontakte is op WhatsApp.</item>
+        <item quantity="one">%1$d van jou kontak is op WhatsApp.</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">%d oorblywende</item>
+        <item quantity="one">%d oorblywend</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d deelnemers</item>
+        <item quantity="one">%d deelnemer</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">Gesprekke vasgespeld</item>
+        <item quantity="one">Gesprek vasgespeld</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">Herroep %d boodskappe?</item>
+        <item quantity="one">Herroep %d boodskap?</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">%d ontvangers</item>
+        <item quantity="one">%d ontvanger</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">%,d boodskappe herwin. Jy kan nou voortgaan.</item>
+        <item quantity="one">%,d boodskap herwin. Jy kan nou voortgaan.</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">Herstuur %1$d boodskappe van %2$s</item>
+        <item quantity="one">Herstuur %1$d boodskap van %2$s</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">Herstuur %1$d boodskappe van gister</item>
+        <item quantity="one">Herstuur %1$d boodskap van gister</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d sekondes</item>
+        <item quantity="one">%d sekonde</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">Stuur kontakte</item>
+        <item quantity="one">Stuur kontak</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">Stuur aan my kontakte behalwe %d</item>
+        <item quantity="one">Stuur aan my kontak behalwe %d</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">Stuur aan %d kontakte</item>
+        <item quantity="one">Stuur aan %d kontak</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">"Stuur tans %1$d oudio's na %2$s"</item>
+        <item quantity="one">Stuur tans %1$d oudio na %2$s</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">"Stuur tans %d oudio's"</item>
+        <item quantity="one">Stuur tans %d oudio</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">Stuur tans %1$d lêers na %2$s</item>
+        <item quantity="one">Stuur tans %1$d lêer na %2$s</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">Stuur tans %d lêers</item>
+        <item quantity="one">Stuur tans %d lêer</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">Stuur tans %1$d GIFs na %2$s</item>
+        <item quantity="one">Stuur tans %1$d GIF na %2$s</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">Stuur tans %d GIFs</item>
+        <item quantity="one">Stuur tans %d GIF</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">Stuur tans %d</item>
+        <item quantity="one">Stuur tans %d</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">"Stuur tans %1$d video's na %2$s"</item>
+        <item quantity="one">Stuur tans %1$d video na %2$s</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">"Stuur tans %d video's"</item>
+        <item quantity="one">Stuur tans %d video</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">Hierdie WhatsApp weergawe moet opdateer word binne %d dae. Dateer op na die laaste weergawe?</item>
+        <item quantity="one">Hierdie WhatsApp weergawe moet opdateer word binne %d dag. Dateer op na die laaste weergawe?</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">%d kontakte uitgesluit</item>
+        <item quantity="one">%d kontak uitgesluit</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">%d kontakte geselekteer</item>
+        <item quantity="one">%d kontak geselekteer</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">%d status opdaterings uitgevee</item>
+        <item quantity="one">%d status opdatering uitgevee</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">Verwyder boodskappe (%s)</item>
+        <item quantity="one">Verwyder boodskap (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">Verwyder %1$s (%2$s boodskappe)?</item>
+        <item quantity="one">Verwyder %1$s (%2$s boodskap)?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">Verwyder boodskappe</item>
+        <item quantity="one">Verwyder boodskap</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">Teks wat na My Status gestuur word sal tot die eerste %d sekondes gesny word.</item>
+        <item quantity="one">Teks wat na My Status gestuur word sal tot die eerste %d sekonde gesny word.</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">%s oor</item>
+        <item quantity="one">%s oor</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">Gesprekke losgespeld</item>
+        <item quantity="one">Gesprek losgespeld</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d ongeleesde boodskappe</item>
+        <item quantity="one">%d ongeleesde boodskap</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">Jy het %1$d ongestuurde boodskappe in jou seleksie.</item>
+        <item quantity="one">Jy het %1$d ongestuurde boodskap in jou seleksie.</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">Kan nie boodskappe se sterre uitvee terwyl gesprek verwyder word nie. Probeer weer later.</item>
+        <item quantity="one">Kan nie boodskap se ster uitvee terwyl gesprek verwyder word nie. Probeer weer later.</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d video-oproepe gemis</item>
+        <item quantity="one">%d video-oproep gemis</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">"Video's wat na My Status gestuur word sal gesny word tot die eerste %d sekondes."</item>
+        <item quantity="one">"Video's wat na My Status gestuur word sal gesny word tot die eerste %d sekonde."</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">Bekyk kontakte</item>
+        <item quantity="one">Bekyk kontak</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">Gesien deur %d</item>
+        <item quantity="one">Gesien deur %d</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">Jy het uitsaailys \"%1$s\" met %2$d ontvangers geskep</item>
+        <item quantity="one">Jy het uitsaailys \"%1$s\" met %2$d ontvanger geskep</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">"Jy het 'n uitsaailys met %d ontvangers geskep"</item>
+        <item quantity="one">"Jy het 'n uitsaailys met %d ontvanger geskep"</item>
+    </plurals>
+</resources>

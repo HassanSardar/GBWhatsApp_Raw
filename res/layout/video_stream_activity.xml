@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:background="#ff000000" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.videoplayback.ExoPlayerView android:id="@id/player_view" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.whatsapp.videoplayback.ExoPlayerErrorFrame android:id="@id/exoplayer_error_elements" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.whatsapp.videoplayback.ExoPlaybackControlView android:id="@id/control" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/send_current_location_btn" android:background="@drawable/selector_orange_gradient" android:layout_width="wrap_content" android:layout_height="@dimen/location_picker_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="left" android:layout_width="@dimen/location_picker_row_height" android:layout_height="@dimen/location_picker_row_height">
+        <ImageView android:layout_gravity="center" android:id="@id/send_current_location_icon" android:background="@drawable/send_current_location_background" android:layout_width="@dimen/location_picker_icon_size" android:layout_height="@dimen/location_picker_icon_size" android:src="@drawable/ic_current_location" android:scaleType="center" android:tint="@color/list_item_verified_title" />
+    </FrameLayout>
+    <LinearLayout android:gravity="left" android:layout_gravity="center|left" android:orientation="vertical" android:paddingLeft="@dimen/location_picker_row_height" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gb.atnfas.font_text android:textAppearance="?android:textAppearanceSmallInverse" android:textSize="17.0sp" android:textColor="@android:color/primary_text_light" android:ellipsize="end" android:id="@id/send_current_location_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send_this_location" android:maxLines="1" />
+        <com.gb.atnfas.font_text android:textSize="14.0sp" android:textColor="#ff999999" android:ellipsize="end" android:id="@id/location_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/this_location_divider" android:background="@color/divider_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:id="@id/content" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center|left" android:id="@id/primary_action_btn" android:background="@drawable/selector_orange_gradient" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/primary_action_icon" android:layout_width="@dimen/small_list_row_height" android:layout_height="@dimen/small_list_row_height" android:src="@drawable/ic_action_message" android:scaleType="center" android:tint="@color/accent" />
+            <LinearLayout android:gravity="center|left" android:layout_gravity="center|left" android:orientation="vertical" android:paddingTop="@dimen/small_list_row_padding" android:paddingBottom="@dimen/small_list_row_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.gb.atnfas.font_text android:layout_gravity="center|left" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="ltr" style="@style/ListItemTitle" />
+                <com.gb.atnfas.font_text android:layout_gravity="center|left" android:id="@id/subtitle_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+            </LinearLayout>
+            <CheckBox android:id="@id/cbx" android:background="@drawable/selector_orange_gradient" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </LinearLayout>
+        <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/secondary_action_btn" android:background="@drawable/selector_orange_gradient" android:layout_width="55.0dip" android:layout_height="@dimen/small_list_row_height" android:src="@drawable/ic_action_call" android:scaleType="center" android:tint="@color/accent" android:contentDescription="@string/audio_call" />
+        <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/third_action_btn" android:background="@drawable/selector_orange_gradient" android:layout_width="55.0dip" android:layout_height="@dimen/small_list_row_height" android:src="@drawable/ic_action_videocall" android:scaleType="center" android:tint="@color/accent" android:contentDescription="@string/video_call" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+</LinearLayout>

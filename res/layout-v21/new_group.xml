@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.EmojiPopupLayout android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="120.0dip">
+                            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="74.0dip">
+                                <RelativeLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                    <com.whatsapp.ThumbnailButton android:id="@id/change_photo_btn" android:layout_width="@dimen/small_avatar_size" android:layout_height="@dimen/small_avatar_size" android:src="@drawable/ic_addphoto" android:scaleType="fitCenter" android:contentDescription="@string/group_photo" whatsapp:tbtnRadius="-1.0dip" />
+                                    <ProgressBar android:layout_gravity="center" android:id="@id/change_photo_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmallInverse" />
+                                </RelativeLayout>
+                                <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip">
+                                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_toLeftOf="@id/emoji_btn" android:layout_alignBottom="@id/emoji_btn" android:layout_centerVertical="true">
+                                        <EditText android:textSize="16.0sp" android:textColorHint="#8a000000" android:ellipsize="end" android:id="@id/group_name" android:paddingRight="@dimen/counter_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/group_name_hint" android:maxLines="1" android:lines="1" android:singleLine="true" android:capitalize="sentences" android:imeOptions="actionDone" />
+                                        <com.gb.atnfas.font_text android:textSize="12.0sp" android:textColor="#8a000000" android:id="@id/subject_counter_tv" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignBaseline="@id/group_name" android:layout_alignParentRight="true" />
+                                    </RelativeLayout>
+                                    <ImageButton android:id="@id/emoji_btn" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/input_emoji" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ActionBarButtonStyle" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                            <com.gb.atnfas.font_text android:textSize="13.0sp" android:textColor="#8a000000" android:gravity="left" android:paddingLeft="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_group_info_prompt" />
+                        </LinearLayout>
+                        <FrameLayout android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <com.gb.atnfas.font_text android:textSize="14.0sp" android:textColor="#8a000000" android:layout_gravity="left" android:id="@id/selected_header" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </FrameLayout>
+                    </LinearLayout>
+                    <ImageButton android:layout_gravity="right" android:id="@id/ok_btn" android:background="@drawable/input_circle_green" android:layout_width="@dimen/submit_button_size" android:layout_height="@dimen/submit_button_size" android:layout_marginTop="92.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/ic_fab_check" android:scaleType="center" android:contentDescription="@string/create" android:elevation="4.0dip" />
+                </FrameLayout>
+                <GridView android:id="@id/selected_items" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:verticalSpacing="16.0dip" android:stretchMode="spacingWidthUniform" android:columnWidth="86.0dip" android:numColumns="auto_fit" />
+            </LinearLayout>
+            <com.whatsapp.emoji.search.EmojiSearchContainer android:id="@id/emoji_search_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+</com.whatsapp.EmojiPopupLayout>

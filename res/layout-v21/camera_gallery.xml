@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/gallery_header_transition" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/transition_header" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.BidiToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+        <com.whatsapp.BidiToolbar android:id="@id/gallery_action_mode_bar" android:background="@color/action_mode" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    </FrameLayout>
+    <include layout="@layout/image_gallery" />
+    <View android:id="@id/gallery_footer_transition" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/transition_footer" />
+    <View android:layout_gravity="bottom|center|right" android:id="@id/gallery_send_button_transition" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginRight="44.0dip" android:transitionName="@string/transition_send" />
+</LinearLayout>

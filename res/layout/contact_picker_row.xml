@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/conversations_row_height">
+        <FrameLayout android:id="@id/contact_selector" android:layout_width="@dimen/contact_selector_width" android:layout_height="@dimen/conversations_row_height" android:layout_alignParentLeft="true">
+            <com.whatsapp.ThumbnailButton android:enabled="false" android:layout_gravity="center" android:id="@id/contactpicker_row_photo" android:layout_width="@dimen/small_avatar_size" android:layout_height="@dimen/small_avatar_size" android:scaleType="fitCenter" whatsapp:tbtnRadius="0.0dip" whatsapp:tbtnForegroundOnly="false" />
+            <com.whatsapp.SelectionCheckView android:layout_gravity="bottom|center|right" android:id="@id/selection_check" android:layout_width="@dimen/selection_check_image_size" android:layout_height="@dimen/selection_check_image_size" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <com.gb.atnfas.font_text android:textSize="13.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/invite" android:background="@drawable/btn_invite" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_row_padding" android:text="@string/invite" android:singleLine="true" android:textAllCaps="true" />
+            <ImageButton android:gravity="center|right" android:id="@id/contactpicker_call_button" android:background="@drawable/selector_orange_gradient" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="@dimen/conversations_row_height" android:src="@drawable/ic_action_call" android:tint="@color/accent" android:contentDescription="@string/audio_call" />
+            <ImageButton android:gravity="center|right" android:id="@id/contactpicker_videocall_button" android:background="@drawable/selector_orange_gradient" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="@dimen/conversations_row_height" android:src="@drawable/ic_action_videocall" android:tint="@color/accent" android:contentDescription="@string/video_call" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingRight="@dimen/list_row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/buttons" android:layout_toRightOf="@id/contact_selector" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.whatsapp.TextEmojiLabel android:layout_gravity="center|left" android:id="@id/contactpicker_row_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/ListItemTitle" />
+                </FrameLayout>
+                <com.gb.atnfas.font_text android:textSize="12.0sp" android:textColor="@color/contact_phone_type" android:gravity="center|right" android:id="@id/contactpicker_row_phone_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/contact_picker_type_max_width" android:singleLine="true" android:layout_weight="0.0" android:layout_alignParentRight="true" android:textAllCaps="true" />
+            </LinearLayout>
+            <com.gb.atnfas.font_text android:textSize="12.0sp" android:textColor="#ffcdcdcd" android:layout_gravity="right" android:id="@id/contacts_show_contact_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:layout_marginBottom="-3.0dip" />
+            <com.whatsapp.TextEmojiLabel android:textStyle="normal" android:gravity="left" android:layout_gravity="left" android:id="@id/contactpicker_row_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/ListItemSubtitle" />
+            <com.gb.atnfas.font_text android:textSize="12.0sp" android:textColor="@color/contact_phone_type" android:gravity="center|left" android:id="@id/callsfragment_contactpicker_row_phone_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/contact_picker_type_max_width" android:singleLine="true" android:textAllCaps="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

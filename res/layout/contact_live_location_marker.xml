@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/contact_photo_pos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_live_location_shadow" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="7.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:background="@drawable/white_circle" android:layout_width="@dimen/small_avatar_size" android:layout_height="@dimen/small_avatar_size" />
+            <com.whatsapp.ContactLiveLocationThumbnail android:layout_gravity="center" android:id="@id/contact_photo" android:padding="2.5dip" android:layout_width="@dimen/small_avatar_size" android:layout_height="@dimen/small_avatar_size" android:scaleType="fitCenter" whatsapp:clltGlowSize="2.0dip" whatsapp:clltGlowColor="@color/live_location_live_location_marker" whatsapp:clltStackSize="12" whatsapp:tbtnRadius="@dimen/small_avatar_radius" whatsapp:tbtnBorderSize="1.0dip" whatsapp:tbtnBorderColor="@color/white" whatsapp:tbtnForegroundOnly="false" />
+        </FrameLayout>
+        <ImageView android:layout_gravity="center" android:id="@id/contact_dot" android:background="@drawable/white_circle" android:layout_width="4.0dip" android:layout_height="4.0dip" android:layout_marginTop="1.0dip" android:scaleType="center" />
+    </LinearLayout>
+</FrameLayout>

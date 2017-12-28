@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton android:textSize="18.0sp" android:layout_gravity="center|left" android:paddingLeft="20.0dip" android:paddingTop="@dimen/gdrive_new_user_setup_freq_option_vertical_padding" android:paddingBottom="@dimen/gdrive_new_user_setup_freq_option_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

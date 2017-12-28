@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">%d получателей</item>
+        <item quantity="one">%d получатель</item>
+        <item quantity="few">%d получателя</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">%1$s, и еще %2$d</item>
+        <item quantity="one">%1$s, и еще %2$d</item>
+        <item quantity="few">%1$s, и еще %2$d</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">Максимальное количество людей в списке рассылки: %1$d</item>
+        <item quantity="one">Максимальное количество людей в списке рассылки: %1$d</item>
+        <item quantity="few">Максимальное количество людей в списке рассылки: %1$d</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">Рассылка %d контактам</item>
+        <item quantity="one">Рассылка %d контакту</item>
+        <item quantity="few">Рассылка %d контактам</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">Архивировать чаты</item>
+        <item quantity="one">Архивировать чат</item>
+        <item quantity="few">Архивировать чаты</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">Чатов архивировано</item>
+        <item quantity="one">Чат архивирован</item>
+        <item quantity="few">Чата архивировано</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">Удалить чаты</item>
+        <item quantity="one">Удалить чат</item>
+        <item quantity="few">Удалить чаты</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">Удалить %1$d выбранных чатов?</item>
+        <item quantity="one">Удалить %1$d выбранный чат?</item>
+        <item quantity="few">Удалить %1$d выбранных чата?</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">Выйти из групп</item>
+        <item quantity="one">Выйти из группы</item>
+        <item quantity="few">Выйти из групп</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">Выйти из %1$d выбранных групп?</item>
+        <item quantity="one">Выйти из %1$d выбранной группы?</item>
+        <item quantity="few">Выйти из %1$d выбранных групп?</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">Закрепить чаты</item>
+        <item quantity="one">Закрепить чат</item>
+        <item quantity="few">Закрепить чаты</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">Разархивировать чатов</item>
+        <item quantity="one">Разархивировать чат</item>
+        <item quantity="few">Разархивировать чата</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">Открепить чаты</item>
+        <item quantity="one">Открепить чат</item>
+        <item quantity="few">Открепить чаты</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">Вы можете закрепить только %1$d чатов</item>
+        <item quantity="one">Вы можете закрепить только %1$d чат</item>
+        <item quantity="few">Вы можете закрепить только %1$d чата</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">Ваши группы и &lt;a href=\"contacts-link\">%d контактов&lt;/a> будут извещены о смене вашего номера телефона.</item>
+        <item quantity="one">Ваши группы и &lt;a href=\"contacts-link\">%d контакт&lt;/a> будут извещены о смене вашего номера телефона.</item>
+        <item quantity="few">Ваши группы и &lt;a href=\"contacts-link\">%d контакта&lt;/a> будут извещены о смене вашего номера телефона.</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">Отправить %1$d документов пользователю %2$s?</item>
+        <item quantity="one">Отправить %1$d документ пользователю %2$s?</item>
+        <item quantity="few">Отправить %1$d документа пользователю %2$s?</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">Поделиться %1$d файлами с %2$s?</item>
+        <item quantity="one">Поделиться %1$d файлом с %2$s?</item>
+        <item quantity="few">Поделиться %1$d файлами с %2$s?</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">Вы не можете выбрать более %1$d контактов.</item>
+        <item quantity="one">Вы не можете выбрать более %1$d контакта.</item>
+        <item quantity="few">Вы не можете выбрать более %1$d контактов.</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d контактов делятся геоданными</item>
+        <item quantity="one">%d контакт делится геоданными</item>
+        <item quantity="few">%d контакта делятся геоданными</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">Вы и %d контактов делитесь геоданными</item>
+        <item quantity="one">Вы и %d контакт делитесь геоданными</item>
+        <item quantity="few">Вы и %d контакта делитесь геоданными</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s и еще %2$d контактов</item>
+        <item quantity="one">%1$s и еще %2$d контакт</item>
+        <item quantity="few">%1$s и еще %2$d контакта</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d дней</item>
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">Удалить %d сообщений?</item>
+        <item quantity="one">Удалить %d сообщение?</item>
+        <item quantity="few">Удалить %d сообщения?</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"Удалить чат с \"%1$s\"?
+У вас осталось %2$d неотправленных сообщений в чате."</item>
+        <item quantity="one">"Удалить чат с \"%1$s\"?
+У вас осталось %2$d неотправленное сообщение в чате."</item>
+        <item quantity="few">"Удалить чат с \"%1$s\"?
+У вас осталось %2$d неотправленных сообщения в чате."</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">Удалить %d статусов? Они также будут удалены у всех, кто их получил.</item>
+        <item quantity="one">Удалить %d статус? Он также будет удален у всех, кто его получил.</item>
+        <item quantity="few">Удалить %d статуса? Они также будут удалены у всех, кто их получил.</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">Описание не может содержать более %d знаков.</item>
+        <item quantity="one">Описание не может содержать более %d знака.</item>
+        <item quantity="few">Описание не может содержать более %d знаков.</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">Данное фото слишком маленькое. Пожалуйста, выберите фото размером не менее %d пикселей в высоту и ширину.</item>
+        <item quantity="one">Данное фото слишком маленькое. Пожалуйста, выберите фото размером не менее %d пикселя в высоту и ширину.</item>
+        <item quantity="few">Данное фото слишком маленькое. Пожалуйста, выберите фото размером не менее %d пикселей в высоту и ширину.</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"Выйти из группы \"%1$s\"?
+У вас осталось %2$d неотправленных сообщения в чате."</item>
+        <item quantity="one">"Выйти из группы \"%1$s\"?
+У вас осталось %2$d неотправленное сообщение в чате."</item>
+        <item quantity="few">"Выйти из группы \"%1$s\"?
+У вас осталось %2$d неотправленных сообщения в чате."</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">Не удалось отправить %d</item>
+        <item quantity="one">Не удалось отправить %d</item>
+        <item quantity="few">Не удалось отправить %d</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d файлов удалены с вашего устройства</item>
+        <item quantity="one">%d файл удален с вашего устройства</item>
+        <item quantity="few">%d файла удалены с вашего устройства</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">Статус будет отправлен вашим контактам, кроме %d.</item>
+        <item quantity="one">Статус будет отправлен вашим контактам, кроме %d.</item>
+        <item quantity="few">Статус будет отправлен вашим контактам, кроме %d.</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">Статус будет отправлен %d контактам.</item>
+        <item quantity="one">Статус будет отправлен %d контакту.</item>
+        <item quantity="few">Статус будет отправлен %d контактам.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">Восстановлено %d сообщений. Медиафайлы будут восстановлены в фоновом режиме.</item>
+        <item quantity="one">Восстановлено %d сообщение. Медиафайлы будут восстановлены в фоновом режиме.</item>
+        <item quantity="few">Восстановлено %d сообщения. Медиафайлы будут восстановлены в фоновом режиме.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">Восстановлено %d сообщений</item>
+        <item quantity="one">Восстановлено %d сообщение</item>
+        <item quantity="few">Восстановлено %d сообщения</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">Отправить %1$d документов в \"%2$s\"?</item>
+        <item quantity="one">Отправить %1$d документ в \"%2$s\"?</item>
+        <item quantity="few">Отправить %1$d документа в \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">Поделиться %1$d файлами с \"%2$s\"?</item>
+        <item quantity="one">Поделиться %1$d файлом с \"%2$s\"?</item>
+        <item quantity="few">Поделиться %1$d файлами с \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%s больше не являются админами</item>
+        <item quantity="one">%s больше не является админом</item>
+        <item quantity="few">%s больше не являются админами</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%s теперь админы</item>
+        <item quantity="one">%s теперь админ</item>
+        <item quantity="few">%s теперь админы</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">Вы не можете выбрать более %1$d участников.</item>
+        <item quantity="one">Вы не можете выбрать более %1$d участника.</item>
+        <item quantity="few">Вы не можете выбрать более %1$d участников.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d часов</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$d ч</item>
+        <item quantity="one">%1$d ч</item>
+        <item quantity="few">%1$d ч</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">Геоданные в %d чатах</item>
+        <item quantity="one">Геоданные в %d чате</item>
+        <item quantity="few">Геоданные в %d чатах</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d человек</item>
+        <item quantity="one">%d человек</item>
+        <item quantity="few">%d человека</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d контактов перестали делиться</item>
+        <item quantity="one">%d контакт перестал делиться</item>
+        <item quantity="few">%d контакта перестали делиться</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">Точность: %d метров</item>
+        <item quantity="one">Точность: %d метр</item>
+        <item quantity="few">Точность: %d метра</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">скопировано %d сообщений</item>
+        <item quantity="one">скопировано %d сообщение</item>
+        <item quantity="few">скопировано %d сообщения</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">Удалено %d сообщений</item>
+        <item quantity="one">Удалено %d сообщение</item>
+        <item quantity="few">Удалено %d сообщения</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">%d мин.</item>
+        <item quantity="few">%d минуты</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d мин. назад</item>
+        <item quantity="one">%d мин. назад</item>
+        <item quantity="few">%d мин. назад</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$d мин</item>
+        <item quantity="one">%1$d мин</item>
+        <item quantity="few">%1$d мин</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d пропущенных звонков</item>
+        <item quantity="one">%d пропущенный звонок</item>
+        <item quantity="few">%d пропущенных звонка</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d пропущенных аудиозвонков</item>
+        <item quantity="one">%d пропущенный аудиозвонок</item>
+        <item quantity="few">%d пропущенных аудиозвонка</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d контактов</item>
+        <item quantity="one">%d контакт</item>
+        <item quantity="few">%d контакта</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d контактов</item>
+        <item quantity="one">%d контакт</item>
+        <item quantity="few">%d контакта</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">Должны быть выбраны по крайней мере %d контактов</item>
+        <item quantity="one">Должен быть выбран по крайней мере %d контакт</item>
+        <item quantity="few">Должны быть выбраны по крайней мере %d контакта</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d выбрано</item>
+        <item quantity="one">%d выбрано</item>
+        <item quantity="few">%d выбрано</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">Выбрано %d файлов</item>
+        <item quantity="one">Выбран %d файл</item>
+        <item quantity="few">Выбрано %d файла</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">выбраны %1$d из %2$d</item>
+        <item quantity="one">выбран %1$d из %2$d</item>
+        <item quantity="few">выбраны %1$d из %2$d</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d выбрано</item>
+        <item quantity="one">%d выбрано</item>
+        <item quantity="few">%d выбрано</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">%1$s и еще %2$d</item>
+        <item quantity="one">%1$s и еще %2$d</item>
+        <item quantity="few">%1$s и еще %2$d</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d сообщений</item>
+        <item quantity="one">%1$d сообщение</item>
+        <item quantity="few">%1$d сообщения</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d статусов</item>
+        <item quantity="one">%1$d статус</item>
+        <item quantity="few">%1$d статуса</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d звонков</item>
+        <item quantity="one">%1$d звонок</item>
+        <item quantity="few">%1$d звонка</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d новых сообщений</item>
+        <item quantity="one">%d новое сообщение</item>
+        <item quantity="few">%d новых сообщения</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d сообщений</item>
+        <item quantity="one">%d сообщение</item>
+        <item quantity="few">%d сообщения</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%1$s из %2$d чатов</item>
+        <item quantity="one">%1$s из %2$d чата</item>
+        <item quantity="few">%1$s из %2$d чатов</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">Вы не можете выбрать более %1$d контактов.</item>
+        <item quantity="one">Вы не можете выбрать более %1$d контакта.</item>
+        <item quantity="few">Вы не можете выбрать более %1$d контактов.</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d страниц</item>
+        <item quantity="one">%d страница</item>
+        <item quantity="few">%d страницы</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d фото</item>
+        <item quantity="one">%d фото</item>
+        <item quantity="few">%d фото</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d листов</item>
+        <item quantity="one">%d лист</item>
+        <item quantity="few">%d листа</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d слайдов</item>
+        <item quantity="one">%d слайд</item>
+        <item quantity="few">%d слайда</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d видео</item>
+        <item quantity="one">%d видео</item>
+        <item quantity="few">%d видео</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">%1$s и еще %2$d ваших контактов используют WhatsApp.</item>
+        <item quantity="one">%1$s и еще %2$d ваш контакт используют WhatsApp.</item>
+        <item quantity="few">%1$s и еще %2$d ваши контакта используют WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s, %3$s и еще %4$d ваших контактов используют WhatsApp.</item>
+        <item quantity="one">%1$s, %2$s, %3$s и еще %4$d ваш контакт используют WhatsApp.</item>
+        <item quantity="few">%1$s, %2$s, %3$s и еще %4$d ваши контакта используют WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s и еще %3$d ваших контактов используют WhatsApp.</item>
+        <item quantity="one">%1$s, %2$s и еще %3$d ваш контакт используют WhatsApp.</item>
+        <item quantity="few">%1$s, %2$s и еще %3$d ваши контакта используют WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">%1$d ваших контактов используют WhatsApp.</item>
+        <item quantity="one">%1$d ваш контакт использует WhatsApp.</item>
+        <item quantity="few">%1$d ваши контакта используют WhatsApp.</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">осталось %d</item>
+        <item quantity="one">осталось %d</item>
+        <item quantity="few">осталось %d</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d участников</item>
+        <item quantity="one">%d участник</item>
+        <item quantity="few">%d участника</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">Чаты закреплены</item>
+        <item quantity="one">Чат закреплен</item>
+        <item quantity="few">Чаты закреплены</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">Отозвать %d сообщений?</item>
+        <item quantity="one">Отозвать %d сообщение?</item>
+        <item quantity="few">Отозвать %d сообщения?</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">%d получателей</item>
+        <item quantity="one">%d получатель</item>
+        <item quantity="few">%d получателя</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">Восстановлено %,d сообщений. Готово!</item>
+        <item quantity="one">Восстановлено %,d сообщение. Готово!</item>
+        <item quantity="few">Восстановлено %,d сообщения. Готово!</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">Отправить снова %1$d сообщений от %2$s</item>
+        <item quantity="one">Отправить снова %1$d сообщение от %2$s</item>
+        <item quantity="few">Отправить снова %1$d сообщения от %2$s</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">Отправить снова %1$d сообщений (вчера)</item>
+        <item quantity="one">Отправить снова %1$d сообщение (вчера)</item>
+        <item quantity="few">Отправить снова %1$d сообщения (вчера)</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d секунд</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">Отправить контактов</item>
+        <item quantity="one">Отправить контакт</item>
+        <item quantity="few">Отправить контакта</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">Отправить контактам, кроме %d</item>
+        <item quantity="one">Отправить контактам, кроме %d</item>
+        <item quantity="few">Отправить контактам, кроме %d</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">Отправить %d контактам</item>
+        <item quantity="one">Отправить %d контакту</item>
+        <item quantity="few">Отправить %d контактам</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">Отправка %1$d аудио к %2$s</item>
+        <item quantity="one">Отправка %1$d аудио к %2$s</item>
+        <item quantity="few">Отправка %1$d аудио к %2$s</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">Отправка %d аудио</item>
+        <item quantity="one">Отправка %d аудио</item>
+        <item quantity="few">Отправка %d аудио</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">Отправка %1$d файлов %2$s</item>
+        <item quantity="one">Отправка %1$d файла %2$s</item>
+        <item quantity="few">Отправка %1$d файлов %2$s</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">Отправка %d файлов</item>
+        <item quantity="one">Отправка %d файла</item>
+        <item quantity="few">Отправка %d файлов</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">Отправка %1$d GIF пользователю %2$s</item>
+        <item quantity="one">Отправка %1$d GIF пользователю %2$s</item>
+        <item quantity="few">Отправка %1$d GIF пользователю %2$s</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">Отправка %d GIF</item>
+        <item quantity="one">Отправка %d GIF</item>
+        <item quantity="few">Отправка %d GIF</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">Отправка %d</item>
+        <item quantity="one">Отправка %d</item>
+        <item quantity="few">Отправка %d</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">Отправка %1$d видео %2$s</item>
+        <item quantity="one">Отправка %1$d видео %2$s</item>
+        <item quantity="few">Отправка %1$d видео %2$s</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">Отправка %d видео</item>
+        <item quantity="one">Отправка %d видео</item>
+        <item quantity="few">Отправка %d видео</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">Необходимо обновить данную версию WhatsApp через %d дней. Установить последнюю версию?</item>
+        <item quantity="one">Необходимо обновить данную версию WhatsApp через %d день. Установить последнюю версию?</item>
+        <item quantity="few">Необходимо обновить данную версию WhatsApp через %d дня. Установить последнюю версию?</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">Исключено контактов: %d</item>
+        <item quantity="one">Исключено контактов: %d</item>
+        <item quantity="few">Исключено контактов: %d</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">Выбрано контактов: %d</item>
+        <item quantity="one">Выбрано контактов: %d</item>
+        <item quantity="few">Выбрано контактов: %d</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">удалено статусов: %d</item>
+        <item quantity="one">удалено статусов: %d</item>
+        <item quantity="few">удалено статусов: %d</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">Удалить сообщения (%s)</item>
+        <item quantity="one">Удалить сообщение (%s)</item>
+        <item quantity="few">Удалить сообщения (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">Удалить %1$s (%2$s сообщений)?</item>
+        <item quantity="one">Удалить %1$s (%2$s сообщение)?</item>
+        <item quantity="few">Удалить %1$s (%2$s сообщения)?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">Удалить сообщения</item>
+        <item quantity="one">Удалить сообщение</item>
+        <item quantity="few">Удалить сообщения</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">Текст, отправленный в Мой статус, будет сокращен до %d символов.</item>
+        <item quantity="one">Текст, отправленный в Мой статус, будет сокращен до %d символа.</item>
+        <item quantity="few">Текст, отправленный в Мой статус, будет сокращен до %d символов.</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">Остается %s</item>
+        <item quantity="one">Остается %s</item>
+        <item quantity="few">Остается %s</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">Чаты откреплены</item>
+        <item quantity="one">Чат откреплен</item>
+        <item quantity="few">Чаты откреплены</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d непрочитанных сообщений</item>
+        <item quantity="one">%d непрочитанное сообщение</item>
+        <item quantity="few">%d непрочитанных сообщения</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">У вас осталось %1$d неотправленных сообщений.</item>
+        <item quantity="one">У вас осталось %1$d неотправленное сообщение.</item>
+        <item quantity="few">У вас осталось %1$d неотправленных сообщения.</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">Невозможно удалить сообщения из избранных во время удаления чата. Повторите попытку позже.</item>
+        <item quantity="one">Невозможно удалить сообщение из избранных во время удаления чата. Повторите попытку позже.</item>
+        <item quantity="few">Невозможно удалить сообщения из избранных во время удаления чата. Повторите попытку позже.</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d пропущенных видеозвонков</item>
+        <item quantity="one">%d пропущенный видеозвонок</item>
+        <item quantity="few">%d пропущенных видеозвонка</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">Видео, отправленные в Мой статус, будут урезаны до первых %d секунд.</item>
+        <item quantity="one">Видео, отправленные в Мой статус, будут урезаны до %d секунды.</item>
+        <item quantity="few">Видео, отправленные в Мой статус, будут урезаны до первых %d секунд.</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">Просмотр контактов</item>
+        <item quantity="one">Просмотр контакта</item>
+        <item quantity="few">Просмотр контактов</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">Просмотрено: %d</item>
+        <item quantity="one">Просмотрено: %d</item>
+        <item quantity="few">Просмотрено: %d</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">Вы создали список рассылки \"%1$s\" с %2$d получателями</item>
+        <item quantity="one">Вы создали список рассылки \"%1$s\" с %2$d получателем</item>
+        <item quantity="few">Вы создали список рассылки \"%1$s\" с %2$d получателями</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">Вы создали список рассылки с %d получателями</item>
+        <item quantity="one">Вы создали список рассылки с %d получателем</item>
+        <item quantity="few">Вы создали список рассылки с %d получателями</item>
+    </plurals>
+</resources>

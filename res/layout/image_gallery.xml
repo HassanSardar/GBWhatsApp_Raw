@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.stickyheadersrecycler.StickyHeadersRecyclerView android:id="@id/grid" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" whatsapp:shrvGridSize="@dimen/gallery_picker_item_thumb_size" whatsapp:shrvGridSpacing="@dimen/gallery_picker_item_spacing" />
+    <com.whatsapp.gallerypicker.RecyclerFastScroller android:id="@id/scroller" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ScrollView android:id="@id/no_media" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gb.atnfas.font_text android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center" android:paddingBottom="64.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/image_gallery_NoImageView_text" />
+    </ScrollView>
+    <com.whatsapp.CircularProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:indeterminateOnly="true" whatsapp:cpbColor="@color/accent" whatsapp:cpbBackground="@android:color/transparent" />
+    <View android:layout_gravity="top" android:id="@id/transition_clipper_top" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <View android:layout_gravity="top" android:id="@id/header_transition" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="-56.0dip" />
+    <View android:layout_gravity="bottom" android:id="@id/transition_clipper_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <View android:layout_gravity="bottom|center|right" android:id="@id/gallery_send_button_transition" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginRight="44.0dip" />
+</FrameLayout>

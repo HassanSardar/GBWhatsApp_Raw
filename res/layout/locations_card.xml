@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/locations_card" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/list_separator_bot" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_card_spacing" />
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:paddingLeft="@dimen/info_screen_padding" style="@style/FlatCardHeader">
+            <com.gb.atnfas.font_text android:text="@string/group_locations" style="@style/FlatCardTitle" />
+            <com.gb.atnfas.font_text android:id="@id/locations_info" style="@style/FlatCardInfo" />
+        </FrameLayout>
+        <RelativeLayout android:id="@id/locations_btn" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <HorizontalScrollView android:gravity="center_vertical" android:id="@id/locations_scroller" android:paddingTop="12.0dip" android:paddingBottom="10.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:overScrollMode="never" android:layerType="software">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/location_thumbs" android:background="@drawable/selector_orange_gradient" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="@drawable/list_separator_top" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_card_spacing" />
+</LinearLayout>

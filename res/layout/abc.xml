@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gb.atnfas.TouchImage android:id="@id/touch" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <ProgressBar android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="100" android:progress="50" android:layout_centerInParent="true" />
+</RelativeLayout>

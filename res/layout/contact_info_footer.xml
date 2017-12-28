@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/list_separator_bot" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_card_spacing" />
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <FrameLayout android:paddingLeft="@dimen/info_screen_padding" style="@style/FlatCardHeader">
+            <com.gb.atnfas.font_text android:text="@string/contact_other_phones" style="@style/FlatCardTitle" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

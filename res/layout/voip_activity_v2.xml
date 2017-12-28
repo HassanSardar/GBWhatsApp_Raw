@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/call_screen" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.voipcalling.VideoCallParticipantView android:id="@id/video_full_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gb.atnfas.font_text android:textSize="16.0sp" android:id="@id/video_call_status" android:background="@android:drawable/toast_frame" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.whatsapp.voipcalling.VideoCallParticipantView android:id="@id/video_pip_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/video_upgrading_overlay" android:background="#ff1e272c" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.4" />
+    <ImageView android:id="@id/video_pip_replacement" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    <FrameLayout android:id="@id/contact_photo_layout" android:background="@color/primary_voip" android:paddingTop="28.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:animateLayoutChanges="true">
+        <FrameLayout android:layout_gravity="center" android:id="@id/caller_contact_photo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.ThumbnailButton android:layout_gravity="center" android:id="@id/contact_photo" android:layout_width="80.0dip" android:layout_height="80.0dip" android:scaleType="fitCenter" whatsapp:tbtnRadius="@dimen/small_avatar_radius" whatsapp:tbtnForegroundOnly="true" />
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@id/whatsapp_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/icon" android:rotation="-10.0" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/call_profile_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/profile_picture" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/avatar_contact_call" android:scaleType="centerCrop" />
+        <View android:id="@id/profile_picture_overlay" android:background="#ff1e272c" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.65" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/caller_details" android:background="@color/primary_voip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/contact_photo_layout">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/call_type" android:paddingLeft="16.0dip" android:paddingTop="23.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/call_icon" android:contentDescription="@string/call_icon_content_description" />
+            <com.gb.atnfas.font_text android:textSize="14.0sp" android:textColor="#99ffffff" android:id="@id/voip_call_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/voip_call_label" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/name_layout" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.whatsapp.TextEmojiLabel android:textSize="26.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/name" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <com.gb.atnfas.font_text android:textSize="14.0sp" android:textColor="#99ffffff" android:gravity="center" android:id="@id/call_status" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="23.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.5" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/new_answer_call_btns" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="20.0dip" android:layout_below="@id/caller_details" android:layout_alignParentBottom="true">
+        <include layout="@layout/answer_call_btns" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <com.gb.atnfas.font_text android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/decline_incoming_call_hint" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/swipe_up_to_decline" android:maxLines="2" android:layout_weight="1.0" android:alpha="0.5" />
+            <com.gb.atnfas.font_text android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/accept_incoming_call_hint" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/swipe_up_to_accept" android:maxLines="2" android:layout_weight="1.0" android:alpha="0.5" />
+            <com.gb.atnfas.font_text android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/decline_with_message_hint" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/swipe_up_to_reply" android:maxLines="2" android:layout_weight="1.0" android:alpha="0.5" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:gravity="center" android:orientation="vertical" android:id="@id/call_btns" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_above="@id/footer">
+        <ImageButton android:gravity="center" android:layout_gravity="center" android:id="@id/end_call_btn" android:background="@drawable/end_call" android:layout_width="58.0dip" android:layout_height="58.0dip" android:src="@drawable/ic_call_decline_activated" android:scaleType="centerInside" android:contentDescription="@string/voip_call_end_button_description" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/audio_btns" android:background="@color/primary_voip" android:layout_width="fill_parent" android:layout_height="78.0dip">
+            <FrameLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageButton android:layout_gravity="center" android:id="@id/speaker_btn" android:background="@drawable/voip_btn_background" android:padding="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_speaker" android:contentDescription="@string/voip_call_speakerphone_toggle_description" />
+            </FrameLayout>
+            <FrameLayout android:orientation="vertical" android:id="@id/bluetooth_btn_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageButton android:layout_gravity="center" android:id="@id/bluetooth_btn" android:background="@drawable/voip_btn_background" android:padding="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_bluetooth" android:contentDescription="@string/voip_call_bluetooth_toggle_description" />
+            </FrameLayout>
+            <FrameLayout android:orientation="vertical" android:id="@id/chat_btn_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageButton android:layout_gravity="center" android:id="@id/chat_btn" android:background="@drawable/voip_btn_background" android:padding="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_chat" android:contentDescription="@string/voip_call_goto_chat_description" />
+            </FrameLayout>
+            <FrameLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageButton android:layout_gravity="center" android:id="@id/mute_btn" android:background="@drawable/voip_btn_background" android:padding="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mute" android:contentDescription="@string/voip_call_mute_toggle_description" />
+            </FrameLayout>
+            <FrameLayout android:orientation="vertical" android:id="@id/toggle_video_btn_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageButton android:layout_gravity="center" android:id="@id/toggle_video_btn" android:background="@drawable/voip_btn_background" android:padding="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_toggle_video" android:contentDescription="@string/voip_call_mute_toggle_description" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/voice_mail_btns" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_above="@id/footer">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/voice_mail_btns_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="176.0dip">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/voice_mail_cancel" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageButton android:gravity="center" android:layout_gravity="center" android:id="@id/voice_mail_cancel_btn" android:background="@drawable/white_circle" android:layout_width="58.0dip" android:layout_height="58.0dip" android:src="@drawable/ic_call_cancel" android:contentDescription="@string/cancel" />
+                <com.gb.atnfas.font_text android:textSize="11.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:alpha="0.7" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/voice_mail_call_back" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageButton android:gravity="center" android:layout_gravity="center" android:id="@id/call_back_btn" android:background="@drawable/ic_call_accept_voice" android:layout_width="58.0dip" android:layout_height="58.0dip" android:src="@drawable/ic_call_callagain" android:contentDescription="@string/missed_call_again" />
+                <com.gb.atnfas.font_text android:textSize="11.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:layout_gravity="center" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/missed_call_again" android:alpha="0.7" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/voice_mail_record" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageButton android:gravity="center" android:layout_gravity="center" android:id="@id/voice_mail_record_btn" android:background="@drawable/white_circle" android:layout_width="58.0dip" android:layout_height="58.0dip" android:src="@drawable/ic_call_ptt" android:contentDescription="@string/voice_mail_record" />
+                <com.gb.atnfas.font_text android:textSize="11.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/voice_mail_record" android:alpha="0.7" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.gb.atnfas.font_text android:textSize="10.0sp" android:textColor="@android:color/white" android:layout_gravity="center|right|top" android:id="@id/voice_mail_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="-6.0dip" android:layout_marginRight="32.0dip" android:text="@string/audio_note_tip" />
+        <FrameLayout android:orientation="horizontal" android:id="@id/voice_mail_record_layout" android:paddingLeft="1.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <FrameLayout android:paddingTop="40.0dip" android:layout_width="120.0dip" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center|left" android:id="@id/voice_mail_record_pulse" android:background="@drawable/ic_call_ptt_rec" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingBottom="20.0dip" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+                <ImageView android:layout_gravity="center|left" android:id="@id/voice_mail_cancel_trashcan" android:background="@drawable/ic_call_ptt_trash" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingBottom="20.0dip" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+                <com.gb.atnfas.font_text android:textSize="24.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center|right" android:id="@id/voice_mail_record_duration" android:visibility="gone" android:layout_width="90.0dip" android:layout_height="40.0dip" android:text="00:00" android:maxLines="1" android:singleLine="true" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center" android:layout_width="152.0dip" android:layout_height="60.0dip" android:layout_marginTop="8.0dip">
+                <FrameLayout android:layout_gravity="center" android:id="@id/voice_mail_slide_cancel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip">
+                    <ImageView android:id="@id/voice_mail_slide_cancel_arrow" android:paddingTop="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_left" />
+                    <ImageView android:id="@id/voice_mail_slide_cancel_arrow_right" android:paddingTop="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_right" />
+                    <com.gb.atnfas.font_text android:textSize="18.0sp" android:textColor="#99ffffff" android:layout_gravity="left" android:paddingLeft="20.0dip" android:paddingTop="1.0dip" android:layout_width="85.0dip" android:layout_height="40.0dip" android:text="@string/cancel" android:lines="1" android:scrollHorizontally="false" android:singleLine="true" />
+                </FrameLayout>
+            </FrameLayout>
+            <ImageButton android:layout_gravity="center|right" android:id="@id/voice_mail_button_press" android:background="@drawable/input_circle_normal" android:visibility="gone" android:layout_width="96.0dip" android:layout_height="96.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/input_mic_white_large" />
+        </FrameLayout>
+    </FrameLayout>
+    <RelativeLayout android:id="@id/debug_views" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip">
+        <RelativeLayout android:id="@id/debug_header_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <com.gb.atnfas.font_text android:textSize="11.0sp" android:textStyle="bold" android:textColor="#fffcc9c2" android:id="@id/debug_tx_network_conditioner_param_text_view" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/debug_btn" />
+            <com.gb.atnfas.font_text android:textSize="11.0sp" android:textStyle="bold" android:textColor="#ffe1f79e" android:id="@id/debug_rx_network_conditioner_param_text_view" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/debug_btn" android:layout_below="@id/debug_tx_network_conditioner_param_text_view" />
+            <ImageButton android:id="@id/debug_btn" android:layout_width="60.0dip" android:layout_height="40.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ic_action_info" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <LinearLayout android:textColor="@color/white" android:id="@id/call_debug_view" android:background="@color/black" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/debug_header_view">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gb.atnfas.font_text android:textSize="12.0sp" android:textStyle="bold" android:id="@id/call_debug_stats" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

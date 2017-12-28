@@ -1,0 +1,39 @@
+.class final Lcom/whatsapp/proto/Wa20$ClientPayload$b$1;
+.super Ljava/lang/Object;
+.source "Wa20.java"
+
+# interfaces
+.implements Landroid/support/design/widget/e$c;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/whatsapp/proto/Wa20$ClientPayload$b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x8
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Landroid/support/design/widget/e$c",
+        "<",
+        "Lcom/whatsapp/proto/Wa20$ClientPayload$b;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 3705
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

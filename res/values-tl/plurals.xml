@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">%d tatanggap</item>
+        <item quantity="one">%d tatanggap</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">Sina %1$s, at %2$d pa</item>
+        <item quantity="one">Si %1$s, at %2$d pa</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">I-broadcast nang hindi hihigit sa %1$d mga katao nang sabay-sabay.</item>
+        <item quantity="one">I-broadcast nang hindi hihigit sa %1$d katao nang sabay-sabay.</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">I-broadcast sa %d mga contacts</item>
+        <item quantity="one">I-broadcast sa %d contact</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">I-archive ang chat</item>
+        <item quantity="one">I-archive ang chat</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">Ang mga chat ay in-archive</item>
+        <item quantity="one">Ang chat ay in-archive</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">Burahin ang chat</item>
+        <item quantity="one">Burahin ang chat</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">Burahin ang %1$d mga napiling chat?</item>
+        <item quantity="one">Burahin ang %1$d napiling chat?</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">Exit groups</item>
+        <item quantity="one">Exit group</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">Lisanin ang %1$d mga napiling grupo?</item>
+        <item quantity="one">Lisanin ang %1$d napiling grupo?</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">I-pin ang mga chat</item>
+        <item quantity="one">I-pin ang chat</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">I-unarchive ang chat</item>
+        <item quantity="one">I-unarchive ang chat</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">I-unpin ang mga chat</item>
+        <item quantity="one">I-unpin ang chat</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">Maaari lang mag-pin ng hanggang %1$d mga chat</item>
+        <item quantity="one">Maaari lang mag-pin ng hanggang %1$d chat</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">Ang inyong mga grupo at &lt;a href=\"contacts-link\">%d mga contacts&lt;/a> ay babalitaan tungkol sa inyong bagong number.</item>
+        <item quantity="one">Ang inyong mga grupo at &lt;a href=\"contacts-link\">%d contact&lt;/a> ay babalitaan tungkol sa inyong bagong number.</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">Ipadala ang %1$d mga dokumento kay \"%2$s\"?</item>
+        <item quantity="one">Ipadala ang %1$d dokumento kay \"%2$s\"?</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">I-share ang %1$d sa %2$s?</item>
+        <item quantity="one">I-share ang %1$d sa %2$s?</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">Hindi ka makakapili nang higit sa %1$d mga contacts.</item>
+        <item quantity="one">Hindi ka makakapili nang higit sa %1$d contact.</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">may %d nagbabahagi ng kanilang live na lokasyon</item>
+        <item quantity="one">may %d nagbabahagi ng live na lokasyon</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">Ikaw at may %d pa ang nagbabahagi ng live na lokasyon</item>
+        <item quantity="one">Ikaw at may %d pa ang nagbabahagi ng live na lokasyon</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">Si %1$s at %2$d pang mga contact</item>
+        <item quantity="one">Si %1$s at %2$d pang contact</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d araw</item>
+        <item quantity="one">%d araw</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">Burahin ang %d mga mensahe?</item>
+        <item quantity="one">Burahin ang %d mensahe?</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"Burahin ang chat kay \"%1$s\"?
+May %2$d mensahe na hindi pa naipadala."</item>
+        <item quantity="one">"Burahin ang chat kay \"%1$s\"?
+May %2$d mensahe na hindi pa naipadala."</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">Burahin ang %d mga status updates? Mabubura din sa lahat ng mga nakatanggap.</item>
+        <item quantity="one">Burahin ang %d status update? Mabubura din sa lahat ng mga nakatanggap.</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">Ang deskripsyon ay hindi maaaring lumampas ng %d karakter.</item>
+        <item quantity="one">Ang deskripsyon ay hindi maaaring lumampas ng %d karakter.</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">Ang litrato ay maliit. Pumili ng litrato na may taas at lapad nang hindi bababa sa %d pixels.</item>
+        <item quantity="one">Ang litrato ay maliit. Pumili ng litrato na may taas at lapad nang hindi bababa sa %d pixels.</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"Aalis ka na sa grupong \"%1$s\"?
+May %2$d hindi pa napadalang mensahe sa chat na 'to."</item>
+        <item quantity="one">"Aalis ka na sa grupong \"%1$s\"?
+May %2$d hindi pa napadalang mensahe sa chat na 'to."</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">Hindi maipadala %d</item>
+        <item quantity="one">Hindi maipadala %d</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d mga files ay binura sa inyong device</item>
+        <item quantity="one">%d file ay binura sa inyong device</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">Ang status update ay ipapadala sa inyong mga contacts maliban sa %d.</item>
+        <item quantity="one">Ang status update ay ipapadala sa inyong mga contacts maliban sa %d.</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">Itong status update ay ipapadala sa %d mga contacts.</item>
+        <item quantity="one">Itong status update ay ipapadala sa %d contact.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">%d mensahe na-restore. Ang media ay magre-restore nang di nakikita.</item>
+        <item quantity="one">%d mensahe na-restore. Ang media ay magre-restore nang di nakikita.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">%d mga mensahe na-restore</item>
+        <item quantity="one">%d mensahe na-restore</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">Ipadala ang %1$d mga dokumento kay \"%2$s\"?</item>
+        <item quantity="one">Ipadala ang %1$d dokumento kay \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">I-share ang %1$d sa \"%2$s\"?</item>
+        <item quantity="one">I-share ang %1$d sa \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%s ay hindi na mga admin</item>
+        <item quantity="one">%s ay hindi na admin</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%s ay isa na sa mga admin</item>
+        <item quantity="one">%s ay isa ng admin</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">Hindi ka makakapili nang higit sa %1$dmga kagrupo.</item>
+        <item quantity="one">Hindi ka makakapili nang higit sa %1$d kagrupo.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d oras</item>
+        <item quantity="one">%d oras</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$do</item>
+        <item quantity="one">%1$do</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">Ibinabahagi sa %d chat</item>
+        <item quantity="one">Ibinabahagi sa %d chat</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d katao</item>
+        <item quantity="one">%d katao</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">may %d naghinto ng pagbabahagi</item>
+        <item quantity="one">may %d naghinto ng pagbabahagi</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">Tumpak sa %d metro</item>
+        <item quantity="one">Tumpak sa %d metro</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d mga mensahe ang nakopya</item>
+        <item quantity="one">%d mensahe ang nakopya</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d mga mensahe ang binura</item>
+        <item quantity="one">%d mensahe ang binura</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d minuto</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d nakaraang minuto</item>
+        <item quantity="one">%d nakaraang minuto</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$dm</item>
+        <item quantity="one">%1$dm</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d mga di nasagot na tawag</item>
+        <item quantity="one">%d di nasagot na tawag</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d nakaligtaang voice call</item>
+        <item quantity="one">%d nakaligtaang voice call</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d mga contacts</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d mga contacts</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">Mamili ng hindi bababa sa %d mga contact</item>
+        <item quantity="one">Mamili ng hindi bababa sa %d contact</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d ang mga napili</item>
+        <item quantity="one">%d napili</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">%d mga napiling item</item>
+        <item quantity="one">%d napiling item</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">%1$d sa %2$d napili</item>
+        <item quantity="one">%1$d sa %2$d napili</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d napili</item>
+        <item quantity="one">%d napili</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">Sina %1$s at %2$d pa</item>
+        <item quantity="one">Si %1$s at %2$d pa</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d mga mensahe</item>
+        <item quantity="one">%1$d mensahe</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d mga status updates</item>
+        <item quantity="one">%1$d status update</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d na tawag</item>
+        <item quantity="one">%1$d na tawag</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d mga bagong mensahe</item>
+        <item quantity="one">%d walang bagong mensahe</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d na mensahe</item>
+        <item quantity="one">(%d) Walang mensahe</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%1$s mensahe mula sa %2$d chat</item>
+        <item quantity="one">%1$s mensahe mula sa %2$d chat</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">Hindi ka makakapili nang higit sa %1$d mga contacts.</item>
+        <item quantity="one">Hindi ka makakapili nang higit sa %1$d contact.</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d pahina</item>
+        <item quantity="one">%d pahina</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d mga litrato</item>
+        <item quantity="one">%d litrato</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d mga pahina</item>
+        <item quantity="one">%d pahina</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d mga slide</item>
+        <item quantity="one">%d slide</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d mga video</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">Si %1$s at %2$d pa sa inyong mga contacts ay nasa WhatsApp.</item>
+        <item quantity="one">Si %1$s at %2$d pa sa inyong mga contacts ay nasa WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">Sina %1$s, %2$s, %3$s at %4$d pa sa inyong mga contacts ay nasa WhatsApp.</item>
+        <item quantity="one">Sina %1$s, %2$s, %3$s at %4$d pa sa inyong mga contacts ay nasa WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">Sina %1$s, %2$s at %3$d pa sa inyong mga contacts ay nasa WhatsApp.</item>
+        <item quantity="one">Sina %1$s, %2$s at %3$d pa sa inyong mga contacts ay nasa WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">%1$d sa inyong mga contacts ay nasa WhatsApp</item>
+        <item quantity="one">%1$d sa inyong mga contacts ay nasa WhatsApp</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">%d natitira pa</item>
+        <item quantity="one">%d natitira pa</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d mga kasali</item>
+        <item quantity="one">%d kasali</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">Na-pin ang mga chat</item>
+        <item quantity="one">Na-pin ang chat</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">Bawiin ang %d mga mensahe?</item>
+        <item quantity="one">Bawiin ang %d mensahe?</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">%d mga tatanggap</item>
+        <item quantity="one">%d tatanggap</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">%,d na mga mensahe ay na-restore. Ayos!</item>
+        <item quantity="one">%,d na-restore na mensahe.</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">Muling ipadala ang %1$d mensahe noong %2$s</item>
+        <item quantity="one">Muling ipadala ang %1$d mensahe noong %2$s</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">Muling ipadala ang %1$d mensahe mula kahapon</item>
+        <item quantity="one">Muling ipadala ang %1$d mensahe mula kahapon</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d segundo</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">Ipadala sa mga contacts</item>
+        <item quantity="one">Ipadala sa contact</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">Ipadala sa mga contacts ko maliban sa %d</item>
+        <item quantity="one">Ipadala sa mga contacts ko maliban sa %d</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">Ipadala sa %d mga contact</item>
+        <item quantity="one">Ipadala sa %d contact</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">Ipinapadala ang %1$d audio kay %2$s</item>
+        <item quantity="one">Ipinapadala ang %1$d audio kay %2$s</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">Ipinapadala ang %d audio</item>
+        <item quantity="one">Ipinapadala ang %d audio</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">Ipinapadala ang %1$d file kay %2$s</item>
+        <item quantity="one">Ipinapadala ang %1$d file kay %2$s</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">Ipinapadala ang %d file</item>
+        <item quantity="one">Ipinapadala ang %d file</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">Ipinapadala ang %1$d GIF kay %2$s</item>
+        <item quantity="one">Ipinapadala ang %1$d GIF kay %2$s</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">Ipinapadala %d GIF</item>
+        <item quantity="one">Ipinapadala %d GIF</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">Ipinapadala %d</item>
+        <item quantity="one">Ipinapadala %d</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">Pinadadala ang %1$d video kay %2$s</item>
+        <item quantity="one">Pinadadala ang %1$d video kay %2$s</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">Pinapadala %d video</item>
+        <item quantity="one">Pinapadala %d video</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">Ang version ng WhatsApp ay kailangang i-update sa loob ng %d araw. I-update sa pinakabagong version?</item>
+        <item quantity="one">Ang version ng WhatsApp ay kailangang i-update sa loob ng %d araw. I-update sa pinakabagong version?</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">%d mga contacst, ibinukod</item>
+        <item quantity="one">%d contact, ibinukod</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">%d mga contact napili</item>
+        <item quantity="one">%d contact napili</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">%d mga status updates binura</item>
+        <item quantity="one">%d status update binura</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">Burahin ang mga mensahe (%s)</item>
+        <item quantity="one">Burahin ang mensahe (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">Burahin ang %1$s (%2$s mga mensahe)?</item>
+        <item quantity="one">Burahin ang %1$s (%2$s mensahe)?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">Burahin ang mga mensahe</item>
+        <item quantity="one">Burahin ang mensahe</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">Ang mga text na ipapadala sa Status Ko ay tatabasin sa unang %d na karakter.</item>
+        <item quantity="one">Ang text na ipapadala sa Status Ko ay tatabasin sa unang %d na karakter.</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">%s natitira</item>
+        <item quantity="one">%s natitira</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">Na-unpin ang mga chat</item>
+        <item quantity="one">Na-unpin ang chat</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d mga mensaheng hindi pa nabasa</item>
+        <item quantity="one">%d mensaheng hindi pa nabasa</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">May %1$d di pa napadalang mensahe sa mga napili.</item>
+        <item quantity="one">May %1$d di pa napadalang mensahe sa mga napili.</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">Hindi makakapa-unstar ng mga mensahe habang nagbubura ng usapan. Subukan muli mamaya.</item>
+        <item quantity="one">Hindi makakapa-unstar ng mensahe habang nagbubura ng usapan. Subukan muli mamaya.</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d nakaligtaang video call</item>
+        <item quantity="one">%d nakaligtaang video call</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">Ang mga Video na ipadadala sa Status Ko ay tatabasin sa unang %d segundo</item>
+        <item quantity="one">Ang mga Video na ipadadala sa Status Ko ay tatabasin sa unang %d segundo</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">Tingnan ang mga contacts</item>
+        <item quantity="one">Tingnan ang contact</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">Nakita ng %d</item>
+        <item quantity="one">Nakita ng %d</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">Binuo mo ang broadcast list \"%1$s\" na may %2$d tatanggap</item>
+        <item quantity="one">Binuo mo ang broadcast list \"%1$s\" na may %2$d tatanggap</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">Bumuo ka ng broadcast list na may %d tatanggap</item>
+        <item quantity="one">Bumuo ka ng broadcast list na may %d tatanggap</item>
+    </plurals>
+</resources>

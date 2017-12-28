@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/participants_card_bottom" android:background="@drawable/list_separator_top" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_card_spacing" />
+    <View android:background="@drawable/list_separator_bot" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_card_spacing" />
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/exit_group_btn" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_row">
+            <ImageView android:id="@id/exit_group_icon" android:layout_width="@dimen/small_list_avatar_size" android:layout_height="@dimen/small_list_avatar_size" android:layout_marginRight="@dimen/small_list_avatar_padding" android:src="@drawable/ic_exit_group" android:scaleType="center" android:tint="@color/red_button_text" />
+            <com.gb.atnfas.font_text android:textSize="17.0sp" android:textColor="@color/red_button_text" android:id="@id/exit_group_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/exit_group" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@drawable/list_separator_top" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_card_spacing" />
+    <LinearLayout android:orientation="vertical" android:id="@id/report_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/list_separator_bot" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_card_spacing" />
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:id="@id/report_group_btn" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_row">
+                <ImageView android:id="@id/report_group_icon" android:layout_width="@dimen/small_list_avatar_size" android:layout_height="@dimen/small_list_avatar_size" android:layout_marginRight="@dimen/small_list_avatar_padding" android:src="@drawable/ic_spam_report" android:scaleType="center" android:tint="@color/red_button_text" />
+                <com.gb.atnfas.font_text android:textSize="17.0sp" android:textColor="@color/red_button_text" android:id="@id/report_group_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/report_spam" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@drawable/list_separator_top" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_card_spacing" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/picker_row_padding" android:paddingTop="16.0dip" android:paddingRight="8.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gb.atnfas.font_text android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/body_gray" android:gravity="left" android:id="@id/country_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gb.atnfas.font_text android:textSize="14.0sp" android:textColor="@color/body_light_gray" android:gravity="left" android:id="@id/country_en_name" android:layout_width="wrap_content" android:layout_height="24.0dip" />
+    </LinearLayout>
+    <com.gb.atnfas.font_text android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/conversations_text_gray" android:gravity="center|right" android:id="@id/country_code" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="5.0dip" android:layoutDirection="ltr" />
+    <LinearLayout android:layout_gravity="center|right" android:layout_width="20.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="3.0dip">
+        <ImageView android:layout_gravity="center|right" android:id="@id/countrypicker_checkmark" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

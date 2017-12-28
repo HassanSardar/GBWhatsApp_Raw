@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_activity" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/list_separator_top" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_card_spacing" />
+    <View android:background="@drawable/list_separator_bot" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_card_spacing" />
+</LinearLayout>

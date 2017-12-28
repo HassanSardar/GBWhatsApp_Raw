@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.CircularProgressBar android:layout_gravity="center" android:id="@id/loading" android:visibility="gone" android:layout_width="118.0dip" android:layout_height="118.0dip" android:indeterminateOnly="true" whatsapp:cpbColor="#99ffffff" whatsapp:cpbBackground="#00000000" whatsapp:cpbFill="#00000000" whatsapp:cpbStrokeWidthFactor="10.0" whatsapp:cpbOutlineColor="#20000000" whatsapp:cpbOutlineWidth="1.0dip" />
+</FrameLayout>

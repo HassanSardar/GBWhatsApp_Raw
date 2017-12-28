@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/thumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:background="@drawable/balloon_media_botshade" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gb.atnfas.font_text android:textColor="@color/conversation_row_image_text" android:layout_gravity="bottom|center|right" android:id="@id/date" android:paddingRight="6.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDate" />
+</merge>

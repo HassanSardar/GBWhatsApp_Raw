@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left" android:orientation="vertical" android:paddingLeft="@dimen/abc_dialog_padding_material" android:paddingTop="@dimen/abc_dialog_padding_top_material" android:paddingRight="@dimen/abc_dialog_padding_material" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.util.RtlCheckBox android:textSize="14.0sp" android:id="@id/delete_media" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete_media" />
+</LinearLayout>

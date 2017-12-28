@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">%d பெறுநர்கள்</item>
+        <item quantity="one">%d பெறுநர்</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">%1$s,மற்றும் %2$d மேலும்</item>
+        <item quantity="one">%1$s,மற்றும் %2$d மேலும்</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">அதிகபட்சமாக %1$d நபர்களுக்கு அலைபரப்பவும்.</item>
+        <item quantity="one">அதிகபட்சமாக %1$d நபருக்கு அலைபரப்பவும்.</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">%d தொடர்புகளுக்கு ஒளிபரப்பு</item>
+        <item quantity="one">%d தொடர்புக்கு ஒளிபரப்பு</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">அரட்டைகளை சேமி</item>
+        <item quantity="one">அரட்டையை சேமி</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">அரட்டைகள் சேமிக்கப்பட்டன</item>
+        <item quantity="one">அரட்டை சேமிக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">அரட்டைகளை அழி</item>
+        <item quantity="one">அரட்டையை அழி</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">தேர்ந்தெடுத்த %1$d அரட்டைகளை அழிக்கவா?</item>
+        <item quantity="one">தேர்ந்தெடுத்த %1$d அரட்டையை அழிக்கவா?</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">குழுக்களிலிருந்து வெளியேறு</item>
+        <item quantity="one">குழுவிலிருந்து வெளியேறு</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">%1$d குழுக்களிலிருந்து விலகுவதா?</item>
+        <item quantity="one">%1$d குழுவிலிருந்து விலகுவதா?</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">அரட்டைகளை ஒட்டுக</item>
+        <item quantity="one">அரட்டையை ஒட்டுக</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">அரட்டைகளை வெளிக்கொணர்க</item>
+        <item quantity="one">அரட்டையை வெளிக்கொணர்க</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">அரட்டைகளை எடுக்கவும்</item>
+        <item quantity="one">அரட்டையை எடுக்கவும்</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">தங்களால் %1$d அரட்டைகளை மட்டுமே ஒட்ட இயலும்</item>
+        <item quantity="one">தங்களால் %1$d அரட்டையை மட்டுமே ஒட்ட இயலும்</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">தங்கள் குழுக்கள் &lt;a href=\"contacts-link\">%d தொடர்புகளுக்கு &lt;/a> தங்களது எண் மாற்றத்தைப் பற்றி தெரிவிக்கப்படும்.</item>
+        <item quantity="one">தங்கள் குழு &lt;a href=\"contacts-link\">%d தொடர்புக்கு &lt;/a> தங்களது எண் மாற்றத்தைப் பற்றி தெரிவிக்கப்படும்.</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">%2$s என்பவருக்கு %1$d கோப்புகளை அனுப்பலாமா?</item>
+        <item quantity="one">%2$s என்பவருக்கு %1$d கோப்பை அனுப்பலாமா?</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">%2$s உடன் %1$d ஐப் பகிர்ந்து கொள்க</item>
+        <item quantity="one">%2$s உடன் %1$d ஐப் பகிர்ந்து கொள்க</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">%1$d தொடர்புகளுக்கு மேல் தேர்வு செய்ய இயலாது.</item>
+        <item quantity="one">%1$d தொடர்புக்கு மேல் தேர்வு செய்ய இயலாது.</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d நபர்கள் இருப்பிட நேரலையை பகிர்கின்றனர்</item>
+        <item quantity="one">%d நபர் இருப்பிட நேரலையை பகிர்கின்றார்</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">தாங்களும் மற்று %d நபர்களும் இருப்பிட நேரலையை பகிர்கின்ர்கள்</item>
+        <item quantity="one">தாங்களும் மற்று %d நபரும் இருப்பிட நேரலையை பகிர்கின்ர்கள்</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s மற்றும் %2$d தொடர்புகள்</item>
+        <item quantity="one">%1$s மற்றும் %2$d தொடர்பு</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d நாட்கள்</item>
+        <item quantity="one">%d நாள்</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">%d தகவல்களை அழிக்கவா?</item>
+        <item quantity="one">%d தகவலை அழிக்கவா?</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"\"%1$s\" உடனான அரட்டையை அழிக்கலாமா?
+இந்த அரட்டையில் %2$d அனுப்பப்படாத தகவல்கள் உள்ளன"</item>
+        <item quantity="one">"\"%1$s\" உடனான அரட்டையை அழிக்கலாமா?
+இந்த அரட்டையில் %2$d அனுப்பப்படாத தகவல் உள்ளது"</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">%d நிலைப்பாட்டு பதிவுகளை அழிப்பதா? இதனை பெற்றவர்கள் அனைவரிடத்திலும் இது அழிக்கப்படும்.</item>
+        <item quantity="one">%d நிலைப்பாட்டு பதிவை அழிப்பதா? இதனை பெற்றவர்கள் அனைவரிடத்திலும் இது அழிக்கப்படும்.</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">விவரிப்பு %d எழுத்துக்களுக்கு மேல் இருக்கலாகாது.</item>
+        <item quantity="one">விவரிப்பு %d எழுத்துக்கு மேல் இருக்கலாகாது.</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">இந்த படங்கள் சிறியதாக உள்ளன. அகலம் மற்றும் நீளம் குறைந்தது %d படப்புள்ளிகள் இருக்கும் படத்தை தேர்ந்தெடுக்கவும்.</item>
+        <item quantity="one">இந்த படம் மிகவும் சிறியதாக உள்ளது. அகலம் மற்றும் நீளம் குறைந்தது %d படப்புள்ளிகள் இருக்கும் படத்தை தேர்ந்தெடுக்கவும்.</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"\"%1$s\" குழுவிலிருந்து வெளியேறுகிறீர்களா?
+தங்களிடம் இந்த அரட்டையில் %2$d அனுப்பப்படாத தகவல்கள் உள்ளன."</item>
+        <item quantity="one">"\"%1$s\" குழுவிலிருந்து வெளியேறுகிறீர்களா?
+தங்களிடம் இந்த அரட்டையில் %2$d அனுப்பப்படாத தகவல் உள்ளது."</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">%dஐ அனுப்ப இயலவில்லை</item>
+        <item quantity="one">%dஐ அனுப்ப இயலவில்லை</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d கோப்புகள் கைபேசியிலிருந்து அழிக்கப்பட்டது</item>
+        <item quantity="one">%d கோப்பு கைபேசியிலிருந்து அழிக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">இந்த நிலைப்பாடு பதிவு %d என்பவர்களை தவிர மற்ற தொடர்புகளுக்கு அனுப்பப்படும்</item>
+        <item quantity="one">இந்த நிலைப்பாடு பதிவு %d என்பவரை தவிர மற்ற தொடர்புகளுக்கு அனுப்பப்படும்</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">இந்த நிலைப்பாடு பதிவு %d தொடர்புகளுக்கு அனுப்பப்படும்.</item>
+        <item quantity="one">இந்த நிலைப்பாடு பதிவு %d தொடர்புக்கு அனுப்பப்படும்.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">%d தகவல்கள் மீட்டெடுக்கப்பட்டது. ஊடகக்கோப்புகள் மீட்டெடுப்பும் நடைபெறும்.</item>
+        <item quantity="one">%d தகவல் மீட்டெடுக்கப்பட்டது. ஊடகக்கோப்புகள் மீட்டெடுப்பும் நடைபெறும்.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">%d தகவல்கள் மீட்டெடுக்கப்பட்டது</item>
+        <item quantity="one">%d தகவல் மீட்டெடுக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">%1$d கோப்புகளை \"%2$s\" குழுவிற்கு அனுப்புவதா?</item>
+        <item quantity="one">%1$d கோப்பை \"%2$s\" குழுவிற்கு அனுப்புவதா?</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">%1$d தகவல்களை \"%2$s\" இடம் பகிரலாமா?</item>
+        <item quantity="one">%1$d தகவலை \"%2$s\" இடம் பகிரலாமா?</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%s இனி நிர்வாகிகள் அல்ல</item>
+        <item quantity="one">%s இனி நிர்வாகி அல்ல</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%s இப்போது நிர்வாகிகள்</item>
+        <item quantity="one">%s இப்போது நிர்வாகி</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">%1$d பங்கேற்பாளர்களுக்கு மேல் தேர்வு செய்ய இயலாது.</item>
+        <item quantity="one">%1$d பங்கேற்பாளருக்கு மேல் தேர்வு செய்ய இயலாது.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d மணி நேரம்</item>
+        <item quantity="one">%d மணி நேரம்</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$d மணி</item>
+        <item quantity="one">%1$d மணி</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">%d அரட்டைகளில் பகிரப்படுகிறது</item>
+        <item quantity="one">%d அரட்டையில் பகிரப்படுகிறது</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d நபர்கள்</item>
+        <item quantity="one">%d நபர்</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d நபர்கள் பகிர்வதை நிறுத்தினர்</item>
+        <item quantity="one">%d நபர் பகிர்வதை நிறுத்தினார்</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">%d மீட்டர் அலகுகளுக்கு சரியானது</item>
+        <item quantity="one">%d மீட்டர் அலகுக்கு சரியானது</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d தகவல்கள் நகலாகின</item>
+        <item quantity="one">%d தகவல் நகலானது</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d தகவல்கள் அழிக்கப்பட்டன</item>
+        <item quantity="one">%d தகவல் அழிக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d நிமிடங்கள்</item>
+        <item quantity="one">%d நிமிடம்</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d நிமிடங்களுக்கு முன்</item>
+        <item quantity="one">%d நிமிடத்திற்கு முன்</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$d நிமிடங்கள்</item>
+        <item quantity="one">%1$d நிமிடம்</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d thavariya azhaippykal</item>
+        <item quantity="one">%d தவறிய அழைப்பு</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d தவறிய குரல் அழைப்புகள்</item>
+        <item quantity="one">%d தவறிய குரல் அழைப்பு</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d தொடர்புகள்</item>
+        <item quantity="one">%d தொடர்பு</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d தொடர்புகள்</item>
+        <item quantity="one">%d தொடர்பு</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">குறைந்தது %d தொடர்பை தேர்வு செய்யவும்</item>
+        <item quantity="one">குறைந்தது %d தொடர்பை தேர்வு செய்க</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d தேர்வுகள்</item>
+        <item quantity="one">%d தேர்வு</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">%d தேர்வாகின</item>
+        <item quantity="one">%d தேர்வானது</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">%1$d ல் %2$d தேர்ந்தெடுக்கப்பட்டன</item>
+        <item quantity="one">%1$d ல் %2$d தேர்ந்தெடுக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d தேர்வுகள்</item>
+        <item quantity="one">%d தேர்வு</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">%1$s மற்றும் %2$d நபர்களும்</item>
+        <item quantity="one">%1$s மற்றும் %2$d நபரும்</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d தகவல்கள்</item>
+        <item quantity="one">%1$d தகவல்</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d நிலைப்பாட்டு பதிவுகள்</item>
+        <item quantity="one">%1$d நிலைப்பாட்டு பதிவு</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d அழைப்புகள்</item>
+        <item quantity="one">%1$d அழைப்பு</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%dபுதிய செய்திகள்</item>
+        <item quantity="one">%dபுதிய செய்தி</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d தகவல்கள்</item>
+        <item quantity="one">%d தகவல்</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%2$d அரட்டைகளில் %1$s தகவல்கள்</item>
+        <item quantity="one">%2$d அரட்டையில் %1$s தகவல்கள்</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">%1$d தொடர்புகளுக்கு மேல் தேர்வு செய்ய இயலாது.</item>
+        <item quantity="one">%1$d தொடர்புக்கு மேல் தேர்வு செய்ய இயலாது.</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d பக்கங்கள்</item>
+        <item quantity="one">%d பக்கம்</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d படங்கள்</item>
+        <item quantity="one">%d படம்</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d ஏடுகள்</item>
+        <item quantity="one">%d ஏடு</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d காட்சிகள்</item>
+        <item quantity="one">%d காட்சி</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d காணொலிகள்</item>
+        <item quantity="one">%d காணொலி</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">%1$s மற்றும் %2$d தொடர்புகள் WhatsAppல் உள்ளனர்.</item>
+        <item quantity="one">%1$s மற்றும் %2$d தொடர்பு WhatsAppல் உள்ளனர்.</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s, %3$s மற்றும் %4$d தொடர்புகள் WhatsAppல் உள்ளனர்.</item>
+        <item quantity="one">%1$s, %2$s, %3$s மற்றும் %4$d தொடர்பு WhatsAppல் உள்ளனர்.</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s மற்றும் %3$d தொடர்புகள் WhatsAppல் உள்ளனர்.</item>
+        <item quantity="one">%1$s, %2$s மற்றும் %3$d தொடர்பு WhatsAppல் உள்ளனர்.</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">தங்களது %1$d தொடர்புகள் WhatsAppல் உள்ளனர்.</item>
+        <item quantity="one">தங்களது %1$d தொடர்பு WhatsAppல் உள்ளார்.</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">%d மீதமுள்ளன</item>
+        <item quantity="one">%d மீதமுள்ளது</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d பங்கேற்பாளர்கள்</item>
+        <item quantity="one">%d பங்கேற்பாளர்</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">அரட்டைகள் ஒட்டப்பட்டன</item>
+        <item quantity="one">அரட்டை ஒட்டப்பட்டது</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">%d தகவல்களை திரும்பப்பெறுவதா?</item>
+        <item quantity="one">%d தகவலை திரும்பப்பெறுவதா?</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">%d பெறுநர்கள்</item>
+        <item quantity="one">%d பெறுநர்</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">%,d தகவல்கள் மீட்கப்பட்டன. தாங்கள் தொடரலாம்</item>
+        <item quantity="one">%,d தகவல் மீட்கப்பட்டது. தாங்கள் தொடரலாம்</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">%2$s அவர்களிடமிருந்து %1$d தகவல்களை மீண்டும் அனுப்பு</item>
+        <item quantity="one">%2$s அவர்களிடமிருந்து %1$d தகவலை மீண்டும் அனுப்பு</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">நேற்றைய %1$d தகவல்களை மீண்டும் அனுப்பு</item>
+        <item quantity="one">நேற்றைய %1$d தகவலை மீண்டும் அனுப்பு</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d வினாடிகள்</item>
+        <item quantity="one">%d வினாடி</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">தொடர்புகளை அனுப்புக</item>
+        <item quantity="one">தொடர்பை அனுப்புக</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">எனது தொடர்புகளுக்கு அனுப்புக %dஐ தவிர</item>
+        <item quantity="one">எனது தொடர்புகளுக்கு அனுப்புக %dஐ தவிர</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">%d தொடர்புகளுக்கு அனுப்புக</item>
+        <item quantity="one">%d தொடர்புக்கு அனுப்புக</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">%2$s என்பவருக்கு %1$d ஒலிக்கோப்புகள் அனுப்பபடுகிறது</item>
+        <item quantity="one">%2$s என்பவருக்கு %1$d ஒலிக்கோப்பு அனுப்பபடுகிறது</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">%d ஒலி கோப்புகள் அனுப்பபடுகிறது</item>
+        <item quantity="one">%d ஒலி கோப்பு அனுப்பபடுகிறது</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">%1$d கோப்புகள் %2$s என்பவருக்கு அனுப்பபடுகிறது</item>
+        <item quantity="one">%1$d கோப்பு %2$s என்பவருக்கு அனுப்பபடுகிறது</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">%d கோப்புகள் அனுப்பபடுகிறது</item>
+        <item quantity="one">%d கோப்பு அனுப்பபடுகிறது</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">%1$d ஜிஃப்களை %2$s என்பவருக்கு அனுப்புகிறது</item>
+        <item quantity="one">%1$d ஜிஃப் ஐ %2$s என்பவருக்கு அனுப்புகிறது</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">%d ஜிஃப்களை அனுப்புகிறது</item>
+        <item quantity="one">%d ஜிஃப் ஐ அனுப்புகிறது</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">அனுப்புபவை %d</item>
+        <item quantity="one">அனுப்புவது %d</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">%1$d காணொலிகள் %2$s அவர்களுக்கு அனுப்பபடுகிறது</item>
+        <item quantity="one">%1$d காணொலி %2$s அவர்களுக்கு அனுப்பபடுகிறது</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">%d காணொளிகள் அனுப்பபடுகிறது</item>
+        <item quantity="one">%d காணொளி அனுப்பபடுகிறது</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">%d நாட்களில் WhatsApp ன் இப்பதிப்பு இற்றைப்படுத்தப்பட வேண்டும். இப்போதே இற்றைப்படுத்தலாமா?</item>
+        <item quantity="one">%d நாளில் WhatsApp ன் இப்பதிப்பு இற்றைப்படுத்தப்பட வேண்டும். இப்போதே இற்றைப்படுத்தலாமா?</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">%d தொடர்புகள் நீக்கப்பட்டன</item>
+        <item quantity="one">%d தொடர்பு நீக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">%d தொடர்புகள் தேர்வானது</item>
+        <item quantity="one">%d தொடர்பு தேர்வானது</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">%d நிலைப்பாடு பதிவுகள் அழிக்கப்பட்டன</item>
+        <item quantity="one">%d நிலைப்பாடு பதிவு அழிக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">தகவல்களை நீக்கு (%s)</item>
+        <item quantity="one">தகவலை நீக்கு (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">%1$s நீக்கலாமா (%2$s தகவல்கள்)?</item>
+        <item quantity="one">%1$s நீக்கலாமா (%2$s தகவல்)?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">தகவல்களை நீக்கு</item>
+        <item quantity="one">தகவலை நீக்கு</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">எனது நிலைப்பாட்டிற்கு அனுப்பப்பட்ட வரி, முதல் %d எழுத்துக்களுடன் துண்டிக்கப்படும்.</item>
+        <item quantity="one">எனது நிலைப்பாட்டிற்கு அனுப்பப்பட்ட வரி, முதல் %d எழுத்துடன் துண்டிக்கப்படும்.</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">%s மீதம்</item>
+        <item quantity="one">%s மீதம்</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">அரட்டைகள் எடுக்கப்பட்டன</item>
+        <item quantity="one">அரட்டை எடுக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d புதிய தகவல்கள்</item>
+        <item quantity="one">%d புதிய தகவல்</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">தங்களிடம் %1$d அனுப்பபடாத தகவல்கள் உள்ளன.</item>
+        <item quantity="one">தங்களிடம் %1$d அனுப்பபடாத தகவல் உள்ளது.</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">உரையாடலை நீக்குகையில் தகவல்களின் குறியீடுகளை நீக்க இயலாது. பின்னர் முயலவும்.</item>
+        <item quantity="one">உரையாடலை நீக்குகையில் தகவல் குறியீட்டை நீக்க இயலாது. பின்னர் முயலவும்.</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d தவறிய காணொலி அழைப்புகள்</item>
+        <item quantity="one">%d தவறிய காணொலி அழைப்பு</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">எனது நிலைப்பாட்டிற்கு அனுப்பப்பட்ட காணொலிகள், முதல் %d நொடிகளுடன் துண்டிக்கப்படும்.</item>
+        <item quantity="one">எனது நிலைப்பாட்டிற்கு அனுப்பப்பட்ட காணொலிகள், முதல் %d நொடியுடன் துண்டிக்கப்படும்.</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">தொடர்புகளை காண்க</item>
+        <item quantity="one">தொடர்பை காண்க</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">%d நபர்கள் கண்டுள்ளனர்</item>
+        <item quantity="one">%d நபர் கண்டுள்ளார்</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">\"%1$s\" அலைபரப்புப் பட்டியலை %2$d பெறுநர்களுடன் உருவாக்கியுள்ளீர்</item>
+        <item quantity="one">\"%1$s\" அலைபரப்புப் பட்டியலை %2$d பெறுநருடன் உருவாக்கியுள்ளீர்</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">அலைபரப்பு பட்டியலை %d பெறுநர்களுடன் உருவாக்கியுள்ளீர்</item>
+        <item quantity="one">அலைபரப்பு பட்டியலை %d பெறுநருடன் உருவாக்கியுள்ளீர்</item>
+    </plurals>
+</resources>

@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">%d ta qabul qiluvchi</item>
+        <item quantity="one">%d ta qabul qiluvchi</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">%1$s va yana %2$d</item>
+        <item quantity="one">%1$s va yana %2$d</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">Bir vaqtning o‘zida maksimal %1$d kishiga xabar tarqatish mumkin.</item>
+        <item quantity="one">Bir vaqtning o‘zida maksimal %1$d kishiga xabar tarqatish mumkin.</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">%d ta kontaktga xabar yuborish</item>
+        <item quantity="one">%d ta kontaktga xabar yuborish</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">Chatlarni arxivlash</item>
+        <item quantity="one">Chatni arxivlash</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">Chat arxivlandi</item>
+        <item quantity="one">Chat arxivlandi</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">Chatlarni o‘chirish</item>
+        <item quantity="one">Chatni o‘chirish</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">%1$d ta chat o‘chirilsinmi?</item>
+        <item quantity="one">%1$d ta chat o‘chirilsinmi?</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">Guruhlardan chiqish</item>
+        <item quantity="one">Guruhdan chiqish</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">%1$d ta tanlangan guruhdan chiqilsinmi?</item>
+        <item quantity="one">%1$d ta tanlangan guruhdan chiqilsinmi?</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">Chatni mahkamlash</item>
+        <item quantity="one">Chatni mahkamlash</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">Chatlarni arxivdan chiqarish</item>
+        <item quantity="one">Chatni arxivdan chiqarish</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">Chatni olib tashlash</item>
+        <item quantity="one">Chatni olib tashlash</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">Siz faqat %1$d ta chatgacha mahkamlashingiz mumkin</item>
+        <item quantity="one">Siz faqat %1$d ta chatgacha mahkamlashingiz mumkin</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">Guruhlaringiz va &lt;a href=\"contacts-link\">%d kontaktga&lt;/a> yangi raqamingiz haqida bildiriladi.</item>
+        <item quantity="one">Guruhlaringiz va &lt;a href=\"contacts-link\">%d kontaktga&lt;/a> yangi raqamingiz haqida bildiriladi.</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">%2$sga %1$d ta hujjat yuborilsinmi?</item>
+        <item quantity="one">%2$sga %1$d ta hujjat yuborilsinmi?</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">%2$sga %1$d ta fayl ulashilsinmi?</item>
+        <item quantity="one">%2$sga %1$d ta fayl ulashilsinmi?</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">Siz %1$d tadan ortiq kontaktni tanlay olmaysiz.</item>
+        <item quantity="one">Siz %1$d tadan ortiq kontaktni tanlay olmaysiz.</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d kishi jonli joylashuvni ulashyapti</item>
+        <item quantity="one">%d kishi jonli joylashuvni ulashyapti</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">Siz va yana %d kishi jonli joylashuvni ulashyapsizlar</item>
+        <item quantity="one">Siz va yana %d kishi jonli joylashuvni ulashyapsizlar</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s va yana %2$d ta kontakt</item>
+        <item quantity="one">%1$s va yana %2$d ta kontakt</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d kun</item>
+        <item quantity="one">%d kun</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">%d ta xabar o‘chirilsinmi?</item>
+        <item quantity="one">%d ta xabar o‘chirilsinmi?</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"\"%1$s\" bilan chat o‘chirilsinmi?
+Ushbu chatda %2$d ta yuborilmagan xabaringiz bor."</item>
+        <item quantity="one">"\"%1$s\" bilan chat o‘chirilsinmi?
+Ushbu chatda %2$d ta yuborilmagan xabaringiz bor."</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">%d ta status o‘chirilsinmi? Buni qabul qilgan hamma uchun ham o‘chiriladi.</item>
+        <item quantity="one">%d ta status o‘chirilsinmi? Buni qabul qilgan hamma uchun ham o‘chiriladi.</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">Tavsif %d ta belgidan ortiq bo‘lmasligi lozim.</item>
+        <item quantity="one">Tavsif %d ta belgidan ortiq bo‘lmasligi lozim.</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">Ushbu rasm juda kichik. Iltimos, bo‘yi va eni kamida %d piksel bo‘lgan rasmni tanlang.</item>
+        <item quantity="one">Ushbu rasm juda kichik. Iltimos, bo‘yi va eni kamida %d piksel bo‘lgan rasmni tanlang.</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"\"%1$s\" guruhidan chiqilsinmi?
+Ushbu chatda %2$d ta yuborilmagan xabaringiz bor."</item>
+        <item quantity="one">"\"%1$s\" guruhidan chiqilsinmi?
+Ushbu chatda %2$d ta yuborilmagan xabaringiz bor."</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">%d tani yuborib bo‘lmadi</item>
+        <item quantity="one">%d tani yuborib bo‘lmadi</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d ta fayl qurilmangizdan o‘chirildi</item>
+        <item quantity="one">%d ta fayl qurilmangizdan o‘chirildi</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">Ushbu status %d tadan tashqari sizning kontaktlaringizga yuboriladi.</item>
+        <item quantity="one">Ushbu status %d tadan tashqari sizning kontaktlaringizga yuboriladi.</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">Ushbu status %d ta kontaktga yuboriladi.</item>
+        <item quantity="one">Ushbu status %d ta kontaktga yuboriladi.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">%d ta xabar tiklandi. Mediafayllaringiz fonda tiklanadi.</item>
+        <item quantity="one">%d ta xabar tiklandi. Mediafayllaringiz fonda tiklanadi.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">%d ta xabar tiklandi</item>
+        <item quantity="one">%d ta xabar tiklandi</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">\"%2$s\"ga %1$d ta hujjat yuborilsinmi?</item>
+        <item quantity="one">\"%2$s\"ga %1$d ta hujjat yuborilsinmi?</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">\"%2$s\"ga %1$d ta fayl ulashilsinmi?</item>
+        <item quantity="one">\"%2$s\"ga %1$d ta fayl ulashilsinmi?</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%s ortiq admin emas</item>
+        <item quantity="one">%s ortiq admin emas</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%s endi admin</item>
+        <item quantity="one">%s endi admin</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">Siz %1$d nafardan ortiq a’zoni tanlay olmaysiz.</item>
+        <item quantity="one">Siz %1$d nafardan ortiq a’zoni tanlay olmaysiz.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d soat</item>
+        <item quantity="one">%d soat</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$ds</item>
+        <item quantity="one">%1$ds</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">%d ta chatda ulashilmoqda</item>
+        <item quantity="one">%d ta chatda ulashilmoqda</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d kishi</item>
+        <item quantity="one">%d kishi</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d kishi ulashishni to‘xtatdi</item>
+        <item quantity="one">%d kishi ulashishni to‘xtatdi</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">Aniqlik: %d metr</item>
+        <item quantity="one">Aniqlik: %d metr</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d ta xabar nusxalandi</item>
+        <item quantity="one">%d ta xabar nusxalandi</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d ta xabar o‘chirildi</item>
+        <item quantity="one">%d ta xabar o‘chirildi</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d daqiqa</item>
+        <item quantity="one">%d daqiqa</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d daqiqa avval</item>
+        <item quantity="one">%d daqiqa avval</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$dd</item>
+        <item quantity="one">%1$dd</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d ta o‘tkazib yuborilgan qo‘ng‘iroq</item>
+        <item quantity="one">%d ta o‘tkazib yuborilgan qo‘ng‘iroq</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d ta o‘tkazib yub. ovozli qo‘ng‘iroq</item>
+        <item quantity="one">%d ta o‘tkazib yub. ovozli qo‘ng‘iroq</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d ta kontakt</item>
+        <item quantity="one">%d ta kontakt</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d ta kontakt</item>
+        <item quantity="one">%d ta kontakt</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">Kamida %d ta kontakt tanlanishi kerak</item>
+        <item quantity="one">Kamida %d ta kontakt tanlanishi kerak</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d ta tanlandi</item>
+        <item quantity="one">%d ta tanlandi</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">%d ta element tanlandi</item>
+        <item quantity="one">%d ta element tanlandi</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">%2$d tadan %1$d tasi tanlandi</item>
+        <item quantity="one">%2$d tadan %1$d tasi tanlandi</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d ta tanlandi</item>
+        <item quantity="one">%d ta tanlandi</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">%1$s va yana %2$d ta</item>
+        <item quantity="one">%1$s va yana %2$d ta</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d ta xabar</item>
+        <item quantity="one">%1$d ta xabar</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d ta status</item>
+        <item quantity="one">%1$d ta status</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d ta qo‘ng‘iroq</item>
+        <item quantity="one">%1$d ta qo‘ng‘iroq</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d ta yangi xabar</item>
+        <item quantity="one">%d ta yangi xabar</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d ta xabar</item>
+        <item quantity="one">%d ta xabar</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%2$d ta chatdan %1$s</item>
+        <item quantity="one">%2$d ta chatdan %1$s</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">Siz %1$d tadan ortiq kontaktni tanlay olmaysiz.</item>
+        <item quantity="one">Siz %1$d tadan ortiq kontaktni tanlay olmaysiz.</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d ta sahifa</item>
+        <item quantity="one">%d ta sahifa</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d ta rasm</item>
+        <item quantity="one">%d ta rasm</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d ta varaq</item>
+        <item quantity="one">%d ta varaq</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d ta slayd</item>
+        <item quantity="one">%d ta slayd</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d ta video</item>
+        <item quantity="one">%d ta video</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">%1$s va yana %2$d ta kontaktingiz WhatsApp’da.</item>
+        <item quantity="one">%1$s va yana %2$d ta kontaktingiz WhatsApp’da.</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s, %3$s va yana %4$d ta kontaktingiz WhatsApp’da</item>
+        <item quantity="one">%1$s, %2$s, %3$s va yana %4$d ta kontaktingiz WhatsApp’da</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s va yana %3$d ta kontaktingiz WhatsApp’da.</item>
+        <item quantity="one">%1$s, %2$s va yana %3$d ta kontaktingiz WhatsApp’da.</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">%1$d ta kontaktingiz WhatsApp’da.</item>
+        <item quantity="one">%1$d ta kontaktingiz WhatsApp’da.</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">%d ta xabar qoldi</item>
+        <item quantity="one">%d ta xabar qoldi</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d ta qabul qiluvchi</item>
+        <item quantity="one">%d ta qabul qiluvchi</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">Chat mahkamlandi</item>
+        <item quantity="one">Chat mahkamlandi</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">%d ta xabar qaytarib olinsinmi?</item>
+        <item quantity="one">%d ta xabar qaytarib olinsinmi?</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">%d ta qabul qiluvchi</item>
+        <item quantity="one">%d ta qabul qiluvchi</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">%,d ta xabar tiklandi. Tayyor!</item>
+        <item quantity="one">%,d ta xabar tiklandi. Tayyor!</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">%2$sdan %1$d ta xabarni qayta yuborish</item>
+        <item quantity="one">%2$sdan %1$d ta xabarni qayta yuborish</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">Kechagi %1$d ta xabarni qayta yuborish</item>
+        <item quantity="one">Kechagi %1$d ta xabarni qayta yuborish</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d soniya</item>
+        <item quantity="one">%d soniya</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">Kontaktni yuborish</item>
+        <item quantity="one">Kontaktni yuborish</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">%ddan tashqari mening kontaktlarimga yuborish</item>
+        <item quantity="one">%ddan tashqari mening kontaktlarimga yuborish</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">%d ta kontaktga yuborish</item>
+        <item quantity="one">%d ta kontaktga yuborish</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">%2$sga %1$d ta audio yuborilmoqda</item>
+        <item quantity="one">%2$sga %1$d ta audio yuborilmoqda</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">%d ta audio yuborilmoqda</item>
+        <item quantity="one">%d ta audio yuborilmoqda</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">%2$sga %1$d ta fayl yuborilmoqda</item>
+        <item quantity="one">%2$sga %1$d ta fayl yuborilmoqda</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">%d ta fayl yuborilmoqda</item>
+        <item quantity="one">%d ta fayl yuborilmoqda</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">%2$s %1$d ta GIF yuborilmoqda</item>
+        <item quantity="one">%2$s %1$d ta GIF yuborilmoqda</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">%dga GIF yuborilmoqda</item>
+        <item quantity="one">%dga GIF yuborilmoqda</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">%d ta yuborilmoqda</item>
+        <item quantity="one">%d ta yuborilmoqda</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">%2$sga %1$d ta video yuborish</item>
+        <item quantity="one">%2$sga %1$d ta video yuborish</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">%d ta video yuborish</item>
+        <item quantity="one">%d ta video yuborish</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">WhatsApp’ning ushbu versiyasini %d kundan so‘ng yangilash kerak bo‘ladi. So‘nggi versiyaga yangilansinmi?</item>
+        <item quantity="one">WhatsApp’ning ushbu versiyasini %d kundan so‘ng yangilash kerak bo‘ladi. So‘nggi versiyaga yangilansinmi?</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">%d ta kontakt istisno qilindi</item>
+        <item quantity="one">%d ta kontakt istisno qilindi</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">%d ta kontakt tanlandi</item>
+        <item quantity="one">%d ta kontakt tanlandi</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">%d ta status o‘chirildi</item>
+        <item quantity="one">%d ta status o‘chirildi</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">Xabarlarni tozalash (%s)</item>
+        <item quantity="one">Xabarni tozalash (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">%1$s (%2$s ta xabar) tozalansinmi?</item>
+        <item quantity="one">%1$s (%2$s ta xabar) tozalansinmi?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">Xabarlarni tozalash</item>
+        <item quantity="one">Xabarlarni tozalash</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">Mening statusimga yuboriladigan matnlar birinchi %d belgiga qisqartiriladi.</item>
+        <item quantity="one">Mening statusimga yuboriladigan matnlar birinchi %d belgiga qisqartiriladi.</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">%s qoldi</item>
+        <item quantity="one">%s qoldi</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">Chat olib tashlandi</item>
+        <item quantity="one">Chat olib tashlandi</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d ta o‘qilmagan xabar</item>
+        <item quantity="one">%d ta o‘qilmagan xabar</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">Sizda %1$d ta yuborilmagan xabar qoldi.</item>
+        <item quantity="one">Sizda %1$d ta yuborilmagan xabar qoldi.</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">Suhbat tozalanayotganda xabarlarni tanlanganlardan bekor qilib bo‘lmaydi. Keyin qayta urinib ko‘ring.</item>
+        <item quantity="one">Suhbat tozalanayotganda xabarni tanlanganlardan bekor qilib bo‘lmaydi. Keyin qayta urinib ko‘ring.</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d ta o‘tkazib yub. videoqo‘ng‘iroq</item>
+        <item quantity="one">%d ta o‘tkazib yub. videoqo‘ng‘iroq</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">Mening statusimga yuboriladigan videolar birinchi %d soniyaga qisqartiriladi.</item>
+        <item quantity="one">Mening statusimga yuboriladigan videolar birinchi %d soniyaga qisqartiriladi.</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">Kontaktni ko‘rish</item>
+        <item quantity="one">Kontaktni ko‘rish</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">Ko‘rganlar: %d</item>
+        <item quantity="one">Ko‘rganlar: %d</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">Siz %2$d ta xabar oluvchili \"%1$s\" tarqatma ro‘yxatini yaratdingiz</item>
+        <item quantity="one">Siz %2$d ta xabar oluvchili \"%1$s\" tarqatma ro‘yxatini yaratdingiz</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">Siz %d ta xabar oluvchili ro‘yxatni yaratdingiz</item>
+        <item quantity="one">Siz %d ta xabar oluvchili ro‘yxatni yaratdingiz</item>
+    </plurals>
+</resources>

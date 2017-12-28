@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.filter.TouchIgnorableCoordinatorLayout android:layout_gravity="bottom" android:id="@id/filter_sheet_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/filter_bottom_sheet" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+        <View android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <android.support.v7.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/filter_selector" android:background="@color/filter_selector_background" android:paddingLeft="@dimen/filter_selector_horizontal_padding" android:paddingTop="@dimen/filter_selector_vertical_padding" android:paddingRight="@dimen/filter_selector_horizontal_padding" android:paddingBottom="@dimen/filter_selector_vertical_padding" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/filter_selector_height" />
+    </FrameLayout>
+</com.whatsapp.filter.TouchIgnorableCoordinatorLayout>

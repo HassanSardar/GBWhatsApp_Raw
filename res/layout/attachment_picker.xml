@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.CircularRevealView android:layout_gravity="center_horizontal" android:id="@id/paper_clip_layout" android:background="@android:color/transparent" android:paddingBottom="4.0dip" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/content" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/attach_picker_first_row" android:paddingTop="@dimen/attach_popup_vertical_padding" android:paddingBottom="8.0dip" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/pickfiletype_document_holder" style="@style/AttachPickerItem">
+                <com.whatsapp.ThumbnailButton android:id="@id/pickfiletype_document" android:src="@drawable/attach_document" android:contentDescription="@string/attach_document" whatsapp:tbtnRadius="-1.0dip" whatsapp:tbtnForegroundOnly="true" style="@style/AttachPickerIcon" />
+                <com.whatsapp.CondensedTextView android:id="@id/clip_image_tv" android:text="@string/attach_document" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/pickfiletype_camera_holder" style="@style/AttachPickerItem">
+                <com.whatsapp.ThumbnailButton android:id="@id/pickfiletype_camera" android:src="@drawable/attach_camera" android:contentDescription="@string/attach_camera" whatsapp:tbtnRadius="-1.0dip" whatsapp:tbtnForegroundOnly="true" style="@style/AttachPickerIcon" />
+                <com.whatsapp.CondensedTextView android:id="@id/clip_cam_tv" android:text="@string/attach_camera" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/pickfiletype_gallery_holder" style="@style/AttachPickerItem">
+                <com.whatsapp.ThumbnailButton android:id="@id/pickfiletype_gallery" android:src="@drawable/attach_gallery" android:contentDescription="@string/attach_picture_from_gallery" whatsapp:tbtnRadius="-1.0dip" whatsapp:tbtnForegroundOnly="true" style="@style/AttachPickerIcon" />
+                <com.whatsapp.CondensedTextView android:id="@id/clip_video_tv" android:text="@string/attach_picture_from_gallery" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/attach_picker_second_row" android:paddingBottom="@dimen/attach_popup_vertical_padding" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/pickfiletype_audio_holder" style="@style/AttachPickerItem">
+                <com.whatsapp.ThumbnailButton android:id="@id/pickfiletype_audio" android:src="@drawable/attach_audio" android:contentDescription="@string/attach_audio" whatsapp:tbtnRadius="-1.0dip" whatsapp:tbtnForegroundOnly="true" style="@style/AttachPickerIcon" />
+                <com.whatsapp.CondensedTextView android:id="@id/clip_audio_tv" android:text="@string/attach_audio" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/pickfiletype_location_holder" style="@style/AttachPickerItem">
+                <com.whatsapp.ThumbnailButton android:id="@id/pickfiletype_location" android:src="@drawable/attach_location" android:contentDescription="@string/attach_location" whatsapp:tbtnRadius="-1.0dip" whatsapp:tbtnForegroundOnly="true" style="@style/AttachPickerIcon" />
+                <com.whatsapp.CondensedTextView android:id="@id/clip_location_tv" android:text="@string/attach_location" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/pickfiletype_contact_holder" style="@style/AttachPickerItem">
+                <com.whatsapp.ThumbnailButton android:id="@id/pickfiletype_contact" android:src="@drawable/attach_contact" android:contentDescription="@string/attach_contact" whatsapp:tbtnRadius="-1.0dip" whatsapp:tbtnForegroundOnly="true" style="@style/AttachPickerIcon" />
+                <com.whatsapp.CondensedTextView android:id="@id/clip_contact_tv" android:text="@string/attach_contact" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.whatsapp.CircularRevealView>

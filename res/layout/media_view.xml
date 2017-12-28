@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/pager_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="top" android:id="@id/title_protection" android:background="@drawable/media_view_header_gradient" android:layout_width="fill_parent" android:layout_height="150.0dip" />
+    <FrameLayout android:layout_gravity="top" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.BidiToolbar android:id="@id/toolbar" android:background="@color/transparent_actionbar_background" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    </FrameLayout>
+    <View android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+</android.support.design.widget.CoordinatorLayout>

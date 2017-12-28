@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.EmojiPopupLayout android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/emoji_search_container">
+        <com.gb.atnfas.font_text android:layout_gravity="center" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/register_name_profile" style="@style/RegistrationTitle" />
+        <com.gb.atnfas.font_text android:textSize="14.0sp" android:textColor="@color/body_light_gray" android:gravity="center" android:paddingLeft="16.0dip" android:paddingTop="24.0dip" android:paddingRight="16.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/register_name_info" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:gravity="center" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.whatsapp.ThumbnailButton android:id="@id/change_photo_btn" android:layout_width="@dimen/registration_profile_photo_size" android:layout_height="@dimen/registration_profile_photo_size" android:src="@drawable/ic_addphoto" android:scaleType="fitCenter" android:contentDescription="@string/profile_photo" whatsapp:tbtnRadius="-1.0dip" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/change_photo_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse" />
+            </FrameLayout>
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_weight="1.0">
+                <EditText android:textSize="16.0dip" android:textColor="#ff000000" android:textColorHint="@color/edit_text_counter" android:ellipsize="end" android:id="@id/registration_name" android:paddingRight="@dimen/counter_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/register_name_hint" android:maxLines="1" android:lines="1" android:singleLine="true" android:inputType="textCapWords" android:imeOptions="actionDone" android:backgroundTint="@color/accent" />
+                <com.gb.atnfas.font_text android:textSize="12.0sp" android:textColor="@color/edit_text_counter" android:id="@id/name_counter_tv" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignBaseline="@id/registration_name" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <ImageButton android:layout_gravity="center|right" android:id="@id/emoji_btn" android:background="@android:color/transparent" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="wrap_content" android:layout_height="48.0dip" android:src="@drawable/input_emoji" android:tint="@color/body_gray" android:minWidth="0.0dip" android:minHeight="0.0dip" />
+        </LinearLayout>
+        <View android:id="@id/spacer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/register_name_accept" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="24.0dip" android:text="@string/next" style="@style/RegistrationButton" />
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/checkbox_linear_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="bottom" android:id="@id/shortcut_layout" android:background="#fffafafa" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_alignParentBottom="true">
+                <com.gb.atnfas.font_text android:textSize="14.0dip" android:textColor="@color/body_gray" android:gravity="center|left" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:text="@string/install_app_shortcut" android:layout_toLeftOf="@id/cbx_app_shortcut" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/Text.Description" />
+                <CheckBox android:textColor="@color/black" android:gravity="center" android:id="@id/cbx_app_shortcut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.whatsapp.emoji.search.EmojiSearchContainer android:id="@id/emoji_search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</com.whatsapp.EmojiPopupLayout>

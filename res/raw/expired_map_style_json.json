@@ -1,0 +1,39 @@
+[
+  {
+    "stylers": [
+      {
+        "saturation": -30
+      },
+      {
+        "lightness": 25
+      },
+      {
+        "visibility": "simplified"
+      }
+    ]
+  },
+  {
+    "elementType": "labels",
+    "stylers": [
+      {
+        "color": "#b1b1b1"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "stylers": [
+      {
+        "color": "#c9d9eb"
+      }
+    ]
+  }
+]

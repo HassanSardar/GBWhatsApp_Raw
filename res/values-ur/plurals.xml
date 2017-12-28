@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">%d وصول کنندگان</item>
+        <item quantity="one">%d وصول کنندہ</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">%1$s، اور %2$d مزید</item>
+        <item quantity="one">%1$s، اور %2$d مزید</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">ایک وقت میں زیادہ سے زیادہ %1$d اشخاص کو نشر کریں۔</item>
+        <item quantity="one">ایک وقت میں زیادہ سے زیادہ %1$d شخص کو نشر کریں۔</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">%d روابط کو نشرکریں</item>
+        <item quantity="one">%d رابطہ کو نشرکریں</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">بات چیت کی ذخیرہ اندوزی کریں</item>
+        <item quantity="one">بات چیت کی ذخیرہ اندوزی کریں</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">بات چیت کو با ذحیرہ اندوزکر دیا گیا</item>
+        <item quantity="one">بات چیت کو با ذحیرہ اندوزکر دیا گیا</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">بات چیت حذف کریں</item>
+        <item quantity="one">بات چیت حذف کریں</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">%1$d منتخب بات چیت حذف کریں؟</item>
+        <item quantity="one">%1$d منتخب بات چیت حذف کریں؟</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">گروپس سے باہر نکلیں</item>
+        <item quantity="one">گروپ سے باہر نکلیں</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">%1$d منختب گروپس سے باہر نکلیں؟</item>
+        <item quantity="one">%1$d منختب گروپ سے باہر نکلیں؟</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">بات چیت پن کریں</item>
+        <item quantity="one">بات چیت پن کریں</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">بات چیت کو غیر ذخیرہ اندوزکریں</item>
+        <item quantity="one">بات چیت کو غیر ذخیرہ اندوزکریں</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">بات چیت سے پن ہٹائیں</item>
+        <item quantity="one">بات چیت سے پن ہٹائیں</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">آپ صرف %1$d بات چیت پر ہی پن لگا سکتے ہیں</item>
+        <item quantity="one">آپ صرف %1$d بات چیت پر ہی پن لگا سکتے ہیں</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">آپ کے گروپس اور &lt;a href=\"contacts-link\">%d روابط&lt;/a> کو آپ کے نئے نمبر کے بارے میں خبر کر دی جائیگی۔</item>
+        <item quantity="one">آپ کے گروپ اور&lt;a href=\"contacts-link\">%d رابطے&lt;/a> کو آپ کے نئے نمبر کے بارے میں خبر کر دی جائیگی۔</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">%1$d دستاویزات %2$s کو بھیجیں؟</item>
+        <item quantity="one">%1$d دستاویز %2$s کو بھیجیں؟</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">%2$s کے ساتھ %1$d چیزوں کا اشتراک کریں؟</item>
+        <item quantity="one">%2$s کے ساتھ %1$d چیز کا اشتراک کریں؟</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">آپ %1$d روابط سے زیادہ منتخب نہیں کر سکتے۔</item>
+        <item quantity="one">آپ %1$d رابطے سے زیادہ منتخب نہیں کر سکتے۔</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d اشخاص جاری مقام کا اشتراک کر رہے ہیں</item>
+        <item quantity="one">%d شخص جاری مقام کا اشتراک کر رہا ہے</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">آپ اور دیگر %d اشخاص جاری مقام کا اشتراک کر رہے ہیں</item>
+        <item quantity="one">آپ اور دیگر %d شخص جاری مقام کا اشتراک کر رہے ہیں</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s اور %2$d مزید روابط</item>
+        <item quantity="one">%1$s اور %2$d مزید رابطہ</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d دن</item>
+        <item quantity="one">%d دن</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">%d پیغامات حذف کردیں؟</item>
+        <item quantity="one">%d پیغام حذف کردیں؟</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"\"%1$s\" کے ساتھ بات چیت حذف کر دیں؟
+ اس بات چیت میں آپ کے %2$d بن بھیجے پیغامات ہیں۔"</item>
+        <item quantity="one">"\"%1$s\" کے ساتھ بات چیت حذف کردیں؟
+ اس بات چیت میں آپ کا %2$d بن بھیجا پیغام ہے۔"</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">%d صورتِ حال اپ ڈیٹس کو حذف کر دیں؟ یہ ان سب کے لیے بھی حذف ہو جائیںگیں جو انہیں موصول کر چکے ہیں۔</item>
+        <item quantity="one">%d صورتِ حال اپ ڈیٹ کو حذف کر دیں؟ یہ ان سب کے لیے بھی حذف ہو جائیگی جو اسے موصول کر چکے ہیں۔</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">تفصیل میں %d سے زیادہ حروف نہیں ہو سکتے۔</item>
+        <item quantity="one">تفصیل میں %d سے زیادہ حروف نہیں ہو سکتے۔</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">یہ تصاویر بہت چھوٹی ہیں۔ براہ کرم ایسی تصاویر منتخب کریں جنکی لمبائی اور چوڑائی کم از کم %d پکسل ہو۔</item>
+        <item quantity="one">یہ تصویر بہت چھوٹی ہے۔ براہ کرم کوئی ایسی تصویر منتخب کریں جسکی لمبائی اور چوڑائی کم از کم %d پکسل ہو۔</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"گروپ \"%1$s\" سے باہرنکل جائیں؟
+ اس بات چیت میں آپ کے %2$d بن بھیجے پیغامات ہیں۔"</item>
+        <item quantity="one">"گروپ \"%1$s\" سے باہر نکل جائیں؟
+ اس بات چیت میں آپ کا %2$d بن بھیجا پیغام ہے۔"</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">%d نہیں بھیج سکے</item>
+        <item quantity="one">%d نہیں بھیج سکے</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">آپ کے آلے سے %d فائلیں حذف کی گئیں</item>
+        <item quantity="one">آپ کے آلے سے %d فائل حذف کی گئی</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">یہ صورتِ حال اپ ڈیٹ %d کے علاوہ آپ کے روابط کو بھیجی جائیگی۔</item>
+        <item quantity="one">یہ صورتِ حال اپ ڈیٹ %d کے علاوہ آپ کے روابط کو بھیجی جائیگی۔</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">یہ صورتِ حال اپ ڈیٹ %d روابط کے بھیجی جائے گی۔</item>
+        <item quantity="one">یہ صورتِ حال اپ ڈیٹ %d رابطے کو بھیجی جائے گی۔</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">%d پیغامات بحال ہوگئے- آپ کا میڈیا پس منظر میں بحال ہو جائیگا-</item>
+        <item quantity="one">%d پیغام بحال ہوگیا- آپ کا میڈیا پس منظر میں بحال ہو جائیگا-</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">%d پیغامات بحال ہوگئے</item>
+        <item quantity="one">%d پیغام بحال ہوگیا</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">%1$d دستاویزات \"%2$s\" کو بھیج دیں؟</item>
+        <item quantity="one">%1$d دستاویز \"%2$s\" کو بھیج دیں؟</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">\"%2$s\" کے ساتھ %1$d چیزوں کا اشتراک کر دیں؟</item>
+        <item quantity="one">\"%2$s\" کے ساتھ %1$d چیز کا اشتراک کر دیں؟</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%s اب منتظم نہیں ہیں</item>
+        <item quantity="one">%s اب منتظم نہیں ہے</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%s اب منتظم ہیں</item>
+        <item quantity="one">%s اب منتظم ہے</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">آپ %1$d شرکاء سے زیادہ منتخب نہیں کر سکتے۔</item>
+        <item quantity="one">آپ %1$d شریک سے زیادہ منتخب نہیں کر سکتے۔</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d گھنٹے</item>
+        <item quantity="one">%d گھنٹہ</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$d گھنٹے</item>
+        <item quantity="one">%1$d گھنٹا</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">%d بات چیت میں اشتراک کیا جا رہا ہے</item>
+        <item quantity="one">%d بات چیت میں اشتراک کیا جا رہا ہے</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d اشخاص</item>
+        <item quantity="one">%d شخص</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d اشخاص نے اشتراک کرنا بند کیا</item>
+        <item quantity="one">%d شخص نے اشتراک کرنا بند کیا</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">%d میٹرز کے عین برابر</item>
+        <item quantity="one">%d میٹر کے عین برابر</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d پیغامات کاپی کردیے گئے</item>
+        <item quantity="one">%d پیغام کاپی کردیا گیا</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d پیغامات حذف ہوگئے</item>
+        <item quantity="one">%d پیغام حذف ہوگیا</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d منٹ</item>
+        <item quantity="one">%d منٹ</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d منٹوں پہلے</item>
+        <item quantity="one">%d منٹ پہلے</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$d منٹ</item>
+        <item quantity="one">%1$d منٹ</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d مسڈ کالیں</item>
+        <item quantity="one">%d مسڈ کال</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d سے صوتی پیغامات چھوٹ گئے</item>
+        <item quantity="one">%d سے صوتی پیغام چھوٹ گیا</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d روابط</item>
+        <item quantity="one">%d رابطہ</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d روابط</item>
+        <item quantity="one">%d رابطہ</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">کم از کم %d روابط کا انتخاب ضروری ہے</item>
+        <item quantity="one">کم از کم %d رابطے کا انتخاب ضروری ہے</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d منتخب</item>
+        <item quantity="one">%d منتخب</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">%d منتخب چیزیں</item>
+        <item quantity="one">%d منتخب چیز</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">%2$d میں سے %1$d منتخب</item>
+        <item quantity="one">%2$d میں سے %1$d منتخب</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d منتخب ہوگئیں</item>
+        <item quantity="one">%d منتخب ہوگئی</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">%1$s اور %2$d دیگر</item>
+        <item quantity="one">%1$s اور %2$d دیگر</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d پیغامات</item>
+        <item quantity="one">%1$d پیغام</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d صورتِ حال اپ ڈیٹس</item>
+        <item quantity="one">%1$d صورتِ حال اپ ڈیٹ</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d کالیں</item>
+        <item quantity="one">%1$d کال</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d نئے پیغامات</item>
+        <item quantity="one">%d نیا پیغام</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d پیغامات</item>
+        <item quantity="one">%d پیغام</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%2$d بات چیت سے %1$s</item>
+        <item quantity="one">%2$d بات چیت سے %1$s</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">آپ %1$d روابط سے زیادہ منتخب نہیں کر سکتے۔</item>
+        <item quantity="one">آپ %1$d رابطے سے زیادہ منتخب نہیں کر سکتے۔</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d صفحات</item>
+        <item quantity="one">%d صفحہ</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d تصاویر</item>
+        <item quantity="one">%d تصویر</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d شیٹس</item>
+        <item quantity="one">%d شیٹ</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d اسلائیڈز</item>
+        <item quantity="one">%dا سلائیڈ</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d ویڈیوز</item>
+        <item quantity="one">%d ویڈیو</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">%1$s اور آپ کے مزید %2$d روابط WhatsApp پر ہیں۔</item>
+        <item quantity="one">%1$s اور آپ کا مزید %2$d رابطہ WhatsApp پر ہے۔</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s, %3$s اور آپ کے مزید %4$d روابط WhatsApp پر ہیں۔</item>
+        <item quantity="one">%1$s, %2$s, %3$s اور آپ کا مزید %4$d رابطہ WhatsApp پر ہے۔</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s اور آپ کے مزید %3$d روابط WhatsApp پر ہیں۔</item>
+        <item quantity="one">%1$s, %2$s اور آپ کا مزید %3$d رابطہ WhatsApp پر ہے۔</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">آپ کے مزید %1$d روابط WhatsApp پر ہیں۔</item>
+        <item quantity="one">آپ کا مزید %1$d رابطہ WhatsApp پر ہے۔</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">%d باقی ہیں</item>
+        <item quantity="one">%d باقی ہے</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d شرکاء</item>
+        <item quantity="one">%d شریک</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">بات چیت پن ہوئیں</item>
+        <item quantity="one">بات چیت پن ہوئی</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">%d پیغامات کو متروک کر دیں؟</item>
+        <item quantity="one">%d پیغام متروک کر دیں؟</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">%d وصول کنندگان</item>
+        <item quantity="one">%d وصول کنندہ</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">%,d پیغامات بحال ہوگئے- آپ آگے بڑھ سکتے ہیں-</item>
+        <item quantity="one">%,d پیغام بحال ہوگیا- آپ آگے بڑھ سکتے ہیں-</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">%2$s کے %1$d پیغامات دوبارہ بھیجیں</item>
+        <item quantity="one">%2$s کا %1$d پیغام دوبارہ بھیجیں</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">گزشتہ کل کے %1$d پیغامات دوبارہ بھیجیں</item>
+        <item quantity="one">گزشتہ کل کا %1$d پیغام دوبارہ بھیجیں</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d سیکنڈز</item>
+        <item quantity="one">%d سیکنڈ</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">روابط بھیجیں</item>
+        <item quantity="one">رابطہ بھیجیں</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">سوائے %d کے میرے روابط کو بھیجیں</item>
+        <item quantity="one">سوائے %d کے میرے روابط کو بھیجیں</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">%d روابط کو بھیجیں</item>
+        <item quantity="one">%d رابطے کو بھیجیں</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">%2$s کو %1$d آڈیوز بھیجی جارہی ہیں</item>
+        <item quantity="one">%2$s کو %1$d آڈیو بھیجی جارہی ہے</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">%d آڈیوز بھیجی جارہی ہیں</item>
+        <item quantity="one">%d آڈیو بھیجی جارہی ہے</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">%2$s کو %1$d فائلیں بھیجی جارہی ہیں</item>
+        <item quantity="one">%2$s کو %1$d فائل بھیجی جارہی ہے</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">%d فائلیں بھیجی جارہی ہیں</item>
+        <item quantity="one">%d فائل بھجی جارہی ہے</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">%2$s کو GIFs %1$d بھیجی جا رہی ہیں</item>
+        <item quantity="one">%2$s کو GIF %1$d بھیجی جا رہی ہے</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">Gifs %d بھیجی جا رہی ہیں</item>
+        <item quantity="one">GIF %d بھیجی جا رہی ہے</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">%d بھیجی جا رہی ہیں</item>
+        <item quantity="one">%d بھیجی جا رہی ہے</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">%1$d ویڈیوز %2$s کو بھیجی جارہی ہیں</item>
+        <item quantity="one">%1$d ویڈیو %2$s کو بھیجی جارہی ہے</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">%d ویڈیوز بھیجی جا رہی ہیں</item>
+        <item quantity="one">%d ویڈیو بھیجی جا رہی ہے</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">WhatsApp کا یہ ورژن %d دنوں میں اپ ڈیٹ کرنا ضروری ہے- تازہ تریں ورژن پر اپڈیٹ کر دیں؟</item>
+        <item quantity="one">WhatsApp کا یہ ورژن %d دن میں اپ ڈیٹ کرنا ضروری ہے- تازہ تریں ورژن پر اپڈیٹ کر دیں؟</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">%d روابط چھوڑے گئے</item>
+        <item quantity="one">%d رابطہ چھوڑا گیا</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">%d روابط منتخب</item>
+        <item quantity="one">%d رابطہ منتخب</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">%d صورتِ حال اپ ڈیٹس حذف کی گئیں</item>
+        <item quantity="one">%d صورتِ حال اپ ڈیٹ حذف کی گئی</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">(%s) پیغامات صاف کریں</item>
+        <item quantity="one">(%s) پیغام صاف کریں</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">%1$s (%2$s پیغامات) صاف کر دیں؟</item>
+        <item quantity="one">%1$s (%2$s پیغام) صاف کر دیں؟</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">پیغامات صاف کریں</item>
+        <item quantity="one">پیغام صاف کریں</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">میری صورتِ حال میں بھیجا جانے والا متن ابتدائی %d حروف تک کاٹ دیا جائیگا۔</item>
+        <item quantity="one">میری صورتِ حال میں بھیجا جانے والا متن ابتدائی %d حرف تک کاٹ دیا جائیگا۔</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">%s باقی</item>
+        <item quantity="one">%s باقی</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">بات چیت سے پن ہٹائی گئی</item>
+        <item quantity="one">بات چیت سے پن ہٹائی گئی</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d بن پڑھے پیغامات</item>
+        <item quantity="one">%d بن پڑھا پیغام</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">آپ کے انتخاب میں%1$d بن بھیجے پیغامات ہیں۔</item>
+        <item quantity="one">آپ کے انتخاب میں %1$d بن بھیجا پیغام ہے۔</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">بات چیت صاف کئے جانے کے دوران پیغامات کو غیر ستارہ دار نہیں کیا جا سکتا۔ بعد میں پھر سے کوشش کریں۔</item>
+        <item quantity="one">بات چیت صاف کئے جانے کے دوران پیغام کو غیر ستارہ دار نہیں کیا جا سکتا۔ بعد میں پھر سے کوشش کریں۔</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d ویڈیو کالز چھوٹ گئیں</item>
+        <item quantity="one">%d ویڈیو کال چھوٹ گئی</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">میری صورتِ حال میں بھیجی جانے والی ویڈیوز ابتدائی %d سیکنڈس تک کاٹ دی جائینگیں</item>
+        <item quantity="one">میری صورتِ حال میں بھیجی جانے والی ویڈیوز ابتدائی %d سیکنڈس تک کاٹ دی جائینگیں</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">روابط دیکھیں</item>
+        <item quantity="one">رابطہ دیکھیں</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">%d نے دیکھا</item>
+        <item quantity="one">%d نے دیکھا</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">آپ نے %2$d وصول کنندگان کے ساتھ نشریاتی فہرست \"%1$s\" بنائی</item>
+        <item quantity="one">آپ نے %2$d وصول کنندہ کے ساتھ نشریاتی فہرست \"%1$s\" بنائی</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">آپ نے %d وصول کنندگان کے ساتھ ایک نشریاتی فہرست بنائی</item>
+        <item quantity="one">آپ نے %d وصول کنندہ کے ساتھ ایک نشریاتی فہرست بنائی</item>
+    </plurals>
+</resources>

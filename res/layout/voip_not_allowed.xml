@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:padding="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_unavailable" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gb.atnfas.font_text android:textSize="24.0sp" android:textColor="@color/accent_light" android:id="@id/title" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/voip_not_allowed_title" />
+                <com.gb.atnfas.font_text android:textSize="16.0sp" android:textColor="#ff7a8990" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.25" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:paddingTop="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff7a8990" android:id="@id/more" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/learn_more" style="@style/ActionBarButtonStyle" />
+            <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/accent_light" android:id="@id/ok" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ok_got_it" style="@style/ActionBarButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

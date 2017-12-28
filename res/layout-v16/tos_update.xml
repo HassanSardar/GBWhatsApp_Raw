@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:background="#fff9f9f9" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <Button android:textColor="#ff78909c" android:layout_gravity="right" android:id="@id/not_now" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/not_now" android:drawableLeft="@drawable/ic_close" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/illustration" android:paddingBottom="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ill_tos" />
+                <com.gb.atnfas.font_text android:textSize="16.0sp" android:textColor="#ff536165" android:gravity="left" android:id="@id/desrciption" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Text.Field" />
+            </LinearLayout>
+        </ScrollView>
+        <ImageView android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_marginTop="-6.0dip" android:src="@drawable/shadow_terms" android:scaleType="fitXY" />
+        <FrameLayout android:id="@id/footer" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="16.0sp" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/agree" android:background="@drawable/btn_green_small" android:paddingLeft="28.0dip" android:paddingTop="17.0dip" android:paddingRight="28.0dip" android:paddingBottom="17.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/tos_agree" android:fontFamily="sans-serif-medium" />
+                <View android:background="#ffc0cbd1" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" />
+                <RelativeLayout android:orientation="horizontal" android:id="@id/read_more" android:background="@drawable/selector_orange_gradient" android:paddingLeft="24.0dip" android:paddingTop="14.0dip" android:paddingRight="20.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gb.atnfas.font_text android:textSize="13.5sp" android:textColor="#ff8b979a" android:gravity="left" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tos_read_more" android:layout_toLeftOf="@id/icon_up" />
+                    <ImageView android:id="@id/icon_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_up" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

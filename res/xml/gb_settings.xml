@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/GB_Mods"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:cmwmobile="http://schemas.android.com/apk/res/com.whatsapp">
+    <PreferenceCategory android:title="gbwhatsapp" android:key="cat_wa">
+        <Preference android:layout="@layout/ad" />
+        <Preference android:title="@string/gbinsta_title_pref" android:key="gbinsta_project" />
+        <Preference android:title="@string/settings_faq" android:key="settings_faq" />
+        <Preference android:title="@string/updatess" android:key="updates_key" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/themes">
+        <Preference android:title="@string/download_themes" android:key="download_themes" android:summary="@string/download_themes_summary" />
+        <Preference android:title="@string/more_preferences" android:key="themes_key" android:summary="@string/more_preferences_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/appearance">
+        <Preference android:title="@string/conversation_colors" android:key="chat_colors" android:summary="@string/conversation_colors_summary" />
+        <Preference android:title="@string/chats_colors" android:key="chats_colors" android:summary="@string/chats_colors_summary" />
+        <Preference android:title="@string/popup_colors" android:key="popup_key" android:summary="@string/popup_colors_summary" />
+        <Preference android:title="@string/widgets" android:key="widget_key" android:summary="@string/widgets_summary" />
+        <Preference android:title="@string/media_sharing_pref" android:key="media_sharing_key" android:summary="@string/media_sharing_pref_summary" />
+        <Preference android:title="@string/others" android:key="others_key" android:summary="@string/others_summary" />
+        <Preference android:title="@string/gb_lock" android:key="gb_lock" />
+        <Preference android:title="@string/clean_whatsapp_pref" android:key="clean_whatsapp_screen" />
+        <Preference android:title="@string/read_log_pref" android:key="logs_key" />
+        <ListPreference android:entries="@array/language_array" android:title="@string/language_title" android:key="gb_language_key" android:defaultValue="0" android:entryValues="@array/language_values" />
+        <Preference android:title="@string/change_font_pref" android:key="gb_fonts" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/GB_About" android:key="cat_about">
+        <Preference android:title="@string/pref_facebook" android:key="facebook" android:summary="@string/pref_sum_facebook" />
+        <Preference android:title="@string/google_plus" android:key="google_plus" android:summary="@string/google_plus_sum" />
+        <Preference android:title="@string/pref_sum_blogger" android:key="about" android:summary="GBMods" />
+        <Preference android:title="@string/pref_twitter" android:key="twitter" android:summary="@string/pref_sum_twitter" />
+        <Preference android:title="@string/GBShare" android:key="share" android:summary="@string/GBShareSum" />
+        <Preference android:title="@string/GB_Report" android:key="report" />
+        <Preference android:title="@string/Thanks" android:key="Thanks" />
+    </PreferenceCategory>
+</PreferenceScreen>

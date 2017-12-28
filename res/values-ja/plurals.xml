@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">宛先 %d人</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">%1$sとその他%2$d人</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">一度に最大%1$d人まで一斉送信します。</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">%d人に一斉送信</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">チャットをアーカイブ</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">チャットがアーカイブされました</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">チャットを削除</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">選択した %1$d 件のチャットを削除しますか?</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">グループ退出</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">選択した %1$d 件のグループを退出しますか?</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">チャットのピン</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">チャットのアーカイブを解除</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">チャットのピン解除</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">最大%1$dチャットまでピン可能です。</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">所属グループと&lt;a href=\"contacts-link\">%d件の連絡先&lt;/a>に、あなたの新しい電話番号が通知されます。</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">%1$d件のドキュメントを%2$sに送信しますか？</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">%2$sに%1$d項目を共有しますか?</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">選択できる連絡先は%1$d件までです。</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d人がライブロケーションを共有しています</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">あなたは%d人とライブロケーションを共有しています</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s と %2$d 、その他連絡先</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d日</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">%d 件のメッセージを削除しますか?</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"「%1$s」とのチャットを削除しますか?
+チャット内に%2$d件の未送信メッセージがあります。"</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">%dのステータスの更新を削除しますか？受け取ったすべての人のも削除されます。</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">説明は%d文字以下になります。</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">この写真は小さすぎます。高さと幅が%dピクセル以上の写真を選択してください。</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"「%1$s」グループを退出しますか?
+チャット内に%2$d件の未送信メッセージがあります。"</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">%d送信できませんでした</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d件のファイルが端末から削除されました</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">このステータスの更新は、%dを除くあなたの連絡先に送信されます。</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">このステータスの更新は、%dの連絡先に送信されます。</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">%d 件のメッセージを復元しました。メディアはバックグラウンドで復元されます。</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">%d 件のメッセージを復元しました</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">%1$d件のドキュメントを%2$sに送信しますか？</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">%2$sと%1$d項目を共有しますか?</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%sは管理者ではなくなりました</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%sが管理者になりました</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">選択できる参加者は、%1$d件までです。</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$d時間</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">%dチャットで共有中</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d人</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d人が共有を停止しました</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">位置精度 誤差%d m以内</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d 件のメッセージがコピーされました</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d件のメッセージを削除しました</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d 分前</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$d分</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d 件の不在着信</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d不在着信</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d件の連絡先</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d 件の連絡先</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">最低%d件の連絡先を選択してください</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d人選択済み</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">%d 項目選択</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">%1$d / %2$d 選択済み</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d 選択済み</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">%1$s および、ほか %2$d 件</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d 通のメッセージ</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d のステータス更新</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d 件のコール</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d 件の新しいメッセージ</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">メッセージ %d件</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%2$d 件のチャットから%1$s</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">選択できる連絡先は、%1$d件までです。</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d ページ</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d写真</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d 枚</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d 枚</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d動画</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">%1$sのほか、連絡先の%2$d人がWhatsAppを利用しています。</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">%1$sや%2$s、%3$sのほか、連絡先の%4$d人がWhatsAppを利用しています。</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">%1$sや%2$sのほか、連絡先の%3$d人がWhatsAppを利用しています。</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">連絡先の%1$d人がWhatsAppを利用しています。</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">残り%d</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d参加者</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">チャットがピンされました</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">%d のメッセージを取り消しますか？</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">受取 %d人</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">%,d 件のメッセージを復元しました。準備完了です。</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">%2$s のメッセージ%1$d 件を再送信</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">昨日のメッセージ%1$d 件を再送信</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">連絡先を送る</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">%d以外の連絡先に送信する</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">%dの連絡先に送信</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">%1$d 件の音声を %2$s に送信しています</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">%d 音声送信中</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">%1$d 件のファイルを %2$s に送信中</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">%d ファイル送信中</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">%1$d GIFを%2$sに送信中</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">%d GIFを送信中</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">%d送信中</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">%2$sに%1$d本の動画を送信中</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">%d本のビデオを送信中</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">ご利用中のバージョンのWhatsAppは後%d 日でアップデートが必要です。今すぐ最新バージョンにアップデートしますか?</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">%dの連絡先を除外</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">%d の連絡先を選択</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">%dのステータスの更新が削除されました</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">メッセージ消去 (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">メッセージ (%1$s, %2$s件) を消去しますか？</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">メッセージ消去</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">マイステータスに送信されたテキストは、最初の%d文字にトリムされます。</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">残り%s</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">チャットのピン解除</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">未読メッセージ %d件</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">選択した中に %1$d 件の未送信メッセージがあります。</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">チャットの消去中はメッセージのスターをはずすことはできません。あとで再度試してください。</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%dビデオ通話不在着信</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">マイ ステータスに送信された動画は、最初の%d秒がトリムされます。</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">連絡先を見る</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">%d閲覧済</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">宛先%2$d人の一斉送信リスト「%1$s」を作成しました</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">宛先%d人の一斉送信リストを作成しました</item>
+    </plurals>
+</resources>

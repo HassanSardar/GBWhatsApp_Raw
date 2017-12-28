@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">ผู้รับ %d คน</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">%1$s คน และมีอีก %2$d คน</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">การกระจายข้อความได้สูงสุด %1$d คนต่อครั้ง</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">กระจายข้อความถึง %d คน</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">บันทึกเก็บแชท</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">แชทบันทึกเก็บแล้ว</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">ลบแชท</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">ลบ %1$d แชทที่เลือกหรือไม่?</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">ออกจากกลุ่ม</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">ออกจาก %1$d กลุ่มที่เลือกหรือไม่?</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">ปักหมุดแชท</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">ยกเลิกบันทึกเก็บแชท</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">เลิกปักหมุดแชท</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">คุณสามารถปักหมุดได้มากถึง %1$d แชทเท่านั้น</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">กลุ่มของคุณและ &lt;a href=\"contacts-link\">%d รายชื่อผู้ติดต่อ&lt;/a>จะถูกแจ้งเเกี่ยวกับหมายเลขใหม่ของคุณ</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">ส่ง %1$d เอกสารไปยัง %2$s หรือไม่?</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">แบ่งปัน %1$d กับ %2$s หรือไม่?</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">คุณไม่สามารถเลือกได้มากกว่า %1$d รายชื่อ</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d คนกำลังแบ่งปันตำแหน่งปัจจุบัน</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">คุณและคนอื่นอีก %d คนกำลังแบ่งปันตำแหน่งปัจจุบัน</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s และผู้ติดต่ออื่นๆ อีก %2$d คน</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d วัน</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">ลบ %d ข้อความหรือไม่?</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"ลบแชทกับ “%1$s”?
+คุณมี%2$dข้อความที่ไม่ได้ส่งในแชทนี้"</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">ลบการอัปเดตสถานะ %d รายการใช่หรือไม่? สถานะจะถูกลบออกสำหรับทุกคนที่ได้รับ</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">คำอธิบายมีได้ไม่เกิน %d ตัวอักษร</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">รูปมีขนาดเล็กเกินไป กรุณาเลือกรูปที่มีความกว้างและความสูงอย่างน้อย %d พิกเซล</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"ออกจากกลุ่ม “%1$s”หรือไม่?
+คุณมี%2$d ข้อความที่ไม่ถูกส่งในแชทนี้"</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">ไม่สามารถส่ง %d</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d ไฟล์ลบจากโทรศัพท์ของคุณ</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">การอัปเดตสถานะนี้จะถูกส่งไปยังผู้ติดต่อของคุณยกเว้น %d</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">การอัปเดตสถานะนี้จะถูกส่งไปยัง %d รายชื่อ</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">%d ข้อความกู้คืนได้ ไฟล์สื่อของคุณจะถูกกู้คืนในพื้นหลัง</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">%d ข้อความกู้คืนได้</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">ส่ง %1$d เอกสารไปยัง \"%2$s\" หรือไม่?</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">แบ่งปัน %1$d รายการให้กับ “%2$s” หรือไม่?</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%s ไม่ได้เป็นผู้ดูแลแล้ว</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%s เป็นผู้ดูแลขณะนี้</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">คุณไม่สามารถเลือกสมาชิกมากกว่า %1$d คน</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$d ชม.</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">กำลังแบ่งปันใน %d แชท</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d คน</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d คนได้หยุดแชร์</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">แม่นยำถึงระดับ %d เมตร</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d ข้อความที่ถูกคัดลอก</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d ข้อความที่ถูกลบ</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d นาที</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$d ม.</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d สายไม่ได้รับ</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d สายไม่ได้รับ</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">ผู้ติดต่อ %d คน</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">ผู้ติดต่อ %d คน</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">อย่างน้อย %d รายชื่อ ต้องถูกเลือก</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d คนถูกเลือก</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">เลือก %d รายการ</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">%1$d จาก %2$d ถูกเลือก</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d ถูกเลือก</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">%1$s และ %2$d อื่นๆ</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d ข้อความ</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">อัปเดต %1$d สถานะ</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d สาย</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d ข้อความใหม่</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d ข้อความ</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%1$s ข้อความจาก %2$d แชท</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">คุณไม่สามารถเลือกมากกว่า %1$d รายชื่อ</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d หน้า</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d รูป</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d แผ่น</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d สไลด์</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d วิดีโอ</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">%1$s และ %2$d รายชื่อจากผู้ติดต่อของคุณกำลังใช้ WhatsApp</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s, %3$s และ %4$d รายชื่อจากผู้ติดต่อของคุณกำลังใช้ WhatsApp</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s และ %3$d รายชื่อจากผู้ติดต่อของคุณกำลังใช้ WhatsApp</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">%1$d รายชื่อจากผู้ติดต่อของคุณกำลังใช้ WhatsApp</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">เหลืออีก %d</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">สมาชิก %d คน</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">แชทได้ถูกปักหมุดแล้ว</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">เรียกคืน %d ข้อความหรือไม่?</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">ผู้รับ %d คน</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">%,d ข้อความถูกกู้คืน คุณดำเนินการต่อได้</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">ส่ง %1$d ข้อความจาก %2$s อีกครั้ง</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">ส่ง %1$d ข้อความจากเมื่อวานนี้อีกครั้ง</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d วินาที</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">ส่งรายชื่อติดต่อ</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">ส่งไปยังรายชื่อติดต่อของฉันยกเว้น %d</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">ส่งไปยัง %d รายชื่อ</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">กำลังส่ง %1$d ไฟล์เสียง ถึง %2$s</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">กำลังส่ง %d ไฟล์เสียง</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">กำลังส่ง %1$d ไฟล์ ถึง %2$s</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">กำลังส่ง %d ไฟล์</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">กำลังส่ง %1$d GIF ไปยัง %2$s</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">กำลังส่ง %d GIF</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">กำลังส่ง %d</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">กำลังส่งวิดีโอ %1$d ไฟล์ไปยัง %2$s</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">กำลังส่งวิดีโอ %d ไฟล์</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">WhatsApp เวอร์ชั่นนี้จำเป็นต้องอัปเดตภายใน %d วัน อัปเดตไปเป็นเวอร์ชั่นล่าสุดหรือไม่?</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">%d รายชื่อได้ถูกยกเว้น</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">%d รายชื่อถูกเลือก</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">ลบการอัปเดต %d สถานะ</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">ล้างข้อความ (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">ล้าง %1$s (%2$s ข้อความ) หรือไม่?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">ล้างข้อความ</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">ข้อความที่ส่งไปยังสถานะจะถูกตัดออกให้เหลือ %d ตัวอักษรแรก</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">เหลือเวลา %s</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">แชทถูกยกเลิกปักหมุดแล้ว</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d ข้อความที่ยังไม่ได้อ่าน</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">คุณได้เลือก %1$d ข้อความที่ไม่ได้ส่งในรายการ</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">ไม่สามารถยกเลิกการติดดาวข้อความได้ในขณะกำลังล้างบทสนทนา ลองอึกครั้งภายหลัง</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d สายโทรวิดีโอที่ไม่ได้รับ</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">วิดีโอที่ส่งไปยังสถานะของฉันจะถูกตัดออกเหลือ %d วินาทีแรก</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">ดูรายชื่อติดต่อ</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">เห็นแล้วโดย %d</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">คุณได้สร้างรายการการกระจายข้อความ “%1$s” กับผู้รับ %2$d คน</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">คุณได้สร้างรายการการกระจายข้อความกับผู้รับ %d คน</item>
+    </plurals>
+</resources>

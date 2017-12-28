@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:id="@id/live_location_label_holder" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/live_location_icon_1" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_live_location_animation_1" />
+        <ImageView android:id="@id/live_location_icon_2" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_live_location_animation_2" />
+        <ImageView android:id="@id/live_location_icon_3" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_live_location_animation_3" />
+        <ImageView android:id="@id/live_location_icon_expired" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_expired_live_location" />
+    </FrameLayout>
+    <com.gb.atnfas.font_text android:textSize="14.0sp" android:textColor="@color/link_color_incoming" android:layout_gravity="center|left" android:id="@id/live_location_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/conversation_live_location_label_padding_right" />
+</LinearLayout>

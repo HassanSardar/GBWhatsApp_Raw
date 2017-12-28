@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">%d penerima</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">%1$s, dan %2$d lagi</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">Siarkan kepada maksimum %1$d orang pada satu masa.</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">Siar kepada %d kenalan</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">Arkib sembang</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">Sembang diarkibkan</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">Padam sembang</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">Padam %1$d sembang dipilih?</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">Keluar grup</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">Keluar %1$d grup dipilih?</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">Pinkan sembang</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">Nyaharkib sembang</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">Nyahpin sembang</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">Anda hanya boleh pin sehingga %1$d sembang</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">Grup dan &lt;a href=\"contacts-link\">%d kenalan&lt;/a> anda akan diberitahu mengenai nombor baru anda.</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">Hantar %1$d dokumen kepada %2$s?</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">Kongsi %1$d item dengan %2$s?</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">Anda tidak boleh memilih lebih daripada %1$d kenalan.</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d orang sedang mengongsi lokasi terkini</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">Anda dan %d orang lain sedang mengongsi lokasi terkini</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s dan %2$d lagi kenalan</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d hari</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">Padam mesej %d ?</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"Padam sembang dengan \"%1$s\"?
+Anda mempunyai %2$d mesej belum dihantar dalam sembang ini."</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">Padam %d kemaskini status? Ia juga akan dipadam untuk semua orang yang menerimanya.</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">Deskripsi tidak boleh mempunyai lebih daripada %d aksara.</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">Foto ini terlalu kecil. Sila pilih foto dengan ketinggian dan lebar sekurang-kurangnya %d piksel.</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"Keluar dari grup \"%1$s\"?
+Anda mempunyai %2$d mesej belum dihantar dalam sembang ini."</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">Tidak dapat menghantar %d</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d fail telah dipadam dari peranti anda</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">Kemaskini status ini akan dihantar ke kenalan anda kecuali %d.</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">Kemaskini status ini akan dihantar ke %d kenalan.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">%d mesej telah dipulihkan. Media anda akan dipulihkan di latar belakang.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">%d mesej dipulihkan</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">Hantar %1$d dokumen ke \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">Kongsi %1$d item dengan \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%s bukan lagi pentadbir</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%s kini adalah pentadbir</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">Anda tidak boleh memilih lebih daripada %1$d peserta.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d jam</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$dj</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">Mengongsi dalam %d sembang</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d orang</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d orang telah berhenti mengongsi</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">Tepat pada %d meter</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d mesej disalin</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d mesej dipadam</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d minit</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d minit tadi</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$dm</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d panggilan tidak dijawab</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d panggilan suara telah terlepas</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d kenalan</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d kenalan</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">Sekurang-kurangnya %d kenalan mesti dipilih</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d dipilih</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">%d item telah dipilih</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">%1$d daripada %2$d dipilih</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d dipilih</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">%1$s dan %2$d yang lain</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d mesej</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d kemaskini status</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d panggilan</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d mesej baru</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d mesej</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%1$s daripada %2$d sembang</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">Anda tidak boleh memilih lebih daripada %1$d kenalan.</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d muka surat</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d foto</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d helaian</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d slaid</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d video</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">%1$s dan %2$d lagi kenalan anda berada pada WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s, %3$s dan %4$d lagi kenalan anda berada pada WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s dan %3$d lagi kenalan anda berada pada WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">%1$d kenalan anda berada pada WhatsApp.</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">%d baki</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d peserta</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">Sembang dipinkan</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">Panggil balik %d mesej?</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">%d penerima</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">%,d mesej dipulihkan. Anda boleh teruskan.</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">Hantar semula mesej %1$d dari %2$s</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">Hantar semula mesej %1$d dari semalam</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d saat</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">Hantar kenalan</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">Hantar kepada kenalan saya kecuali %d</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">Hantar kepada %d kenalan</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">Menghantar %1$d audio ke %2$s</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">Menghantar %d audio</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">Menghantar%1$d fail ke %2$s</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">Menghantar fail %d</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">Menghantar GIF %1$d kepada %2$s</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">Menghantar %d GIF</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">Menghantar %d</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">Menghantar video %1$d kepada %2$s</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">Menghantar %d video</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">Versi WhatsApp perlu dikemaskini dalam tempoh %d hari. Kemaskini kepada versi terkini?</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">%d kenalan dikecualikan</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">%d kenalan dipilih</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">%d kemaskini status dipadam</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">Kosongkan mesej (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">Kosongkan %1$s (%2$s mesej)?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">Kosongkan mesej</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">Teks yang dihantar ke Status Saya akan dipotong ke %d aksara pertama.</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">%s tinggal</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">Sembang dinyahpin</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d mesej belum dibaca</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">Anda mempunyai %1$d mesej tidak dihantar dalam pilihan.</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">Tidak boleh menyahbintangkan mesej ketika perbualan sedang dipadam. Sila cuba sebentar lagi.</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d panggilan video terlepas</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">Video yang dihantar ke Status Saya akan dipotong ke %d saat pertama.</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">Lihat kenalan</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">Dilihat oleh %d</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">Anda telah mencipta senarai siaran \"%1$s\" dengan %2$d penerima</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">Anda telah mencipta senarai siaran dengan %d penerima</item>
+    </plurals>
+</resources>

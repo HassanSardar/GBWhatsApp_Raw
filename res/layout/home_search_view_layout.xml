@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="@dimen/abc_action_bar_default_height_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|left" android:id="@id/search_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back_teal" android:contentDescription="@string/back" style="?attr/actionButtonStyle" />
+    <android.support.v7.widget.SearchView android:layout_gravity="center_vertical" android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.AppCompat.SearchView.ActionBar" />
+</merge>

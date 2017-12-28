@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingRight="@dimen/list_row_padding" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/small_list_row_height">
+        <FrameLayout android:id="@id/contact_selector" android:layout_width="@dimen/contact_selector_width_small" android:layout_height="@dimen/small_list_row_height" android:layout_alignParentLeft="true">
+            <com.whatsapp.ThumbnailButton android:enabled="false" android:layout_gravity="center" android:id="@id/contactpicker_row_photo" android:layout_width="@dimen/small_list_avatar_size" android:layout_height="@dimen/small_list_avatar_size" android:scaleType="fitCenter" whatsapp:tbtnRadius="@dimen/small_avatar_radius" whatsapp:tbtnForegroundOnly="false" />
+            <com.whatsapp.SelectionCheckView android:layout_gravity="bottom|center|right" android:id="@id/selection_check" android:layout_width="@dimen/selection_check_image_size" android:layout_height="@dimen/selection_check_image_size" android:layout_marginRight="10.0dip" android:layout_marginBottom="9.0dip" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.whatsapp.TextEmojiLabel android:gravity="left" android:id="@id/name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ListItemTitle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+</LinearLayout>

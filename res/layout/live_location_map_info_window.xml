@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/bubble_send_location" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.TextEmojiLabel android:id="@id/name_in_group_tv" style="@style/MapBalloonTitle" />
+        <com.gb.atnfas.font_text android:id="@id/participant_info" style="@style/MapBalloonDetails" />
+    </LinearLayout>
+    <ImageView android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/info_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_info" android:tint="@color/accent" android:contentDescription="@string/info" />
+</LinearLayout>

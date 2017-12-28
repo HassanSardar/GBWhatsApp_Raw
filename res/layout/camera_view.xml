@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/camera_layout" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.camera.CameraView android:layout_gravity="center" android:id="@id/camera" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/camera_protection" android:background="#ff333333" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/camera_overlays" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/recording_info" android:background="@drawable/camera_info_background" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+        <com.whatsapp.CircularProgressBar android:layout_gravity="center_vertical" android:id="@id/recording_progress" android:layout_width="18.0sp" android:layout_height="18.0sp" android:indeterminate="false" android:indeterminateOnly="false" whatsapp:cpbColor="@android:color/white" whatsapp:cpbBackground="#ffe83c43" whatsapp:cpbFill="#ffe83c43" whatsapp:cpbStrokeWidthFactor="4.0" />
+        <com.gb.atnfas.font_text android:textColor="@android:color/white" android:id="@id/recording_time" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0:00" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/save_progress" android:background="@drawable/image_download_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+</FrameLayout>

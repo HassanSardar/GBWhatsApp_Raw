@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_format_bold" android:id="@id/bold" android:orderInCategory="200" android:title="@string/menuitem_text_format_bold" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_format_italic" android:id="@id/italic" android:orderInCategory="200" android:title="@string/menuitem_text_format_italic" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_format_strikethrough" android:id="@id/strikethrough" android:orderInCategory="200" android:title="@string/menuitem_text_format_strikethrough" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_format_monospace" android:id="@id/monospace" android:orderInCategory="200" android:title="@string/menuitem_text_format_monospace" android:showAsAction="always" />
+</menu>

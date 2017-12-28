@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="GBWhatsApp Cache"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title=".Shared" android:key="files_shared_key" android:summary=".Shared" />
+    <Preference android:title="@string/clean_whatsapp_logs" android:key="files_log_key" />
+    <Preference android:title="@string/clean_whatsapp_logs" android:key="files_cache_key" />
+    <Preference android:title="@string/clean_whatsapp_databases" android:key="files_db_key" />
+</PreferenceScreen>

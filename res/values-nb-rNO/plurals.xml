@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">%d mottakere</item>
+        <item quantity="one">%d mottaker</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">%1$s, og %2$d flere</item>
+        <item quantity="one">%1$s, og %2$d flere</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">Kringkast til høyst %1$d personer om gangen.</item>
+        <item quantity="one">Kringkast til høyst %1$d person om gangen.</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">kringkast til %d kontakter</item>
+        <item quantity="one">kringkast til %d kontakt</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">Arkiver meldinger</item>
+        <item quantity="one">Arkiver melding</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">Meldinger arkivert</item>
+        <item quantity="one">Melding arkivert</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">Slett meldinger</item>
+        <item quantity="one">Slett meldinger</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">Slette %1$d valgte meldinger?</item>
+        <item quantity="one">Slette %1$d valgt melding?</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">Forlat grupper</item>
+        <item quantity="one">Forlat gruppe</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">Forlat %1$d valgte grupper?</item>
+        <item quantity="one">Forlat %1$d valgt gruppe?</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">Samtaler festet</item>
+        <item quantity="one">Fest samtale</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">Fjern meldinger fra arkviet</item>
+        <item quantity="one">Fjern melding fra arkviet</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">Løsne samtaler</item>
+        <item quantity="one">Løsne samtale</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">Du kan kun feste opp til %1$d samtaler</item>
+        <item quantity="one">Du kan kun feste opp til %1$d samtale</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">Gruppene dine og &lt;a href=\"contacts-link\">%d kontakter&lt;/a> vil bli varslet om ditt nye nummer</item>
+        <item quantity="one">Gruppene dine og &lt;a href=\"contacts-link\">%d kontakt&lt;/a> vil bli varslet om ditt nye nummer</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">Send %1$d dokument til %2$s?</item>
+        <item quantity="one">Send %1$d dokument til %2$s?</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">Dele %1$d med %2$s</item>
+        <item quantity="one">Dele %1$d med %2$s</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">Du kan ikke velge mer enn %1$d kontakter.</item>
+        <item quantity="one">Du kan ikke velge mer enn %1$d kontakt.</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d personer deler sin live posisjon</item>
+        <item quantity="one">%d person deler sin live posisjon</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">Du og %d andre deler live-posisjon</item>
+        <item quantity="one">Du og %d annen deler live-posisjon</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s og %2$d flere kontakter</item>
+        <item quantity="one">%1$s og %2$d flere kontakter</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d dager</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">Slett %d meldinger?</item>
+        <item quantity="one">Slett %d melding?</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"Slette samtale med \"%1$s\"?
+Du har %2$d meldinger som ikke er sendt i denne samtalen."</item>
+        <item quantity="one">"Slette samtale med \"%1$s\"?
+Du har %2$d melding som ikke er sendt i denne samtalen."</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">Slette %d statusoppdateringer? De vil også bli slettet for alle som allerede har mottatt de.</item>
+        <item quantity="one">Slette %d statusoppdatering? Den vil også bli slettet for alle som allerede har mottatt den.</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">Beskrivelsen kan ikke ha mere enn %d tegn.</item>
+        <item quantity="one">Beskrivelse kan ikke ha mer enn %d tegn.</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">Dette bildet er for lite. Vennligst velg ett bilde med høyde og bredde som er minst %d pixler.</item>
+        <item quantity="one">Dette bildet er for lite. Vennligst velg ett bilde med høyde og bredde som er minst %d pixel.</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"Avslutte \"%1$s\" gruppe? 
+Du har %2$d meldinger som ikke er sendt i denne samtalen."</item>
+        <item quantity="one">"Avslutte \"%1$s\" gruppe? 
+Du har %2$d melding som ikke er sendt i denne samtalen."</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">Kunne ikke sende %d</item>
+        <item quantity="one">Kunne ikke sende %d</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d filer slettet fra din enhet</item>
+        <item quantity="one">%d fil slettet fra din enhet</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">Denne statusoppdateringen vil bli sendt til dine kontakter unntatt %d.</item>
+        <item quantity="one">Denne statusoppdateringen vil bli sendt til dine kontakter unntatt %d.</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">Denne statusoppdateringen vil bli sendt til %d kontakter.</item>
+        <item quantity="one">Denne statusoppdateringen vil bli sendt til %d kontakt.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">%d meldinger gjenopprettet. Dine medier vil bli gjennopprettet i bakrunnen.</item>
+        <item quantity="one">%d melding gjenopprettet. Dine medier vil bli gjennopprettet i bakrunnen.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">%d meldinger gjenopprettet</item>
+        <item quantity="one">%d melding gjenopprettet</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">Send %1$d dokumenter til \"%2$s\"?</item>
+        <item quantity="one">Send %1$d dokument til \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">Dele %1$d med \"%2$s\"</item>
+        <item quantity="one">Dele %1$d med \"%2$s\"</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%s er ikke admin lenger</item>
+        <item quantity="one">%s er ikke admin lenger</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%s er nå administrator</item>
+        <item quantity="one">%s er nå administrator</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">Du kan ikke velge mer enn %1$d deltakere.</item>
+        <item quantity="one">Du kan ikke velge mer enn %1$d deltaker.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$dt</item>
+        <item quantity="one">%1$dt</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">Deler i %d samtaler</item>
+        <item quantity="one">Deler i %d samtale</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d personer</item>
+        <item quantity="one">%d person</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d personer sluttet å dele</item>
+        <item quantity="one">%d person sluttet å dele</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">Nøyaktig opptil %d meter</item>
+        <item quantity="one">Nøyaktig opptil %d meter</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d kopierte meldinger</item>
+        <item quantity="one">%d kopiert melding</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d meldinger er slettet</item>
+        <item quantity="one">%d melding er slettet</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minutt</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d minutter siden</item>
+        <item quantity="one">%d minutt siden</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$dm</item>
+        <item quantity="one">%1$dm</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d tapte anrop</item>
+        <item quantity="one">%d tapt anrop</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d tapte anrop</item>
+        <item quantity="one">%d tapt anrop</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d kontakter</item>
+        <item quantity="one">%d kontakt</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d kontakter</item>
+        <item quantity="one">%d kontakt</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">Minst %d kontakter må velges</item>
+        <item quantity="one">Minst %d kontakt må velges</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d valgt</item>
+        <item quantity="one">%d valgt</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">%d elementer markert</item>
+        <item quantity="one">%d element markert</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">%1$d av %2$d valgt</item>
+        <item quantity="one">%1$d av %2$d valgt</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d valgt</item>
+        <item quantity="one">%d valgt</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">%1$s og %2$d andre</item>
+        <item quantity="one">%1$s og %2$d andre</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d meldinger</item>
+        <item quantity="one">%1$d melding</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d status oppdateringer</item>
+        <item quantity="one">%1$d status oppdatering</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d samtaler</item>
+        <item quantity="one">%1$d samtale</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d nye meldinger</item>
+        <item quantity="one">%d ny melding</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d meldinger</item>
+        <item quantity="one">%d melding</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%1$s fra %2$d meldinger</item>
+        <item quantity="one">%1$s fra %2$d melding</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">Du kan ikke se mer enn %1$d kontakter.</item>
+        <item quantity="one">Du kan ikke se mer enn %1$d kontakt.</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d sider</item>
+        <item quantity="one">%d side</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d bilder</item>
+        <item quantity="one">%d bilde</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d regneark</item>
+        <item quantity="one">%d regneark</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d sveip</item>
+        <item quantity="one">%d sveip</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d videoer</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">%1$s og %2$d andre kontakter er på WhatsApp.</item>
+        <item quantity="one">%1$s og %2$d andre kontakter er på WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s, %3$s og %4$d andre av dine kontakter er på WhatsApp.</item>
+        <item quantity="one">%1$s, %2$s, %3$s og %4$d andre av dine kontakter er på WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s og %3$d andre av dine kontakter er på WhatsApp.</item>
+        <item quantity="one">%1$s, %2$s og %3$d andre av dine kontakter er på WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">%1$d av dine kontakter er på WhatsApp.</item>
+        <item quantity="one">%1$d av dine kontakter er på WhatsApp.</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">%d gjenstår</item>
+        <item quantity="one">%d gjenstår</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d deltakere</item>
+        <item quantity="one">%d deltaker</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">Samtaler festet</item>
+        <item quantity="one">Samtale festet</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">Tilbakekalle %d meldinger?</item>
+        <item quantity="one">Tilbakekalle %d melding?</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">%d mottakere</item>
+        <item quantity="one">%d mottaker</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">%,d meldinger er gjenopprettet. Alt klart!</item>
+        <item quantity="one">%,d melding er gjenopprettet. Alt klart!</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">Send %1$d meldinger fra %2$s</item>
+        <item quantity="one">Send %1$d melding fra %2$s</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">Send %1$d meldinger på nytt fra i går</item>
+        <item quantity="one">Send %1$d melding på nytt fra i går</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">Send kontakter</item>
+        <item quantity="one">Send kontakt</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">Send til mine kontakter bortsett fra %d</item>
+        <item quantity="one">Send til min kontakt bortsett fra %d</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">Send til %d kontakter</item>
+        <item quantity="one">Send til %d kontakt</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">Sender %1$d lydfiler til %2$s</item>
+        <item quantity="one">Sender %1$d lydfil til %2$s</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">Sender %d lydfiler</item>
+        <item quantity="one">Sender %d lydfil</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">Sender %1$d filer til %2$s</item>
+        <item quantity="one">Sender %1$d fil til %2$s</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">Sender %d filer</item>
+        <item quantity="one">Sender %d fil</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">Sender %1$d GIF til %2$s</item>
+        <item quantity="one">Sender %1$d GIF til %2$s</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">Sender %d GIF</item>
+        <item quantity="one">Sender %d GIF</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">Sender %d</item>
+        <item quantity="one">Sender %d</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">Sender %1$d videoer til %2$s</item>
+        <item quantity="one">Sender %1$d video til %2$s</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">Sender %d videoer</item>
+        <item quantity="one">Sender %d video</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">Din WhatsApp versjon må oppdateres innen %d dager. Vil du oppdatere til siste versjon?</item>
+        <item quantity="one">Din WhatsApp versjon må oppdateres innen %d dag. Vil du oppdatere til siste versjon?</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">%d kontakter utelukket</item>
+        <item quantity="one">%d kontakt utelukket</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">%d kontakter valgt</item>
+        <item quantity="one">%d kontakt valgt</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">%d status oppdateringer slettet</item>
+        <item quantity="one">%d status oppdatering slettet</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">Fjern meldinger (%s)</item>
+        <item quantity="one">Fjern melding (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">Fjern %1$s (%2$s) meldinger)?</item>
+        <item quantity="one">Fjern %1$s (%2$s) melding)?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">Fjern meldinger</item>
+        <item quantity="one">Fjern melding</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">Tekst sendt til Min Status vil bli beskåret til de første %d tegnene.</item>
+        <item quantity="one">Tekst sendt til Min Status vil bli beskåret til det første %d tegnet.</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">%s igjen</item>
+        <item quantity="one">%s igjen</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">Samtaler løsnet</item>
+        <item quantity="one">Samtale løsnet</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d uleste meldinger</item>
+        <item quantity="one">%d ulest melding</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">Du har %1$d usendte meldinger valgt</item>
+        <item quantity="one">Du har %1$d usendt melding valgt</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">Kunne ikke fjerne stjerner mens samtalene blir tømt. Prøv igjen senere</item>
+        <item quantity="one">Kunne ikke fjerne stjerne mens samtalen blir tømt. Prøv igjen senere</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d tapte videosamtaler</item>
+        <item quantity="one">%d tapt videosamtale</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">Videoer send til Min Status vil bli beskåret til de første %d sekundene.</item>
+        <item quantity="one">Videoer send til Min Status vil bli beskåret til de første %d sekunder.</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">Se kontakter</item>
+        <item quantity="one">Se kontakt</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">Sett av %d</item>
+        <item quantity="one">Sett av %d</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">Du opprettet kringkastningliste \"%1$s\" med %2$d mottakere</item>
+        <item quantity="one">Du opprettet kringkastningliste \"%1$s\" med %2$d mottaker</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">Du opprettet en kringkastningsliste med %d mottakere</item>
+        <item quantity="one">Du opprettet en kringkastningsliste med %d mottaker</item>
+    </plurals>
+</resources>

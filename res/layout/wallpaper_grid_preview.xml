@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.BidiToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:titleTextAppearance="@style/Widget.Styled.ActionBar.GalleryPicker.TitleTextStyle" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+        <View android:id="@id/separator" android:background="@color/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </android.support.design.widget.AppBarLayout>
+    <GridView android:id="@id/color_grid" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="@dimen/gallery_picker_item_spacing" android:verticalSpacing="@dimen/gallery_picker_item_spacing" android:stretchMode="columnWidth" android:columnWidth="@dimen/gallery_picker_item_thumb_size" android:numColumns="auto_fit" />
+</LinearLayout>

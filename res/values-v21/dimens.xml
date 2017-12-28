@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="conversation_floating_date_offset">2.0dip</dimen>
+    <dimen name="input_layout_buttons_margin">3.25dip</dimen>
+    <dimen name="input_layout_buttons_positioning_margin">1.0dip</dimen>
+    <dimen name="input_layout_buttons_size">47.0dip</dimen>
+    <dimen name="input_layout_voice_animation_margin_bottom">5.25dip</dimen>
+    <dimen name="input_layout_voice_animation_margin_right">4.0dip</dimen>
+    <dimen name="input_layout_voice_animation_size">94.0dip</dimen>
+    <dimen name="mid_avatar_radius">-1.0dip</dimen>
+    <dimen name="notification_content_margin_start">0.0dip</dimen>
+    <dimen name="notification_main_column_padding_top">0.0dip</dimen>
+    <dimen name="notification_media_narrow_margin">12.0dip</dimen>
+    <dimen name="registration_profile_photo_radius">-1.0dip</dimen>
+    <dimen name="small_avatar_radius">-1.0dip</dimen>
+</resources>

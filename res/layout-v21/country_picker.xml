@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.util.MarqueeToolbar android:id="@id/title_toolbar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:theme="@style/Widget.Styled.ActionBar.Registration.White">
+        <com.gb.atnfas.font_text android:gravity="center|left" android:layout_gravity="center|left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pick_a_country" style="@style/RegistrationTitle" />
+    </com.whatsapp.util.MarqueeToolbar>
+    <FrameLayout android:id="@id/search_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:elevation="@dimen/actionbar_elevation" />
+    <LinearLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <ListView android:id="@android:id/list" android:paddingLeft="@dimen/contact_list_padding_left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@drawable/divider_gray" android:dividerHeight="0.5dip" android:choiceMode="singleChoice" />
+</LinearLayout>

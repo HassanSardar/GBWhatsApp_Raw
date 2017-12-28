@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">%d נמענים</item>
+        <item quantity="one">נמען %d</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">%1$s, ועוד %2$d</item>
+        <item quantity="one">%1$s, ועוד %2$d</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">ניתן לשלוח הודעת תפוצה ל-%1$d אנשים לכל היותר.</item>
+        <item quantity="one">ניתן לשלוח הודעת תפוצה לאדם %1$d לכל היותר.</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">הפץ אל %d אנשי קשר.</item>
+        <item quantity="one">הפץ אל איש קשר %d.</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">"העברת צ'אטים לארכיון"</item>
+        <item quantity="one">"העברת צ'אט לארכיון"</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">"הצ'אטים הועברו לארכיון"</item>
+        <item quantity="one">"הצ'אט הועבר לארכיון"</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">"מחק צ'אטים"</item>
+        <item quantity="one">"מחק צ'אט"</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">"למחוק %1$d צ'אטים שנבחרו?"</item>
+        <item quantity="one">"למחוק צ'אט %1$d שנבחר?"</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">יציאה מהקבוצות</item>
+        <item quantity="one">יציאה מהקבוצה</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">לצאת מ-%1$d קבוצות שנבחרו?</item>
+        <item quantity="one">לצאת מקבוצה %1$d שנבחרה?</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">"נעץ צ'אטים"</item>
+        <item quantity="one">"נעץ צ'אט"</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">"הוצאת צ'אטים מהארכיון"</item>
+        <item quantity="one">"הוצאת צ'אט מהארכיון"</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">"בטל נעיצת צ'אטים"</item>
+        <item quantity="one">"בטל נעיצת צ'אט"</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">"ניתן לנעוץ עד %1$d צ'אטים"</item>
+        <item quantity="one">"ניתן לנעוץ צ'אט %1$d בלבד"</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">הקבוצות שלך &lt;a href=\"contacts-link\">ו-%d אנשי קשר שלך&lt;/a> יקבלו הודעה אודות מספר הטלפון החדש שלך.</item>
+        <item quantity="one">הקבוצות שלך &lt;a href=\"contacts-link\">ואיש קשר %d&lt;/a> יקבלו הודעה אודות מספר הטלפון החדש שלך.</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">לשלוח %1$d מסמכים ל-%2$s?</item>
+        <item quantity="one">לשלוח מסמך %1$d ל-%2$s?</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">שתף %1$d פריטים עם %2$s?</item>
+        <item quantity="one">שתף פריט %1$d עם %2$s?</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">לא ניתן לבחור ביותר מ-%1$d אנשי קשר.</item>
+        <item quantity="one">לא ניתן לבחור ביותר מאיש קשר %1$d.</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d אנשי קשר משתפים את מיקומם בשידור חי</item>
+        <item quantity="one">איש קשר %d משתף את מיקומו בשידור חי</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">את/ה ו-%d אנשים נוספים משתפים את מיקומכם בשידור חי</item>
+        <item quantity="one">את/ה ואדם %d נוסף משתפים את מיקומכם בשידור חי</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s ועוד %2$d אנשי קשר נוספים</item>
+        <item quantity="one">%1$s ואיש קשר %2$d נוסף</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d ימים</item>
+        <item quantity="one">יום %d</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">למחוק %d הודעות?</item>
+        <item quantity="one">למחוק הודעה %d?</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"האם למחוק את הצ'אט עם \"%1$s\"?
+יש לך %2$d הודעות שלא נשלחו בצ'אט זה."</item>
+        <item quantity="one">"האם למחוק את הצ'אט עם \"%1$s\"?
+יש לך הודעה %2$d שלא נשלחה בצ'אט זה."</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">האם למחוק %d סטטוסים? הם ימחקו גם אצל כל מי שקיבל אותם.</item>
+        <item quantity="one">האם למחוק סטטוס %d? הוא ימחק גם אצל כל מי שקיבל אותו.</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">התיאור לא יכול להכיל יותר מ-%d תווים.</item>
+        <item quantity="one">התיאור לא יכול להכיל יותר מתו %d.</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">תמונה זו קטנה מידי. אנא בחר/י תמונה באורך וברוחב של לפחות %d פיקסלים.</item>
+        <item quantity="one">תמונה זו קטנה מידי. אנא בחר/י תמונה באורך וברוחב של לפחות פיקסל %d.</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"האם לצאת מהקבוצה \"%1$s\"?
+יש לך %2$d הודעות שלא נשלחו בצ'אט זה."</item>
+        <item quantity="one">"האם לצאת מהקבוצה \"%1$s\"?
+יש לך הודעה %2$d שלא נשלחה בצ'אט זה."</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">לא ניתן לשלוח %d סטטוסים</item>
+        <item quantity="one">לא ניתן לשלוח סטטוס %d</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d קבצים נמחקו מהמכשיר שלך</item>
+        <item quantity="one">קובץ %d נמחק מהמכשיר שלך</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">סטטוס זה ישלח לאנשי הקשר שלך למעט %d</item>
+        <item quantity="one">סטטוס זה ישלח לאנשי הקשר שלך למעט %d</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">סטטוס זה ישלח ל-%d אנשי קשר.</item>
+        <item quantity="one">סטטוס זה ישלח לאיש קשר %d.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">%d הודעות שוחזרו. המדיה שלך תשוחזר ברקע.</item>
+        <item quantity="one">הודעה %d שוחזרה. המדיה שלך תשוחזר ברקע.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">%d הודעות שוחזרו</item>
+        <item quantity="one">הודעה %d שוחזרה</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">האם לשלוח %1$d הקבצים לקבוצה \"%2$s\"?</item>
+        <item quantity="one">האם לשלוח מסמך %1$d לקבוצה \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">האם לשתף %1$d פריטים עם \"%2$s\"?</item>
+        <item quantity="one">האם לשתף פריט %1$d עם \"%2$s?</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%s כבר לא מנהלים</item>
+        <item quantity="one">%s כבר לא מנהל/ת</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%s עכשיו מנהלים</item>
+        <item quantity="one">%s עכשיו מנהל/ת</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">לא ניתן לבחור יותר מ-%1$d משתתפים.</item>
+        <item quantity="one">לא ניתן לבחור יותר ממשתתף %1$d.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d שעות</item>
+        <item quantity="one">שעה %d</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$d שעות</item>
+        <item quantity="one">שעה %1$d</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">"משתף מיקום ב-%d צ'אטים"</item>
+        <item quantity="one">"משתף מיקום בצ'אט %d"</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d אנשים</item>
+        <item quantity="one">איש %d</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d אנשים הפסיקו לשתף</item>
+        <item quantity="one">איש %d הפסיק לשתף</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">מדוייק ב-%d מטרים</item>
+        <item quantity="one">מדוייק במטר %d</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d הודעות הועתקו</item>
+        <item quantity="one">הודעה %d הועתקה</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d הודעות נמחקו</item>
+        <item quantity="one">הודעה %d נמחקה</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">דקה %d</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">לפני %d דקות</item>
+        <item quantity="one">לפני דקה %d</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$d דקות</item>
+        <item quantity="one">דקה %1$d</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d שיחות שלא נענו</item>
+        <item quantity="one">%d שיחה שלא נענתה</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d שיחות קוליות שלא נענו</item>
+        <item quantity="one">שיחה קולית %d שלא נענתה</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d אנשי קשר</item>
+        <item quantity="one">%d איש קשר</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d אנשי קשר</item>
+        <item quantity="one">איש קשר %d</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">לפחות %d אנשי קשר חייבים להבחר</item>
+        <item quantity="one">לפחות איש קשר %d חייב להבחר</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d נבחרו</item>
+        <item quantity="one">נבחר %d</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">%d פריטים נבחרו</item>
+        <item quantity="one">פריט %d נבחר</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">%1$d מתוך %2$d נבחרו</item>
+        <item quantity="one">%1$d מתוך %2$d נבחר</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d נבחרו</item>
+        <item quantity="one">נבחר %d</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">%1$s ו-%2$d נוספים</item>
+        <item quantity="one">%1$s ו-%2$d נוסף</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d הודעות</item>
+        <item quantity="one">הודעה %1$d</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d סטטוסים</item>
+        <item quantity="one">סטטוס %1$d</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d שיחות</item>
+        <item quantity="one">שיחה %1$d</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d הודעות חדשות</item>
+        <item quantity="one">הודעה %d חדשה</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d הודעות</item>
+        <item quantity="one">הודעה %d</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">"%1$s מתוך %2$d צ'אטים"</item>
+        <item quantity="one">"%1$s מתוך צ'אט %2$d"</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">לא ניתן לבחור יותר מ-%1$d אנשי קשר.</item>
+        <item quantity="one">לא ניתן לבחור יותר מאיש קשר %1$d.</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d עמודים</item>
+        <item quantity="one">עמוד %d</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d תמונות</item>
+        <item quantity="one">תמונה %d</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d גליונות</item>
+        <item quantity="one">גליון %d</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d שקופיות</item>
+        <item quantity="one">שקופית %d</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d סרטונים</item>
+        <item quantity="one">סרטון %d</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">%1$s ו-%2$d אנשי קשר נוספים משתמשים ב-WhatsApp.</item>
+        <item quantity="one">%1$s ואיש קשר %2$d נוסף משתמשים ב-WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s, %3$s ו-%4$d אנשי קשר נוספים משתמשים ב-WhatsApp.</item>
+        <item quantity="one">%1$s, %2$s, %3$s ואיש קשר %4$d נוסף משתמשים ב-WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s ו-%3$d אנשי קשר נוספים משתמשים ב-WhatsApp</item>
+        <item quantity="one">%1$s, %2$s ואיש קשר %3$d נוסף משתמשים ב-WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">%1$d מאנשי הקשר שלך משתמשים ב-WhatsApp</item>
+        <item quantity="one">%1$d מאנשי הקשר שלך משתמש ב-WhatsApp</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">%d נותרו</item>
+        <item quantity="one">נותר %d</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d משתתפים</item>
+        <item quantity="one">משתתף %d</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">"הצ'אטים ננעצו"</item>
+        <item quantity="one">"הצ'אט ננעץ"</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">לאחזר %d הודעות?</item>
+        <item quantity="one">לאחזר הודעה %d?</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">%d נמענים</item>
+        <item quantity="one">נמען %d</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">%,d הודעות שוחזרו. הנך יכול/ה להמשיך.</item>
+        <item quantity="one">הודעה %,d שוחזרה. הנך יכול/ה להמשיך.</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">שלח מחדש %1$d הודעות מ-%2$s</item>
+        <item quantity="one">שלח מחדש %1$d הודעה מ-%2$s</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">שליחה חוזרת של %1$d הודעות מאתמול</item>
+        <item quantity="one">שליחה חוזרת של הודעה %1$d מאתמול</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d שניות</item>
+        <item quantity="one">שניה %d</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">שלח אנשי קשר</item>
+        <item quantity="one">שלח איש קשר</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">שלח לאנשי הקשר שלי למעט %d</item>
+        <item quantity="one">שלח לאנשי הקשר שלי למעט %d</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">שלח ל-%d אנשי קשר</item>
+        <item quantity="one">שלח לאיש קשר %d</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">שולח %1$d קטעי קול אל %2$s</item>
+        <item quantity="one">שולח קובץ קטע קול %1$d אל %2$s</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">שולח %d קטעי קול</item>
+        <item quantity="one">שולח קטע קול %d</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">שולח %1$d קבצים אל %2$s</item>
+        <item quantity="one">שולח קובץ %1$d אל %2$s</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">שולח %d קבצים</item>
+        <item quantity="one">שולח קובץ %d</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">שולח %1$d קבצי GIF אל %2$s</item>
+        <item quantity="one">שולח קובץ GIF %1$d אל %2$s</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">שולח %d קבצי GIF</item>
+        <item quantity="one">שולח קובץ GIF %d</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">שולח %d סטטוסים</item>
+        <item quantity="one">שולח סטטוס %d</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">שולח %1$d סרטונים אל %2$s</item>
+        <item quantity="one">שולח סרטון %1$d אל %2$s</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">שולח %d סרטונים</item>
+        <item quantity="one">שולח סרטון %d</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">גרסה זו של WhatsApp צריכה להתעדכן תוך %d ימים. לעדכן לגרסה האחרונה?</item>
+        <item quantity="one">גרסה זו של WhatsApp צריכה להתעדכן תוך יום %d. לעדכן לגרסה האחרונה?</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">הסטטוסים לא יוצגו ל-%d אנשי קשר</item>
+        <item quantity="one">הסטטוסים לא יוצגו לאיש קשר %d</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">נבחרו %d אנשי קשר</item>
+        <item quantity="one">איש קשר %d נבחר</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">%d סטטוסים נמחקו.</item>
+        <item quantity="one">סטטוס %d נמחק.</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">מחק הודעות (%s)</item>
+        <item quantity="one">מחק הודעה (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">האם לפנות %1$s (%2$s הודעות)?</item>
+        <item quantity="one">האם לפנות %1$s (הודעה %2$s)?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">מחק הודעות</item>
+        <item quantity="one">מחק הודעה</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">הטקסט שנשלח לסטטוס שלי יקוצר עד %d התווים הראשונים.</item>
+        <item quantity="one">הטקסט שנשלח לסטטוס שלי יקוצר עד תו %d</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">נותרו %s</item>
+        <item quantity="one">נותרה %s</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">"נעיצת הצ'אטים בוטלה"</item>
+        <item quantity="one">"נעיצת הצ'אט בוטלה"</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d הודעות שלא נקראו</item>
+        <item quantity="one">הודעה %d שלא נקראה</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">יש לך %1$d הודעות שנבחרו ולא נשלחו.</item>
+        <item quantity="one">יש לך הודעה %1$d שנבחרה ולא נשלחה.</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">לא ניתן לבטל סימון כוכב של הודעות בזמן מחיקת הודעות. נסה/י שוב מאוחר יותר.</item>
+        <item quantity="one">לא ניתן לבטל סימון כוכב של הודעה בזמן מחיקת הודעות. נסה/י שוב מאוחר יותר.</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d שיחות וידאו שלא נענו</item>
+        <item quantity="one">שיחת וידאו %d שלא נענתה</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">סרטונים שנשלחו לסטטוס שלי יקוצרו ב-%d השניות הראשונות.</item>
+        <item quantity="one">סרטונים שנשלחו לסטטוס שלי יקוצרו בשניה ה-%d הראשונה.</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">צפיה באנשי קשר</item>
+        <item quantity="one">צפיה באיש קשר</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">נצפה על ידי %d אנשי קשר</item>
+        <item quantity="one">נצפה על ידי איש קשר %d</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">יצרת את רשימת התפוצה \"%1$s\" עם %2$d נמענים</item>
+        <item quantity="one">יצרת את רשימת התפוצה \"%1$s\" עם נמען %2$d</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">יצרת רשימת תפוצה המונה %d נמענים</item>
+        <item quantity="one">יצרת רשימת תפוצה המונה נמען %d</item>
+    </plurals>
+</resources>

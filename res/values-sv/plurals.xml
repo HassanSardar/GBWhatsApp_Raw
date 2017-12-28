@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="broadcast_n_recipients">
+        <item quantity="other">%d mottagare</item>
+        <item quantity="one">%d mottagare</item>
+    </plurals>
+    <plurals name="broadcast_participants_overflow">
+        <item quantity="other">%1$s och %2$d andra</item>
+        <item quantity="one">%1$s och %2$d andra</item>
+    </plurals>
+    <plurals name="broadcast_reach_limit">
+        <item quantity="other">Massutskickslista till maximalt %1$d personer åt gången.</item>
+        <item quantity="one">Massutskickslista till maximalt %1$d person åt gången.</item>
+    </plurals>
+    <plurals name="broadcast_to_n_contacts">
+        <item quantity="other">Skicka massutskick till %d kontakter</item>
+        <item quantity="one">Skicka massutskick till %d kontakt</item>
+    </plurals>
+    <plurals name="bulk_archive">
+        <item quantity="other">Arkivera chattar</item>
+        <item quantity="one">Arkivera chatt</item>
+    </plurals>
+    <plurals name="bulk_conversations_archived_confirmation">
+        <item quantity="other">Chattar arkiverad</item>
+        <item quantity="one">Chatt arkiverad</item>
+    </plurals>
+    <plurals name="bulk_delete">
+        <item quantity="other">Ta bort chattar</item>
+        <item quantity="one">Ta bort chatt</item>
+    </plurals>
+    <plurals name="bulk_delete_conversations">
+        <item quantity="other">Ta bort %1$d markerade chattar?</item>
+        <item quantity="one">Ta bort %1$d markerad chatt?</item>
+    </plurals>
+    <plurals name="bulk_exit">
+        <item quantity="other">Lämna grupper</item>
+        <item quantity="one">Lämna grupp</item>
+    </plurals>
+    <plurals name="bulk_leave_conversations">
+        <item quantity="other">Lämna %1$d valda grupper?</item>
+        <item quantity="one">Lämna %1$d vald grupp?</item>
+    </plurals>
+    <plurals name="bulk_pin">
+        <item quantity="other">Fäst chattar</item>
+        <item quantity="one">Fäst chatt</item>
+    </plurals>
+    <plurals name="bulk_unarchive">
+        <item quantity="other">Återställ chattar</item>
+        <item quantity="one">Återställ chatt</item>
+    </plurals>
+    <plurals name="bulk_unpin">
+        <item quantity="other">Släpp chattar</item>
+        <item quantity="one">Släpp chatt</item>
+    </plurals>
+    <plurals name="cannot_pin">
+        <item quantity="other">Du kan bara fästa upp till %1$d chattar</item>
+        <item quantity="one">Du kan bara fästa upp till %1$d chatt</item>
+    </plurals>
+    <plurals name="change_number_n_contacts">
+        <item quantity="other">Dina grupper och &lt;a href=\"contacts-link\">%d kontakter&lt;/a> kommer att underättas om ditt nya nummer.</item>
+        <item quantity="one">Dina grupper och &lt;a href=\"contacts-link\">%d kontakt&lt;/a> kommer att underättas om ditt nya nummer.</item>
+    </plurals>
+    <plurals name="confirm_send_documents_title">
+        <item quantity="other">SKicka %1$d dokumenten till %2$s?</item>
+        <item quantity="one">Skicka %1$d dokument till %2$s?</item>
+    </plurals>
+    <plurals name="confirm_sharing_multiple_title">
+        <item quantity="other">Dela %1$d objekt med %2$s?</item>
+        <item quantity="one">Dela %1$d objekt med %2$s?</item>
+    </plurals>
+    <plurals name="contact_array_message_reach_limit">
+        <item quantity="other">Du kan inte markera mer än %1$d kontakter.</item>
+        <item quantity="one">Du kan inte markera mer än %1$d kontakt.</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description">
+        <item quantity="other">%d personer delar liveposition</item>
+        <item quantity="one">%d person delar liveposition</item>
+    </plurals>
+    <plurals name="contact_info_live_location_description_you_and_other_people_are_sharing">
+        <item quantity="other">Du och %d andra delar liveposition</item>
+        <item quantity="one">Du och %d annan delar liveposition</item>
+    </plurals>
+    <plurals name="contacts_array_title">
+        <item quantity="other">%1$s och %2$d andra kontakter</item>
+        <item quantity="one">%1$s och %2$d annan kontakt</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d dagar</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="delete_confirmation_multiple">
+        <item quantity="other">Radera %d meddelanden?</item>
+        <item quantity="one">Radera %d meddelande?</item>
+    </plurals>
+    <plurals name="delete_contact_with_unsent_dialog_title">
+        <item quantity="other">"Ta bort chatten med \"%1$s\"?
+Du har %2$d oskickade meddelanden i denna chatt."</item>
+        <item quantity="one">"Ta bort chatten med \"%1$s\"?
+Du har %2$d oskickat meddelande i denna chatt."</item>
+    </plurals>
+    <plurals name="delete_status_confirmation_multiple">
+        <item quantity="other">Ta bort %d statusuppdateringar? De kommer också att tas bort för alla som har tagit emot dem.</item>
+        <item quantity="one">Ta bort %d statusuppdatering? Den kommer också att tas bort för alla som har tagit emot den.</item>
+    </plurals>
+    <plurals name="description_reach_limit">
+        <item quantity="other">Beskrivning kan inte innehålla mer än %d tecken.</item>
+        <item quantity="one">Beskrivning kan inte innehålla mer än %d tecken.</item>
+    </plurals>
+    <plurals name="error_image_dimensions_too_small">
+        <item quantity="other">Dessa foton är för små. Var god välj foton med höjd och bredd med lägst %d pixlar.</item>
+        <item quantity="one">Detta foto är för litet. Var god välj ett foto med höjd och bredd med lägst %d pixlar.</item>
+    </plurals>
+    <plurals name="exit_group_with_unsent_dialog_title">
+        <item quantity="other">"Lämna gruppen \"%1$s\"?
+ Du har %2$d oskickade meddelanden i denna chatt."</item>
+        <item quantity="one">"Lämna gruppen \"%1$s\"?
+ Du har %2$d oskickat meddelande i denna chatt."</item>
+    </plurals>
+    <plurals name="failed_statuses">
+        <item quantity="other">Kunde inte skicka %d</item>
+        <item quantity="one">Kunde inte skicka %d</item>
+    </plurals>
+    <plurals name="file_was_removed">
+        <item quantity="other">%d filer borttagna från din enhet</item>
+        <item quantity="one">%d fil borttagen från din enhet</item>
+    </plurals>
+    <plurals name="first_status_excluded_contacts">
+        <item quantity="other">Denna statusuppdatering kommer att skickas till dina kontakter exklusive %d.</item>
+        <item quantity="one">Denna statusuppdatering kommer att skickas till dina kontakter exklusive %d.</item>
+    </plurals>
+    <plurals name="first_status_selected_contacts">
+        <item quantity="other">Denna statusuppdatering kommer att skickas till %d kontakter.</item>
+        <item quantity="one">Denna statusuppdatering kommer att skickas till %d kontakt.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_media_to_restore">
+        <item quantity="other">%d meddelanden återställda. Din media kommer att återställas i bakgrunden.</item>
+        <item quantity="one">%d meddelande återställt. Din media kommer att återställas i bakgrunden.</item>
+    </plurals>
+    <plurals name="gdrive_messages_restored_with_no_media_to_restore">
+        <item quantity="other">%d meddelanden återställda</item>
+        <item quantity="one">%d meddelande återställt</item>
+    </plurals>
+    <plurals name="group_confirm_send_documents_title">
+        <item quantity="other">Skicka %1$d dokument till \"%2$s\"?</item>
+        <item quantity="one">Skicka %1$d dokument till \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_confirm_sharing_multiple_title">
+        <item quantity="other">Dela %1$d objekt med \"%2$s\"?</item>
+        <item quantity="one">Dela %1$d objekt med \"%2$s\"?</item>
+    </plurals>
+    <plurals name="group_participant_demoted_names">
+        <item quantity="other">%s är inte längre administratörer</item>
+        <item quantity="one">%s är inte längre administratör</item>
+    </plurals>
+    <plurals name="group_participant_promoted_names">
+        <item quantity="other">%s är nu administratörer</item>
+        <item quantity="one">%s är nu administratör</item>
+    </plurals>
+    <plurals name="groupchat_reach_limit">
+        <item quantity="other">Du kan inte markera mer än %1$d deltagare.</item>
+        <item quantity="one">Du kan inte markera mer än %1$d deltagare.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d timmar</item>
+        <item quantity="one">%d timme</item>
+    </plurals>
+    <plurals name="hours_short">
+        <item quantity="other">%1$dh</item>
+        <item quantity="one">%1$dh</item>
+    </plurals>
+    <plurals name="live_location_currently_sharing">
+        <item quantity="other">Delar i %d chattar</item>
+        <item quantity="one">Delar i %d chatt</item>
+    </plurals>
+    <plurals name="live_location_marker_title">
+        <item quantity="other">%d personer</item>
+        <item quantity="one">%d person</item>
+    </plurals>
+    <plurals name="live_location_stopped_sharing_count">
+        <item quantity="other">%d personer slutade dela</item>
+        <item quantity="one">%d person slutade dela</item>
+    </plurals>
+    <plurals name="location_accuracy">
+        <item quantity="other">Marginal på %d meter</item>
+        <item quantity="one">Marginal på %d meter</item>
+    </plurals>
+    <plurals name="messages_copied">
+        <item quantity="other">%d meddelanden kopierade</item>
+        <item quantity="one">%d meddelande kopierat</item>
+    </plurals>
+    <plurals name="messages_deleted">
+        <item quantity="other">%d meddelanden borttagna</item>
+        <item quantity="one">%d meddelande borttaget</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d minuter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d minuter sedan</item>
+        <item quantity="one">%d minut sedan</item>
+    </plurals>
+    <plurals name="minutes_short">
+        <item quantity="other">%1$dm</item>
+        <item quantity="one">%1$dm</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d missade samtal</item>
+        <item quantity="one">%d missat samtal</item>
+    </plurals>
+    <plurals name="missed_voice_calls">
+        <item quantity="other">%d missade röstsamtal</item>
+        <item quantity="one">%d missat röstsamtal</item>
+    </plurals>
+    <plurals name="n_contacts">
+        <item quantity="other">%d kontakter</item>
+        <item quantity="one">%d kontakt</item>
+    </plurals>
+    <plurals name="n_contacts_message_title">
+        <item quantity="other">%d kontakter</item>
+        <item quantity="one">%d kontakt</item>
+    </plurals>
+    <plurals name="n_contacts_must_be_selected">
+        <item quantity="other">Minst %d kontakter måste markeras</item>
+        <item quantity="one">Minst %d kontakt måste markeras</item>
+    </plurals>
+    <plurals name="n_contacts_selected">
+        <item quantity="other">%d markerade</item>
+        <item quantity="one">%d markerad</item>
+    </plurals>
+    <plurals name="n_items_selected">
+        <item quantity="other">%d objekt markerade</item>
+        <item quantity="one">%d objekt markerat</item>
+    </plurals>
+    <plurals name="n_of_m_contacts_selected">
+        <item quantity="other">%1$d av %2$d valda</item>
+        <item quantity="one">%1$d av %2$d vald</item>
+    </plurals>
+    <plurals name="n_selected">
+        <item quantity="other">%d valda</item>
+        <item quantity="one">%d vald</item>
+    </plurals>
+    <plurals name="names_many">
+        <item quantity="other">%1$s och %2$d andra</item>
+        <item quantity="one">%1$s och %2$d annan</item>
+    </plurals>
+    <plurals name="network_usage_message_count">
+        <item quantity="other">%1$d meddelanden</item>
+        <item quantity="one">%1$d meddelande</item>
+    </plurals>
+    <plurals name="network_usage_status_count">
+        <item quantity="other">%1$d statusuppdateringar</item>
+        <item quantity="one">%1$d statusuppdatering</item>
+    </plurals>
+    <plurals name="network_usage_voip_call_count">
+        <item quantity="other">%1$d samtal</item>
+        <item quantity="one">%1$d samtal</item>
+    </plurals>
+    <plurals name="notification_new_message">
+        <item quantity="other">%d nya meddelanden</item>
+        <item quantity="one">%d nytt meddelande</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_1">
+        <item quantity="other">%d meddelanden</item>
+        <item quantity="one">%d meddelande</item>
+    </plurals>
+    <plurals name="notification_new_message_from_multiple_contacts_2">
+        <item quantity="other">%1$s från %2$d chattar</item>
+        <item quantity="one">%1$s från %2$d chatt</item>
+    </plurals>
+    <plurals name="notify_contacts_change_number_reach_limit">
+        <item quantity="other">Du kan inte markera mer än %1$d kontakter.</item>
+        <item quantity="one">Du kan inte markera mer än %1$d kontakt.</item>
+    </plurals>
+    <plurals name="number_of_pages">
+        <item quantity="other">%d sidor</item>
+        <item quantity="one">%d sida</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%d bilder</item>
+        <item quantity="one">%d bild</item>
+    </plurals>
+    <plurals name="number_of_sheets">
+        <item quantity="other">%d blad</item>
+        <item quantity="one">%d blad</item>
+    </plurals>
+    <plurals name="number_of_slides">
+        <item quantity="other">%d slides</item>
+        <item quantity="one">%d slide</item>
+    </plurals>
+    <plurals name="number_of_videos">
+        <item quantity="other">%d videor</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="nux_one_more_contact_prompt">
+        <item quantity="other">%1$s och %2$d fler av dina kontakter finns på WhatsApp.</item>
+        <item quantity="one">%1$s och %2$d fler av dina kontakter finns på WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_three_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s, %3$s och %4$d fler av dina kontakter finns på WhatsApp.</item>
+        <item quantity="one">%1$s, %2$s, %3$s och %4$d fler av dina kontakter finns på WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_two_more_contact_prompt">
+        <item quantity="other">%1$s, %2$s och %3$d fler av dina kontakter finns på WhatsApp.</item>
+        <item quantity="one">%1$s, %2$s och %3$d fler av dina kontakter finns på WhatsApp.</item>
+    </plurals>
+    <plurals name="nux_zero_more_contact_prompt">
+        <item quantity="other">%1$d av dina kontakter finns på WhatsApp.</item>
+        <item quantity="one">%1$d av dina kontakter finns på WhatsApp.</item>
+    </plurals>
+    <plurals name="participants_remaining">
+        <item quantity="other">%d kvar</item>
+        <item quantity="one">%d kvar</item>
+    </plurals>
+    <plurals name="participants_title">
+        <item quantity="other">%d deltagare</item>
+        <item quantity="one">%d deltagare</item>
+    </plurals>
+    <plurals name="pin_toast">
+        <item quantity="other">Chattar fästa</item>
+        <item quantity="one">Chatt fäst</item>
+    </plurals>
+    <plurals name="recall_multiple_messages_confirmation">
+        <item quantity="other">Återkalla %d meddelanden?</item>
+        <item quantity="one">Återkalla %d meddelande?</item>
+    </plurals>
+    <plurals name="recipients_title">
+        <item quantity="other">%d mottagare</item>
+        <item quantity="one">%d mottagare</item>
+    </plurals>
+    <plurals name="register_messages_restored">
+        <item quantity="other">%,d meddelanden återställda. Du är nu klar.</item>
+        <item quantity="one">%,d meddelande återställt. Du är nu klar.</item>
+    </plurals>
+    <plurals name="resend_messages_from_date">
+        <item quantity="other">Skicka %1$d meddelandena igen från %2$s</item>
+        <item quantity="one">Skicka %1$d meddelande igen från %2$s</item>
+    </plurals>
+    <plurals name="resend_messages_from_yesterday">
+        <item quantity="other">Skicka %1$d meddelandena igen från igår</item>
+        <item quantity="one">Skicka %1$d meddelande igen från igår</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="send_contacts">
+        <item quantity="other">Skicka kontakter</item>
+        <item quantity="one">Skicka kontakt</item>
+    </plurals>
+    <plurals name="send_status_contacts_excluded">
+        <item quantity="other">Skicka till mina kontakter förutom %d</item>
+        <item quantity="one">Skicka till mina kontakter förutom %d</item>
+    </plurals>
+    <plurals name="send_status_contacts_selected">
+        <item quantity="other">Skicka till %d kontakter</item>
+        <item quantity="one">Skicka till %d kontakt</item>
+    </plurals>
+    <plurals name="sending_audios_to_contact">
+        <item quantity="other">Skickar %1$d ljuden till %2$s</item>
+        <item quantity="one">Skickar %1$d ljudet till %2$s</item>
+    </plurals>
+    <plurals name="sending_audios_to_contacts">
+        <item quantity="other">Skickar %d ljuden</item>
+        <item quantity="one">Skickar %d ljudet</item>
+    </plurals>
+    <plurals name="sending_files_to_contact">
+        <item quantity="other">Skickar %1$d filer till %2$s</item>
+        <item quantity="one">Skickar %1$d filen till %2$s</item>
+    </plurals>
+    <plurals name="sending_files_to_contacts">
+        <item quantity="other">Skickar %d filer</item>
+        <item quantity="one">Skickar %d filen</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contact">
+        <item quantity="other">Skickar %1$d GIF:ar till %2$s</item>
+        <item quantity="one">Skickar %1$d GIF till %2$s</item>
+    </plurals>
+    <plurals name="sending_gifs_to_contacts">
+        <item quantity="other">Skickar %d GIF:ar</item>
+        <item quantity="one">Skickar %d GIF</item>
+    </plurals>
+    <plurals name="sending_statuses">
+        <item quantity="other">Skickar %d</item>
+        <item quantity="one">Skickar %d</item>
+    </plurals>
+    <plurals name="sending_videos_to_contact">
+        <item quantity="other">Skickar %1$d videor till %2$s</item>
+        <item quantity="one">Skickar %1$d video till %2$s</item>
+    </plurals>
+    <plurals name="sending_videos_to_contacts">
+        <item quantity="other">Skickar %d videor</item>
+        <item quantity="one">Skickar %d video</item>
+    </plurals>
+    <plurals name="software_about_to_expire">
+        <item quantity="other">Denna version av WhatsApp måste uppdateras inom %d dagar. Uppdatera till senaste versionen?</item>
+        <item quantity="one">Denna version av WhatsApp måste uppdateras inom %d dag. Uppdatera till senaste versionen?</item>
+    </plurals>
+    <plurals name="status_contacts_excluded">
+        <item quantity="other">%d kontakt exkluderade</item>
+        <item quantity="one">%d kontakt exkluderad</item>
+    </plurals>
+    <plurals name="status_contacts_selected">
+        <item quantity="other">%d kontakter markerade</item>
+        <item quantity="one">%d kontakt markerad</item>
+    </plurals>
+    <plurals name="statuses_deleted">
+        <item quantity="other">%d statusuppdateringar borttagna</item>
+        <item quantity="one">%d statusuppdatering borttagen</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages">
+        <item quantity="other">Rensa meddelanden (%s)</item>
+        <item quantity="one">Rensa meddelande (%s)</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation">
+        <item quantity="other">Rensa %1$s (%2$s meddelanden)?</item>
+        <item quantity="one">Rensa %1$s (%2$s meddelande)?</item>
+    </plurals>
+    <plurals name="storage_usage_detail_clear_messages_confirmation_title">
+        <item quantity="other">Rensa meddelanden</item>
+        <item quantity="one">Rensa meddelande</item>
+    </plurals>
+    <plurals name="text_status_truncation_info">
+        <item quantity="other">Text skickat till Min Status kommer att klippas ned till första %d bokstäverna.</item>
+        <item quantity="one">Text skickat till Min Status kommer att klippas ned till första %d bokstaven.</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">%s kvar</item>
+        <item quantity="one">%s kvar</item>
+    </plurals>
+    <plurals name="unpin_toast">
+        <item quantity="other">Chattar släppta</item>
+        <item quantity="one">Chatt släppt</item>
+    </plurals>
+    <plurals name="unread_message_count">
+        <item quantity="other">%d olästa meddelanden</item>
+        <item quantity="one">%d oläst meddelande</item>
+    </plurals>
+    <plurals name="unsent_messages_in_selection">
+        <item quantity="other">Du har markerat %1$d olästa meddelanden.</item>
+        <item quantity="one">Du har markerat %1$d oläst meddelande.</item>
+    </plurals>
+    <plurals name="unstar_while_clearing_error">
+        <item quantity="other">Kunde inte avfavorisera meddelanden medan konversationen rensas. Försök igen senare.</item>
+        <item quantity="one">Kunde inte avfavorisera meddelande medan konversationen rensas. Försök igen senare.</item>
+    </plurals>
+    <plurals name="video_missed_calls">
+        <item quantity="other">%d missade videosamtal</item>
+        <item quantity="one">%d missat videosamtal</item>
+    </plurals>
+    <plurals name="video_status_truncation_info">
+        <item quantity="other">Videos skickade till Min Status kommer att trimmas till första %d sekunderna.</item>
+        <item quantity="one">Videos skickade till Min Status kommer att trimmas till första %d sekunden.</item>
+    </plurals>
+    <plurals name="view_contacts_title">
+        <item quantity="other">Visa kontakter</item>
+        <item quantity="one">Visa kontakt</item>
+    </plurals>
+    <plurals name="viewed_by">
+        <item quantity="other">Visade av %d</item>
+        <item quantity="one">Visad av %d</item>
+    </plurals>
+    <plurals name="you_created_list">
+        <item quantity="other">Du skapade massutskickslistan \"%1$s\" med %2$d mottagare</item>
+        <item quantity="one">Du skapade massutskickslistan \"%1$s\" med %2$d mottagare</item>
+    </plurals>
+    <plurals name="you_created_list_unnamed">
+        <item quantity="other">Du skapade en massutskickslista med %d mottagare</item>
+        <item quantity="one">Du skapade en massutskickslista med %d mottagare</item>
+    </plurals>
+</resources>

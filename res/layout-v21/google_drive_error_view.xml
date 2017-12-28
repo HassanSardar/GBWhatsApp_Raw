@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/google_drive_backup_error_info_view" android:background="#ffffd54d" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/actionbar_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/google_drive_backup_error_text_views" android:background="?selectableItemBackground" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:background="@drawable/white_circle" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_marginLeft="11.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/ic_backup_error" android:scaleType="center" android:cropToPadding="false" />
+        <com.gb.atnfas.font_text android:textSize="14.0sp" android:textColor="#d838484e" android:id="@id/google_drive_backup_error_info" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/cancel_error_view" android:background="?selectableItemBackgroundBorderless" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/inline_audio_cancel" android:alpha="0.5" />
+    </LinearLayout>
+</LinearLayout>

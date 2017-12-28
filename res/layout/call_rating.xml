@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gb.atnfas.font_text android:textSize="20.0sp" android:textColor="@android:color/white" android:id="@id/call_rating_title" android:background="@drawable/panel_popup_top" android:paddingLeft="24.0dip" android:paddingTop="32.0dip" android:paddingRight="24.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/call_rating_title" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/panel_popup_bot" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/rating_options" android:paddingTop="24.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <CheckBox android:id="@id/call_problem_0_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.gb.atnfas.font_text android:id="@id/call_problem_0_textview" android:text="Echo Echo Echo Echo Echo Echo Echo Echo Echo Echo Echo Echo " style="@style/Theme.CallProblems" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <CheckBox android:id="@id/call_problem_1_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.gb.atnfas.font_text android:id="@id/call_problem_1_textview" android:text="Distortion" style="@style/Theme.CallProblems" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <CheckBox android:id="@id/call_problem_2_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.gb.atnfas.font_text android:id="@id/call_problem_2_textview" android:text="No sound" style="@style/Theme.CallProblems" />
+                </LinearLayout>
+                <EditText android:textColorHint="#ffc3c7ca" android:id="@id/feedback" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/user_feedback_hint" android:maxLines="4" android:inputType="textCapSentences" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/rating_stars" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gb.atnfas.font_text android:textSize="18.0sp" android:textColor="@color/primary_voip" android:gravity="center" android:id="@id/rating_description" android:paddingTop="24.0dip" android:paddingBottom="4.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <RatingBar android:layout_gravity="center_horizontal" android:id="@id/rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:progressDrawable="@drawable/rating_bar" android:numStars="5" android:stepSize="0.2" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:paddingTop="12.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/not_now" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+                <Button android:id="@id/submit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/submit" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

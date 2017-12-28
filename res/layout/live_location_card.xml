@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/live_location_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/list_separator_bot" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_card_spacing" />
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="68.0dip">
+        <FrameLayout android:paddingLeft="@dimen/info_screen_padding" style="@style/FlatCardHeader">
+            <com.gb.atnfas.font_text android:id="@id/media_title" android:text="@string/contact_info_live_location" style="@style/FlatCardTitle" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/info_screen_padding" android:paddingTop="10.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gb.atnfas.font_text android:textSize="17.0sp" android:textColor="@color/list_item_title" android:gravity="center|left" android:layout_gravity="center|left" android:id="@id/live_location_info" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center|right" android:id="@id/livelocation_indicator" android:paddingLeft="20.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_info_live_location" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@drawable/list_separator_top" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_card_spacing" />
+</LinearLayout>

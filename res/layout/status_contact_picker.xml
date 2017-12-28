@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/toolbar" />
+            <FrameLayout android:id="@id/search_holder" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/abc_action_bar_default_height_material" />
+        </FrameLayout>
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@drawable/status_contact_picker_divider" android:dividerHeight="0.5dip" android:headerDividersEnabled="false" android:footerDividersEnabled="true" />
+        <ScrollView android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ProgressBar android:layout_gravity="center" android:id="@id/init_contacts_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse" />
+                <com.gb.atnfas.font_text android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:gravity="center" android:layout_gravity="center" android:id="@id/search_no_matches" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </ScrollView>
+    </LinearLayout>
+    <ImageButton android:layout_gravity="bottom|center|right" android:id="@id/done" android:background="@drawable/input_circle_green" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/ic_done" android:scaleType="center" android:contentDescription="@string/done" />
+</FrameLayout>

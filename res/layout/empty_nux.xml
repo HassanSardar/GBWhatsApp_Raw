@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/contact_icon1" android:background="@drawable/teal_circle" android:visibility="gone" android:layout_width="@dimen/small_avatar_size" android:layout_height="@dimen/small_avatar_size" android:layout_margin="5.0dip" android:scaleType="fitCenter" />
+        <ImageView android:layout_gravity="center" android:id="@id/contact_icon2" android:background="@drawable/teal_circle" android:visibility="gone" android:layout_width="@dimen/small_avatar_size" android:layout_height="@dimen/small_avatar_size" android:layout_margin="5.0dip" android:scaleType="fitCenter" />
+        <ImageView android:layout_gravity="center" android:id="@id/contact_icon3" android:background="@drawable/teal_circle" android:visibility="gone" android:layout_width="@dimen/small_avatar_size" android:layout_height="@dimen/small_avatar_size" android:layout_margin="5.0dip" android:scaleType="fitCenter" />
+        <com.gb.atnfas.font_text android:textColor="#ffffffff" android:gravity="center" android:id="@id/num_contact" android:background="@drawable/grey_circle" android:visibility="gone" android:layout_width="@dimen/small_avatar_size" android:layout_height="@dimen/small_avatar_size" android:layout_margin="5.0dip" />
+    </LinearLayout>
+    <com.gb.atnfas.font_text android:textSize="16.0sp" android:layout_gravity="center" android:id="@id/prompt_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" style="@style/Text.Field" />
+</FrameLayout>

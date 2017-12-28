@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@id/coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.BidiToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:layout_scrollFlags="enterAlways|scroll|snap" app:titleTextAppearance="@style/Widget.Styled.ActionBar.GalleryPicker.TitleTextStyle" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+        <android.support.v7.widget.SearchView android:id="@id/search_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.AppCompat.SearchView.ActionBar" />
+        <android.support.design.widget.TabLayout android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabIndicatorColor="@color/accent_light" app:tabIndicatorHeight="3.0dip" />
+        <View android:id="@id/separator" android:background="@color/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.view.ViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

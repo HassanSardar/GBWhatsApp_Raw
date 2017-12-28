@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/web_page_preview_container" android:paddingLeft="@dimen/status_text_h_padding" android:paddingTop="@dimen/status_text_v_padding" android:paddingRight="@dimen/status_text_h_padding" android:paddingBottom="@dimen/status_text_v_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/web_page_preview" android:background="@drawable/balloon_centered_shadow" android:padding="19.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+        <FrameLayout android:id="@id/url_preview" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/web_page_preview" />
+        </FrameLayout>
+        <com.whatsapp.TextEmojiLabel android:textSize="17.0sp" android:textColor="@color/link_color_incoming" android:gravity="left" android:id="@id/url_text" android:paddingTop="6.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

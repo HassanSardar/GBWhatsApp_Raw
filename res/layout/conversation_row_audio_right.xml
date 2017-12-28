@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="262.0dip" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip">
+        <FrameLayout android:id="@id/quoted_message_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/QuotedFrame" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="62.0dip">
+            <FrameLayout android:id="@id/picture_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                <ImageView android:layout_gravity="center" android:id="@id/picture" android:padding="4.0dip" android:layout_width="62.0dip" android:layout_height="62.0dip" android:src="@drawable/audio_message_thumb" android:scaleType="fitCenter" />
+                <ImageView android:layout_gravity="center" android:id="@id/icon" android:paddingBottom="12.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_audio" android:scaleType="center" />
+                <FrameLayout android:layout_gravity="center|top" android:id="@id/visualizer_frame" android:layout_width="50.0dip" android:layout_height="42.0dip" android:layout_marginTop="4.0dip" />
+                <com.gb.atnfas.font_text android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="bottom|center" android:id="@id/duration" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDate" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:id="@id/control_btn_holder" android:paddingBottom="4.0dip" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_toRightOf="@id/picture_frame" android:layout_centerVertical="true">
+                <ImageButton android:gravity="center" android:id="@id/control_btn" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/inline_audio_play" android:scaleType="center" android:contentDescription="@string/play" />
+                <com.whatsapp.CircularProgressBar android:layout_gravity="center" android:id="@id/progress_bar_1" android:visibility="gone" android:layout_width="44.0dip" android:layout_height="44.0dip" android:indeterminateOnly="false" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/controls" android:paddingRight="12.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/control_btn_holder" android:layout_centerVertical="true">
+                <com.whatsapp.VoiceNoteSeekBar android:layout_gravity="center" android:id="@id/audio_seekbar" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:vnsbThumbSize="12.0dip" whatsapp:vnsbTrackWidth="3.0dip" />
+            </FrameLayout>
+            <com.gb.atnfas.font_text android:textColor="?android:textColorSecondary" android:layout_gravity="center" android:id="@id/description" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/controls" android:layout_alignParentBottom="true" style="@style/ConversationDate" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/date_wrapper" android:paddingRight="7.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/controls" android:layout_alignParentBottom="true">
+                <com.gb.atnfas.font_text android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationDate" />
+                <ImageView android:id="@id/status" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/forward" style="@style/ForwardButton" />
+</merge>

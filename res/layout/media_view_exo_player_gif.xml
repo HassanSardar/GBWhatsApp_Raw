@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.whatsapp.PhotoView android:layout_gravity="center" android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <include layout="@layout/media_view_footer" />
+</FrameLayout>

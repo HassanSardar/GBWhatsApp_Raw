@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@drawable/background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/logo" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:src="@drawable/gb_icon_3" android:contentDescription="@string/about_logo_content_description" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gb.atnfas.font_text android:textSize="20.0sp" android:textStyle="normal" android:textColor="@color/white" android:paddingTop="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/GB_version" />
+                <com.gb.atnfas.font_text android:textSize="16.0sp" android:textColor="#ff86a9a8" android:id="@id/version" android:paddingTop="2.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+                <com.gb.atnfas.font_text android:textSize="15.0sp" android:textColor="#ff86a9a8" android:paddingTop="10.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/GB" />
+                <Button android:textSize="17.0sp" android:textColor="#ff49d0fc" android:gravity="center" android:layout_gravity="center" android:id="@id/about_licenses" android:background="@drawable/selector_transparent_gray" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:minWidth="128.0dip" android:text="@string/view_licenses" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

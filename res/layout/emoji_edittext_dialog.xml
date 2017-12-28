@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.EmojiPopupLayout android:id="@id/emoji_edit_text_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" style="@style/FullScreenDialogTitle">
+            <com.gb.atnfas.font_text android:gravity="center|left" android:id="@id/dialog_title" style="@style/FullScreenDialogTitleText" />
+            <com.gb.atnfas.font_text android:id="@id/visibility_notice" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/group_description_visibility" style="@style/Theme.ActionBar.SubtitleTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/subject_layout" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:paddingLeft="13.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/text_and_counter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/emoji_btn" android:layout_centerVertical="true">
+                    <EditText android:textColor="#ff000000" android:textColorHint="#ff888888" android:ellipsize="end" android:id="@id/edit_text" android:paddingRight="@dimen/counter_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" android:singleLine="true" android:inputType="textCapSentences" />
+                    <com.gb.atnfas.font_text android:textSize="14.0sp" android:textColor="@color/edit_text_counter" android:gravity="center|right" android:id="@id/counter_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginRight="10.0dip" android:layout_alignBottom="@id/edit_text" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <ImageButton android:id="@id/emoji_btn" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/input_emoji" android:layout_alignBottom="@id/text_and_counter" android:layout_alignParentRight="true" style="@style/ActionBarButtonStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+        <include layout="@layout/ok_cancel" />
+        <com.whatsapp.emoji.search.EmojiSearchContainer android:id="@id/emoji_search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.whatsapp.EmojiPopupLayout>

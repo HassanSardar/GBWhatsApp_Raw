@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/gray_activity" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <WebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse" />
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/unable_to_connect" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gb.atnfas.font_text android:gravity="center" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_internet_message" />
+            <Button android:textSize="15.0sp" android:textColor="@drawable/flat_button_text_color" android:id="@id/retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/retry" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+        </LinearLayout>
+    </FrameLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_marginTop="-6.0dip" android:src="@drawable/shadow_terms" android:scaleType="fitXY" />
+    <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/selector_orange_gradient" android:paddingLeft="24.0dip" android:paddingTop="16.0dip" android:paddingRight="20.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gb.atnfas.font_text android:textColor="@color/list_item_title" android:gravity="left" android:id="@id/share_account_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tos_share_account_info" android:layout_toLeftOf="@id/share_account" />
+                <CheckBox android:id="@id/share_account" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <Button android:textSize="16.0sp" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/agree" android:background="@drawable/btn_green_small" android:paddingLeft="28.0dip" android:paddingTop="17.0dip" android:paddingRight="28.0dip" android:paddingBottom="17.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/tos_agree" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
